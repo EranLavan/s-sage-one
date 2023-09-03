@@ -32,6 +32,14 @@ li {
   cursor: pointer;
 }
 
+li:hover {
+  opacity: 80%;
+}
+
+li:active {
+  background-color: lightgray;
+}
+
 .question-text {
   color: rgb(209, 217, 243);
 }
@@ -60,4 +68,12 @@ button {
   font-weight: bold;
   border-radius: 24px;
   cursor: pointer;
+ }
+
+ button:hover {
+  opacity: 70%;
+ }
+
+ button:active {
+  background-color: white;
  }
