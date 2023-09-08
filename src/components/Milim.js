@@ -3,17 +3,17 @@ import './Milim.css';
 
 function Milim() {
 
+  console.log('test')
+
   const [language, setLanguage] = useState('english');
   const [finalResults, setFinalResults] = useState(false);
   const [score, setScore] = useState(0);
   const [word, setWord] = useState(0);
     
   const changeLanguage = () => {
-    {
       language==='english' ?
       setLanguage('russian') :
       setLanguage('english')
-    }
   }
 
 
@@ -117,8 +117,10 @@ function Milim() {
 
   const inputForm = document.querySelector('input');
 
+  document.addEventListener('DOMContentLoaded', function consoleLog() {console.log(inputForm?.value)})
+
   const consoleLog = () => {
-    console.log(inputForm.value)
+    console.log(inputForm?.value)
   }
 
   return (
@@ -138,9 +140,9 @@ function Milim() {
       <div className="Milim">
 
         <h2>Translate the following word to Hebrew: </h2>
-        <h2 className='word'>
+        <h1 className='word'>
           {words[word].english}
-        </h2>
+        </h1>
 
         <div><input className='input'></input></div>
 
