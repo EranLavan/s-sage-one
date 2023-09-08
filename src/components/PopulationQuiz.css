@@ -56,8 +56,9 @@ li:active {
   height: auto;
 }
 
-button {
+.restart-button {
   background-color: red; /* Green */
+  width: 160px;
   border: none;
   color: white;
   padding: 16px 24px;
@@ -70,10 +71,10 @@ button {
   cursor: pointer;
  }
 
- button:hover {
+ .restart-button:hover {
   opacity: 70%;
  }
 
- button:active {
+ .restart-button:active {
   background-color: white;
  }

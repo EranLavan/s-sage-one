@@ -134,7 +134,7 @@ function PopulationQuiz() {
             <h2>Final Results</h2>
             <h2>{score} out of {questions.length} correct - ({(score/questions.length)*100}%)</h2>
     
-            <button onClick={() => restartGame()}>Restart Game</button>
+            <button className='restart-button' onClick={() => restartGame()}>Restart Game</button>
           </div>) : (
                   /* 3. Question Card */
       <div className='question-card'>

@@ -4,8 +4,10 @@ import Milim from './components/Milim'
 
 function App() {
     return (
-        // <PopulationQuiz />
+    <>
+        {/* <PopulationQuiz /> */}
         <Milim />
+    </>
     )
 }
 
