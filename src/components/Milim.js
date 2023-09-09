@@ -9,14 +9,13 @@ function Milim() {
   const [finalResults, setFinalResults] = useState(false);
   const [score, setScore] = useState(0);
   const [word, setWord] = useState(0);
+  const [message, setMessage] = useState('');
     
   const changeLanguage = () => {
       language==='english' ?
       setLanguage('russian') :
       setLanguage('english')
   }
-
-
 
   const words = [
     {
@@ -104,6 +103,17 @@ function Milim() {
     }
   ]
 
+  const checkAnswer = () => {
+    console.log(inputForm?.value);
+
+    if (inputForm?.value === words[word].hebrew) {
+        setScore(score + 1);
+        setMessage('Correct!')
+    } else {
+
+    }
+  }
+
   const clicked = (isCorrect) => {
     if (isCorrect) {
         setScore(score + 1);
@@ -118,10 +128,6 @@ function Milim() {
   const inputForm = document.querySelector('input');
 
   document.addEventListener('DOMContentLoaded', function consoleLog() {console.log(inputForm?.value)})
-
-  const consoleLog = () => {
-    console.log(inputForm?.value)
-  }
 
   return (
     <>
@@ -146,9 +152,18 @@ function Milim() {
 
         <div><input className='input'></input></div>
 
-        <div className='button-div'><button className='click-button' onClick={() => consoleLog()}>!לחץ</button></div>
+        <div className='button-div'>
+          <button className='click-button' onClick={() => checkAnswer()}>
+            !לחץ
+          </button>
 
-        <h3>Current score: {score}</h3>
+          <button className='click-button'>
+            Next
+          </button>
+        </div>
+
+        <h3 className='h3'>Current score: {score}</h3>
+        <h3 className='h3'>{message}</h3>
 
 
       
