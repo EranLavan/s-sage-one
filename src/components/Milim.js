@@ -3,14 +3,15 @@ import './Milim.css';
 
 function Milim() {
 
-  console.log('test')
+  console.log('function Milim() has been executed')
 
   const [language, setLanguage] = useState('english');
-  const [finalResults, setFinalResults] = useState(false);
+  
   const [score, setScore] = useState(0);
   const [word, setWord] = useState(0);
-  const [message, setMessage] = useState('');
-    
+  const [message, setMessage] = useState('To start please first press the Start button');
+  const [showFinalResults, setFinalResults] = useState(false);
+  
   const changeLanguage = () => {
       language==='english' ?
       setLanguage('russian') :
@@ -108,30 +109,114 @@ function Milim() {
 
     if (inputForm?.value === words[word].hebrew) {
         setScore(score + 1);
-        setMessage('Correct!')
+        setMessage(`Correct! Click 'Next' button to try next word.`)
     } else {
-
+        setMessage(`That's incorrect. Try again or press 'Next' button to skip to the next word`)
     }
   }
 
-  const clicked = (isCorrect) => {
-    if (isCorrect) {
-        setScore(score + 1);
+  const next = () => {
+    if (word < (words.length - 1)) {
+      setWord(word + 1)
+    } else {
+      setFinalResults(true);
     }
   }
 
-  const restartGame = () => {
+  const activate = () => {
+    setFinalResults(false);
     setScore(0);
     setWord(0);
+    setMessage(`Now you can start!`)
+  }
+
+  const easy = () => {
+
+  }
+
+  const hard = () => {
+
   }
 
   const inputForm = document.querySelector('input');
 
-  document.addEventListener('DOMContentLoaded', function consoleLog() {console.log(inputForm?.value)})
+  //document.addEventListener('DOMContentLoaded', function consoleLog() {console.log(inputForm?.value)})
 
   return (
+  <>
+
+  
+    <select className='select-difficulty'>
+      <option 
+        title='You can guess the word unlimited amount of times' 
+        onChange={() => easy()}>
+      Easy
+      </option>
+
+      {/* Recommended to use value or defaultValue props 
+      (already asked about this, look there in the conversation)
+      for the option that should be selected as a basic option */}
+
+      <option 
+        title='If you give an incorrect answer, the game goes on to the next word'
+        onChange={() => hard()}>
+          Hard
+      </option>
+    </select>
+  
+
+
+    <div className='container'>
+      { showFinalResults ? (
+      <>
+        <div className='milim-results'>
+          <h2>Your results:</h2>
+          <h2>{score} out of {words.length} were answered correctly 
+          ({Math.round(score/words.length*10000)/100}%)</h2>
+        </div>
+
+      <div className='center'>
+        <button className='click-button' onClick={() => activate()}>
+          Try again!
+        </button>
+      </div>
+      </>
+
+      ) : (
     <>
-      <div className="language-switch">
+      <div className="Milim">
+
+        <h2>Translate the following word to Hebrew: </h2>
+        <h1 className='word'>
+          {words[word].english}
+        </h1>
+
+        <div><input className='input'></input></div>
+
+        <div className='button-div'>
+          <button className='click-button' onClick={() => activate()}>
+            Start
+          </button>
+          <button className='click-button' onClick={() => checkAnswer()}>
+            Check!
+          </button>
+          <button className='click-button' onClick={() => next()}>
+            Next
+          </button>
+        </div>
+
+        <h3 className='h3'>Current score: {score}</h3>
+        <h3 className='h3' id='message'>{message}</h3>
+
+
+      
+      </div>
+
+      </>
+  )}
+    </div>
+
+    <div className="language-switch">
         <button 
           className="language-switch-button" 
           onClick={() => changeLanguage()}>
@@ -143,32 +228,7 @@ function Milim() {
         </button>
       </div>
 
-      <div className="Milim">
-
-        <h2>Translate the following word to Hebrew: </h2>
-        <h1 className='word'>
-          {words[word].english}
-        </h1>
-
-        <div><input className='input'></input></div>
-
-        <div className='button-div'>
-          <button className='click-button' onClick={() => checkAnswer()}>
-            !לחץ
-          </button>
-
-          <button className='click-button'>
-            Next
-          </button>
-        </div>
-
-        <h3 className='h3'>Current score: {score}</h3>
-        <h3 className='h3'>{message}</h3>
-
-
-      
-      </div>
-    </>
+  </>
   )
 }
 
