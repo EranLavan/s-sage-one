@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import './Milim.css';
 
 function Milim() {
-
-  console.log('function Milim() has been executed')
-
+  const inputForm = document.querySelector('input');
+  const [inputContent, setInputContent] = useState(document.querySelector('input')?.value);
   const [language, setLanguage] = useState('english');
-  
   const [score, setScore] = useState(0);
   const [word, setWord] = useState(0);
   const [message, setMessage] = useState('To start please first press the Start button');
@@ -104,14 +102,22 @@ function Milim() {
     }
   ]
 
-  const checkAnswer = () => {
-    console.log(inputForm?.value);
+  const checkAnswerEasy = () => {
+    // console.log(inputForm?.value);
 
     if (inputForm?.value === words[word].hebrew) {
         setScore(score + 1);
-        setMessage(`Correct! Click 'Next' button to try next word.`)
+        setMessage(`Correct! The answer is <span id='orange'>${words[word].hebrew}</span>. <br /> Click 'Next' button to try next word.`)
     } else {
         setMessage(`That's incorrect. Try again or press 'Next' button to skip to the next word`)
+    }
+  }
+
+  const checkAnswerHard = () => {
+    if (inputForm?.value === words[word].hebrew && word < words.length - 1) {
+      setScore(score + 1);
+      setWord(word + 1);
+
     }
   }
 
@@ -131,21 +137,19 @@ function Milim() {
   }
 
   const easy = () => {
-
+    // IS THIS NECESSARY??
   }
 
   const hard = () => {
-
+    // IS THIS NECESSARY?
   }
-
-  const inputForm = document.querySelector('input');
 
   //document.addEventListener('DOMContentLoaded', function consoleLog() {console.log(inputForm?.value)})
 
+
+
   return (
   <>
-
-  
     <select className='select-difficulty'>
       <option 
         title='You can guess the word unlimited amount of times' 
@@ -197,7 +201,7 @@ function Milim() {
           <button className='click-button' onClick={() => activate()}>
             Start
           </button>
-          <button className='click-button' onClick={() => checkAnswer()}>
+          <button className='click-button' onClick={() => checkAnswerEasy()}>
             Check!
           </button>
           <button className='click-button' onClick={() => next()}>
@@ -206,7 +210,11 @@ function Milim() {
         </div>
 
         <h3 className='h3'>Current score: {score}</h3>
-        <h3 className='h3' id='message'>{message}</h3>
+        <div className='h3' id='message'>
+          {message.split('<br />').map((line, index) => (
+            <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
+          ))}
+        </div>
 
 
       
