@@ -131,3 +131,18 @@
     color: rgb(255, 94, 0);
     font-size: 28px; 
 }
+
+#pronunciation {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#pronunciation:hover {
+    opacity: 70%;
+}
+
+#hidden {
+    display: none;
+    font-weight: bold;
+    font-size: 22px;
+}
