@@ -114,7 +114,7 @@ function Milim() {
     }
   ]
 
-  const checkAnswerEasy = () => {
+  const checkAnswer = () => {
       if (inputValue === '') {
         setMessage(`Type the word inside the input please`)
       
@@ -134,6 +134,7 @@ function Milim() {
         setFinalResults(true);
       }
     setInputValue('');
+    setShowPronunciation(false);
   }
 
   // const checkAnswerHard = () => {
@@ -156,11 +157,13 @@ function Milim() {
     setFinalResults(false);
     setScore(0);
     setWord(0);
-    setMessage(``)
+    setMessage(``);
   }
 
   const pronounce = () => {
-      setShowPronunciation(true)
+      console.log('x');
+      console.log(words[word - 1].pronuncEng)
+      setShowPronunciation(true);
   }
 
   // const easy = () => {
@@ -230,7 +233,7 @@ function Milim() {
         </div>
 
         <div className='button-div'>
-          <button className='click-button' onClick={() => checkAnswerEasy()}>
+          <button className='click-button' onClick={() => checkAnswer()}>
             Check!
           </button>
           {/* <button className='click-button' onClick={() => next()}>
@@ -245,8 +248,13 @@ function Milim() {
               <div key={index} dangerouslySetInnerHTML={{ __html: line }} />
             ))}
           </div>
-          <div id='hidden'>
-            Hidden Div
+          <div id='hidden'> 
+          {/* REMOVE THE DIV COMPLETELY MAYBE? */}
+            {
+              showPronunciation 
+              ? (<div>{words[word - 1].pronuncEng}</div>) 
+              : ''
+            }
           </div>
         </div>
 
