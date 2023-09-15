@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './Milim.css';
 
 function Milim() {
@@ -9,6 +9,13 @@ function Milim() {
   const [message, setMessage] = useState('');
   const [showPronunciation, setShowPronunciation] = useState(false);
   const [showFinalResults, setFinalResults] = useState(false);
+
+  const buttonRef = useRef(null);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
   
   const changeLanguage = () => {
       language==='english' ?
@@ -120,11 +127,27 @@ function Milim() {
       
       } else if (inputValue === words[word].hebrew && word < words.length - 1) {
 
-        console.log(inputValue)
         setScore(score + 1);
+
+        // if ((score === 5 && words[word].id === 6) ||
+        // (score === 7 && words[word].id === 7) ||
+        // (score === 9 && words[word].id === 8)) {
+        //   setScore(score + 2)
+        // } else if ((score === 11 && words[word].id === 9) ||
+        // (score === 14 && words[word].id === 10) ||
+        // (score === 17 && words[word].id === 11)){
+        //   setScore(score + 3)
+        // } else if (score === 20 && words[word].id === 12) {
+        //   setScore(score + 5)
+        // } else {
+        //   setScore(score + 1)
+        // }
+
         setMessage(`Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
          <span id='pronunciation'}>Show pronunciation</span>`);
         setWord(word + 1)
+
+
 
       } else if (word < words.length - 1) {
 
@@ -161,8 +184,6 @@ function Milim() {
   }
 
   const pronounce = () => {
-      console.log('x');
-      console.log(words[word - 1].pronuncEng)
       setShowPronunciation(true);
   }
 
@@ -174,6 +195,26 @@ function Milim() {
   //   // IS THIS NECESSARY?
   // }
 
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      buttonRef.current.click();
+    }
+  };
+
+  const handleOutsideClick = (event) => {
+      if (inputRef.current && !inputRef.current.contains(event.target)) {
+        inputRef.current.focus();
+      }
+  }
+
+  useEffect(() => {
+    document.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    }
+  }, []);
 
 
   return (
@@ -225,15 +266,22 @@ function Milim() {
 
         <div>
           <input 
+            ref={inputRef}
             className='input'
             type='text'
+            placeholder='הזן את המילה'
+            onKeyDown={handleKeyDown}
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}>
           </input>
         </div>
 
         <div className='button-div'>
-          <button className='click-button' onClick={() => checkAnswer()}>
+          <button 
+            ref={buttonRef} 
+            className='click-button' 
+            onClick={() => checkAnswer()}
+          >
             Check!
           </button>
           {/* <button className='click-button' onClick={() => next()}>
@@ -252,7 +300,7 @@ function Milim() {
           {/* REMOVE THE DIV COMPLETELY MAYBE? */}
             {
               showPronunciation 
-              ? (<div>{words[word - 1].pronuncEng}</div>) 
+              ? (<div id='italic'>{words[word - 1].pronuncEng}</div>) 
               : ''
             }
           </div>
