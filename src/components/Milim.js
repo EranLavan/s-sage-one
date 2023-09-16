@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
+// import { useLanguage } from './LanguageContext';
 import './Milim.css';
 
 function Milim() {
+  // const { selectedLanguage } = useLanguage();
   const [inputValue, setInputValue] = useState('');
   const [language, setLanguage] = useState('english');
   const [score, setScore] = useState(0);
@@ -17,6 +19,8 @@ function Milim() {
     inputRef.current.focus();
   }, []);
   
+  // const messages = selectedLanguage === 'en' ? require('./messages.en.json') : require('./messages.ru.json');
+
   const changeLanguage = () => {
       language==='english' ?
       setLanguage('russian') :
@@ -29,7 +33,8 @@ function Milim() {
       english: 'Hello',
       russian: 'Здравствуйте',
       hebrew: 'שלום',
-      pronuncEng: 'shalom'
+      pronuncEng: 'shalom',
+      pronuncRus: 'шалОм'
     },
 
     {
@@ -37,7 +42,8 @@ function Milim() {
       english: 'Good morning',
       russian: 'Доброе утро',
       hebrew: 'בוקר טוב',
-      pronuncEng: 'boker tov'
+      pronuncEng: 'boker tov',
+      pronuncRus: 'бОкер тов'
     },
 
     {
@@ -45,7 +51,8 @@ function Milim() {
       english: 'City',
       russian: 'Город',
       hebrew: 'עיר',
-      pronuncEng: 'ir'
+      pronuncEng: 'ir',
+      pronuncRus: 'ир'
     },
 
     {
@@ -53,7 +60,8 @@ function Milim() {
       english: 'Street',
       russian: 'Улица',
       hebrew: 'רחוב',
-      pronuncEng: 'rekhOv'
+      pronuncEng: 'rekhOv',
+      pronuncRus: 'рэхОв'
     },
 
     {
@@ -61,7 +69,8 @@ function Milim() {
       english: 'Sun',
       russian: 'Солнце',
       hebrew: 'שמש',
-      pronuncEng: 'shEmesh'
+      pronuncEng: 'shEmesh',
+      pronuncRus: 'шЭмеш'
     },
 
     {
@@ -69,7 +78,8 @@ function Milim() {
       english: 'Tree',
       russian: 'Дерево',
       hebrew: 'עץ',
-      pronuncEng: 'ets'
+      pronuncEng: 'ets',
+      pronuncRus: 'эц'
     },
 
     {
@@ -77,7 +87,8 @@ function Milim() {
       english: 'Air',
       russian: 'Воздух',
       hebrew: 'אוויר',
-      pronuncEng: 'avir'
+      pronuncEng: 'avir',
+      pronuncRus: 'авИр'
     },
 
     {
@@ -85,7 +96,8 @@ function Milim() {
       english: 'Red',
       russian: 'Красный',
       hebrew: 'אדום',
-      pronuncEng: 'adOm'
+      pronuncEng: 'adOm',
+      pronuncRus: 'адОм'
     },
 
     {
@@ -93,7 +105,8 @@ function Milim() {
       english: 'Sea',
       russian: 'Море',
       hebrew: 'ים',
-      pronuncEng: 'yam'
+      pronuncEng: 'yam',
+      pronuncRus: 'ям'
     },
 
     {
@@ -101,7 +114,8 @@ function Milim() {
       english: 'Haifa',
       russian: 'Хайфа',
       hebrew: 'חיפה',
-      pronuncEng: 'KheifA'
+      pronuncEng: 'KheifA',
+      pronuncRus: 'ХэйфА'
     },
 
     {
@@ -109,7 +123,8 @@ function Milim() {
       english: 'To speak (infinitive)',
       russian: 'Разговаривать (инфинитив)',
       hebrew: 'לדבר',
-      pronuncEng: 'ledabEr'
+      pronuncEng: 'ledabEr',
+      pronuncRus: 'ледабЭр'
     },
 
     {
@@ -117,7 +132,8 @@ function Milim() {
       english: 'see (present, single, m)',
       russian: 'Видеть (настоящее время, ед. число, муж. род)',
       hebrew: 'רואה',
-      pronuncEng: 'roE'
+      pronuncEng: 'roE',
+      pronuncRus: 'роЭ'
     }
   ]
 
@@ -160,22 +176,6 @@ function Milim() {
     setShowPronunciation(false);
   }
 
-  // const checkAnswerHard = () => {
-  //   if (inputValue?.value === words[word].hebrew && word < words.length - 1) {
-  //     setScore(score + 1);
-  //     setWord(word + 1);
-
-  //   }
-  // }
-
-  // const next = () => {
-  //   if (word < (words.length - 1)) {
-  //     setWord(word + 1)
-  //   } else {
-  //     setFinalResults(true);
-  //   }
-  // }
-
   const restart = () => {
     setFinalResults(false);
     setScore(0);
@@ -186,14 +186,6 @@ function Milim() {
   const pronounce = () => {
       setShowPronunciation(true);
   }
-
-  // const easy = () => {
-  //   // IS THIS NECESSARY??
-  // }
-
-  // const hard = () => {
-  //   // IS THIS NECESSARY?
-  // }
 
   const handleKeyDown = (event) => {
     if (event.key === 'Enter') {
@@ -325,6 +317,9 @@ function Milim() {
           }
         </button>
       </div>
+
+      {/* <h1>{messages.title}</h1>
+      <p>{messages.description}</p> */}
 
   </>
   )
