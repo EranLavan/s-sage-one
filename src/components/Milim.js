@@ -139,38 +139,37 @@ function Milim() {
 
   const checkAnswer = () => {
       if (inputValue === '') {
-        setMessage(`Type the word inside the input please`)
+        language === 'english' ? 
+        setMessage(`Type the word inside the input please`) :
+        setMessage(`Напишите слово в поле, пожалуйста`);
       
       } else if (inputValue === words[word].hebrew && word < words.length - 1) {
 
         setScore(score + 1);
 
-        // if ((score === 5 && words[word].id === 6) ||
-        // (score === 7 && words[word].id === 7) ||
-        // (score === 9 && words[word].id === 8)) {
-        //   setScore(score + 2)
-        // } else if ((score === 11 && words[word].id === 9) ||
-        // (score === 14 && words[word].id === 10) ||
-        // (score === 17 && words[word].id === 11)){
-        //   setScore(score + 3)
-        // } else if (score === 20 && words[word].id === 12) {
-        //   setScore(score + 5)
-        // } else {
-        //   setScore(score + 1)
-        // }
-
+        language === 'english' ?
         setMessage(`Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
-         <span id='pronunciation'}>Show pronunciation</span>`);
+         <span id='pronunciation'}>Show pronunciation</span>`) :
+        setMessage(`Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
+         <span id='pronunciation'}>Показать произношение</span>`)
+
         setWord(word + 1)
-
-
 
       } else if (word < words.length - 1) {
 
-        setMessage(`${inputValue} was incorrect. Try next word.`);
+        setMessage(`<span id='orange'>${inputValue}</span> was incorrect. 
+        Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`);
         setWord(word + 1)
-      } else {
+
+      } else if (inputValue === words[word].hebrew) {
+
+        setScore(score + 1);
         setFinalResults(true);
+      
+      } else {
+
+        setFinalResults(true);
+
       }
     setInputValue('');
     setShowPronunciation(false);
@@ -235,14 +234,27 @@ function Milim() {
       { showFinalResults ? (
       <>
         <div className='milim-results'>
-          <h2>Your results:</h2>
-          <h2>{score} out of {words.length} were answered correctly 
-          ({Math.round(score/words.length*10000)/100}%)</h2>
+          <h2>
+          {
+          language === 'english' ? 
+          `Your results:` :
+          `Ваши результаты:`
+          }</h2>
+          <h2>
+          {
+          language === 'english' ?
+          `${score} out of ${words.length} were answered correctly (${Math.round(score/words.length*10000)/100}%)` :
+          `${score} из ${words.length} слов были названы правильно (${Math.round(score/words.length*10000)/100}%)`
+          }</h2>
         </div>
 
       <div className='center'>
         <button className='click-button' onClick={() => restart()}>
-          Try again!
+          {
+          language === 'english' ?
+          `Try again!` :
+          `Попробуйте ещё раз!`
+          }
         </button>
       </div>
       </>
@@ -251,9 +263,18 @@ function Milim() {
     <>
       <div className="Milim">
 
-        <h2>Translate the following word to Hebrew: </h2>
+        <h2>
+        {
+        language === 'english' ?
+        `Translate the following word to Hebrew:` :
+        `Переведите слово на иврит:` 
+        }</h2>
         <h1 className='word'>
-          {words[word].english}
+        {
+        language === 'english' ?
+        `${words[word].english}` :
+        `${words[word].russian}`
+        }
         </h1>
 
         <div>
@@ -261,7 +282,7 @@ function Milim() {
             ref={inputRef}
             className='input'
             type='text'
-            placeholder='הזן את המילה'
+            placeholder='הזן את המילה בעברית'
             onKeyDown={handleKeyDown}
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}>
@@ -274,14 +295,23 @@ function Milim() {
             className='click-button' 
             onClick={() => checkAnswer()}
           >
-            Check!
+            {
+            language === 'english' ?
+            `Check!` :
+            `Проверить!`
+            }
           </button>
           {/* <button className='click-button' onClick={() => next()}>
             Next
           </button> */}
         </div>
 
-        <h3 className='h3'>Current score: {score}</h3>
+        <h3 className='h3'>
+        {
+        language === 'english' ?
+        `Current score: ${score}` :
+        `Текущий счёт: ${score}`
+        }</h3>
         <div className='one-line-div'>
           <div className='h3' id='message' onClick={() => pronounce()}>
             {message.split('<br />').map((line, index) => (
@@ -292,7 +322,11 @@ function Milim() {
           {/* REMOVE THE DIV COMPLETELY MAYBE? */}
             {
               showPronunciation 
-              ? (<div id='italic'>{words[word - 1].pronuncEng}</div>) 
+              ? (<div id='italic'>{
+                language === 'english' ?
+                words[word - 1].pronuncEng :
+                words[word - 1].pronuncRus
+                }</div>) 
               : ''
             }
           </div>
