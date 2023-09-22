@@ -3,29 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import './Milim.css';
 
 function Milim() {
-  // const { selectedLanguage } = useLanguage();
-  const [inputValue, setInputValue] = useState('');
-  const [language, setLanguage] = useState('english');
-  const [score, setScore] = useState(0);
-  const [word, setWord] = useState(0);
-  const [message, setMessage] = useState('');
-  const [showPronunciation, setShowPronunciation] = useState(false);
-  const [showFinalResults, setFinalResults] = useState(false);
-
-  const buttonRef = useRef(null);
-  const inputRef = useRef(null);
-
-  useEffect(() => {
-    inputRef.current.focus();
-  }, []);
-  
-  // const messages = selectedLanguage === 'en' ? require('./messages.en.json') : require('./messages.ru.json');
-
-  const changeLanguage = () => {
-      language==='english' ?
-      setLanguage('russian') :
-      setLanguage('english')
-  }
 
   const words = [
     {
@@ -137,13 +114,46 @@ function Milim() {
     }
   ]
 
+  const randomNumber = (Math.ceil(Math.random()*words.length));
+
+  // const { selectedLanguage } = useLanguage();
+  const [inputValue, setInputValue] = useState('');
+  const [language, setLanguage] = useState('english');
+  const [score, setScore] = useState(0);
+  const [word, setWord] = useState(randomNumber);
+  const [counter, setCounter] = useState(0);
+  const [message, setMessage] = useState('');
+  const [showPronunciation, setShowPronunciation] = useState(false);
+  const [showFinalResults, setFinalResults] = useState(false);
+
+  const buttonRef = useRef(null);
+  const inputRef = useRef(null);
+
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
+  
+  // const messages = selectedLanguage === 'en' ? require('./messages.en.json') : require('./messages.ru.json');
+
+  const changeLanguage = () => {
+      language==='english' ?
+      setLanguage('russian') :
+      setLanguage('english')
+  }
+
+  console.log(`Random: ${randomNumber}`);
+  console.log(`Counter before click: ${counter}`)
+
   const checkAnswer = () => {
+
+      const alreadyUsedWords = [];
+
       if (inputValue === '') {
         language === 'english' ? 
         setMessage(`Type the word inside the input please`) :
         setMessage(`Напишите слово в поле, пожалуйста`);
       
-      } else if (inputValue === words[word].hebrew && word < words.length - 1) {
+      } else if (inputValue === words[word].hebrew && counter < words.length - 1) {
 
         setScore(score + 1);
 
@@ -153,13 +163,15 @@ function Milim() {
         setMessage(`Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
          <span id='pronunciation'}>Показать произношение</span>`)
 
-        setWord(word + 1)
+        setWord(randomNumber);
+        setCounter(counter + 1);
 
-      } else if (word < words.length - 1) {
+      } else if (counter < words.length - 1) {
 
         setMessage(`<span id='orange'>${inputValue}</span> was incorrect. 
         Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`);
-        setWord(word + 1)
+        setWord(randomNumber);
+        setCounter(counter + 1);
 
       } else if (inputValue === words[word].hebrew) {
 
@@ -173,7 +185,11 @@ function Milim() {
       }
     setInputValue('');
     setShowPronunciation(false);
+
+    console.log(`Counter after click: ${counter}`)
   }
+
+  
 
   const restart = () => {
     setFinalResults(false);
@@ -309,8 +325,8 @@ function Milim() {
         <h3 className='h3'>
         {
         language === 'english' ?
-        `Current score: ${score}` :
-        `Текущий счёт: ${score}`
+        `Current score: ${score}/${words.length}` :
+        `Текущий счёт: ${score}/${words.length}`
         }</h3>
         <div className='one-line-div'>
           <div className='h3' id='message' onClick={() => pronounce()}>
@@ -324,8 +340,8 @@ function Milim() {
               showPronunciation 
               ? (<div id='italic'>{
                 language === 'english' ?
-                words[word - 1].pronuncEng :
-                words[word - 1].pronuncRus
+                words[counter - 1].pronuncEng :
+                words[counter - 1].pronuncRus
                 }</div>) 
               : ''
             }
