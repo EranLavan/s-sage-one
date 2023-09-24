@@ -2,7 +2,12 @@ import React, { useState, useRef, useEffect } from 'react';
 // import { useLanguage } from './LanguageContext';
 import './Milim.css';
 
+const alreadyUsedWords = [];
+
 function Milim() {
+  console.log(`**********************************`);
+  console.log(`Number of Already Used Words: ${alreadyUsedWords.length}`);
+  console.log(`Id's of already used words: ${alreadyUsedWords}`)
 
   const words = [
     {
@@ -115,6 +120,12 @@ function Milim() {
   ]
 
   const randomNumber = (Math.ceil(Math.random()*words.length));
+  const adjustedRandomNumber = (alreadyUsedWords.includes(randomNumber) 
+    ? 'this word was already used' 
+    : 'this is a new word');
+  
+  console.log(`Random: ${randomNumber}`);
+  console.log(`Adjusted Random: ${adjustedRandomNumber}`);
 
   // const { selectedLanguage } = useLanguage();
   const [inputValue, setInputValue] = useState('');
@@ -141,12 +152,9 @@ function Milim() {
       setLanguage('english')
   }
 
-  console.log(`Random: ${randomNumber}`);
   console.log(`Counter before click: ${counter}`)
 
   const checkAnswer = () => {
-
-      const alreadyUsedWords = [];
 
       if (inputValue === '') {
         language === 'english' ? 
@@ -163,6 +171,8 @@ function Milim() {
         setMessage(`Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
          <span id='pronunciation'}>Показать произношение</span>`)
 
+        alreadyUsedWords.push(words[word].id)
+        console.log(alreadyUsedWords);
         setWord(randomNumber);
         setCounter(counter + 1);
 
@@ -170,6 +180,9 @@ function Milim() {
 
         setMessage(`<span id='orange'>${inputValue}</span> was incorrect. 
         Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`);
+        
+        alreadyUsedWords.push(words[word].id)
+        console.log(alreadyUsedWords);
         setWord(randomNumber);
         setCounter(counter + 1);
 
@@ -186,7 +199,7 @@ function Milim() {
     setInputValue('');
     setShowPronunciation(false);
 
-    console.log(`Counter after click: ${counter}`)
+    console.log(`COUNTER AFTER CLICK: ${counter}`)
   }
 
   
@@ -338,12 +351,15 @@ function Milim() {
           {/* REMOVE THE DIV COMPLETELY MAYBE? */}
             {
               showPronunciation 
-              ? (<div id='italic'>{
+              ? 
+              
+              counter === 0 ? '' : (<div id='italic'>{
                 language === 'english' ?
-                words[counter - 1].pronuncEng :
-                words[counter - 1].pronuncRus
+                words[word - 1].pronuncEng :
+                words[word - 1].pronuncRus
                 }</div>) 
-              : ''
+              
+                : ''
             }
           </div>
         </div>
