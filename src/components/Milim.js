@@ -139,7 +139,7 @@ function Milim() {
   // IMPORTANT thing here that I didn't see for some time. 
   // We set the State of 'word' to 'randomNumber - 1', because useState gets a position
   // of the word in the array, and NOT IT's ID. That's why if the State is 6, it shows the 7th word.
-  // Because the word in array have internal invisible numbers 0, 1, 2 etc.
+  // Because the word in array have internal numbers 0, 1, 2 etc.
 
   const [counter, setCounter] = useState(0);
   const [message, setMessage] = useState('');
@@ -163,16 +163,18 @@ function Milim() {
 
   const checkAnswer = () => {
 
-    console.log(`**********************************`);
-    console.log(`Number of Already Used Words: ${alreadyUsedWords.length}`);
-    console.log(`Id's of already used words: ${alreadyUsedWords}`)
-    
-    console.log(`Random: ${randomNumber}`);
-    console.log(`Counter before click: ${counter}`);
+    function getRandomUniqueNumber() {
+      do {
+        randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+      } while (alreadyUsedWords.includes(randomNumber));
+      return randomNumber;
+    }
 
-    // if (!alreadyUsedWords.includes(randomNumber)) {
+    //THIS THING works, but still randomizer pretty often gets me the same word two times in a row.
+    // I mean, it can't choose a number that was used already, UNLESS it's SECOND time IN A ROW. 
+    // We need to fix this problem. And now shalom u-lehitraot, and laila tov.
 
-    randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+    const randomUniqueNumber = getRandomUniqueNumber();
 
       if (inputValue === '') {
         language === 'english' ? 
@@ -189,12 +191,8 @@ function Milim() {
         setMessage(`Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
          <span id='pronunciation'}>Показать произношение</span>`)
 
-        alreadyUsedWords.push(words[word]);
-        const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
-        console.log(alreadyUsedWords);
-        console.log(currentWord);
-        console.log(currentWord.id);
-        setWord(randomNumber - 1);
+        alreadyUsedWords.push(words[word].id);
+        setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
 
       } else if (counter < words.length - 2) {
@@ -202,12 +200,8 @@ function Milim() {
         setMessage(`<span id='orange'>${inputValue}</span> was incorrect. 
         Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`);
         
-        alreadyUsedWords.push(words[word]);
-        const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
-        console.log(alreadyUsedWords);
-        console.log(currentWord);
-        console.log(currentWord.id);
-        setWord(randomNumber - 1);
+        alreadyUsedWords.push(words[word].id);
+        setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
 
       } else if (inputValue === words[word].hebrew) {
@@ -220,15 +214,16 @@ function Milim() {
         setFinalResults(true);
 
       }
+
+    
     setInputValue('');
     setShowPronunciation(false);
 
-    console.log(`COUNTER AFTER CLICK: ${counter}`)
-  
-//   } else {
-//   randomNumber = (Math.ceil(Math.random()*words.length));
-//   }
+    console.log(randomUniqueNumber);
+    console.log(alreadyUsedWords);
   }
+
+  const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
   
   const restart = () => {
     setFinalResults(false);
@@ -384,8 +379,8 @@ function Milim() {
               
               counter === 0 ? '' : (<div id='italic'>{
                 language === 'english' ?
-                words[word - 1].pronuncEng :
-                words[word - 1].pronuncRus
+                words[currentWord.id - 1].pronuncEng :
+                words[currentWord.id - 1].pronuncRus
                 }</div>) 
               
                 : ''
