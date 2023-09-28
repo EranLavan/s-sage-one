@@ -125,6 +125,15 @@ const words = [
 
 let randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
 
+function getRandomUniqueNumber() {
+  do {
+    randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+  } while (alreadyUsedWords.includes(randomNumber));
+  return randomNumber;
+}
+
+const randomUniqueNumber = getRandomUniqueNumber();
+console.log(randomUniqueNumber);
 
 
 function Milim() {
@@ -160,8 +169,35 @@ function Milim() {
       setLanguage('russian') :
       setLanguage('english')
   }
+    
+  const correctAnswerEng = `Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
+  <span id='pronunciation'}>Show pronunciation</span>`;
+
+  const correctAnswerRus = `Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
+  <span id='pronunciation'}>Показать произношение</span>`;
+
+  const incorrectAnswerEng = `<span id='orange'>${inputValue}</span> was incorrect. 
+  Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`;
+
+  const incorrectAnswerRus = `<span id='orange'>${inputValue}</span> - это неправильный ответ. 
+  Правильный ответ: <span id='orange'>${words[word].hebrew}</span>. <br>Попробуйте следующее слово.`
 
   const checkAnswer = () => {
+
+    //THIS THING works, but still randomizer pretty often gets me the same word two times in a row.
+    // I mean, it can't choose a number that was used already, UNLESS it's SECOND time IN A ROW. 
+    // We need to fix this problem. 
+
+    // function getRandomUniqueNumber() {
+    //   do {
+    //     randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+    //   } while (alreadyUsedWords.includes(randomNumber));
+    //   return randomNumber;
+    // }
+
+    // const randomUniqueNumber = getRandomUniqueNumber();
+
+    // alreadyUsedWords.push(words[word].id);
 
     function getRandomUniqueNumber() {
       do {
@@ -169,12 +205,13 @@ function Milim() {
       } while (alreadyUsedWords.includes(randomNumber));
       return randomNumber;
     }
-
-    //THIS THING works, but still randomizer pretty often gets me the same word two times in a row.
-    // I mean, it can't choose a number that was used already, UNLESS it's SECOND time IN A ROW. 
-    // We need to fix this problem. And now shalom u-lehitraot, and laila tov.
-
+    
     const randomUniqueNumber = getRandomUniqueNumber();
+    console.log(randomUniqueNumber);
+
+    alreadyUsedWords.push(words[word].id);
+
+    console.log(`Right after declaration of randomUniqueNumber const ${randomUniqueNumber}`);
 
       if (inputValue === '') {
         language === 'english' ? 
@@ -186,21 +223,18 @@ function Milim() {
         setScore(score + 1);
 
         language === 'english' ?
-        setMessage(`Correct! '${words[word].english}' is <span id='orange'>${words[word].hebrew}</span>.
-         <span id='pronunciation'}>Show pronunciation</span>`) :
-        setMessage(`Верно! '${words[word].russian}' это <span id='orange'>${words[word].hebrew}</span>.
-         <span id='pronunciation'}>Показать произношение</span>`)
+        setMessage(correctAnswerEng) :
+        setMessage(correctAnswerRus)
 
-        alreadyUsedWords.push(words[word].id);
         setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
 
       } else if (counter < words.length - 2) {
 
-        setMessage(`<span id='orange'>${inputValue}</span> was incorrect. 
-        Correct answer: <span id='orange'>${words[word].hebrew}</span>. <br>Try next word.`);
+        language === 'english' ?
+        setMessage(incorrectAnswerEng) :
+        setMessage(incorrectAnswerRus)
         
-        alreadyUsedWords.push(words[word].id);
         setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
 
@@ -219,8 +253,17 @@ function Milim() {
     setInputValue('');
     setShowPronunciation(false);
 
-    console.log(randomUniqueNumber);
+    
     console.log(alreadyUsedWords);
+
+    // function getRandomUniqueNumber() {
+    //   do {
+    //     randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+    //   } while (alreadyUsedWords.includes(randomNumber));
+    //   return randomNumber;
+    // }
+
+    console.log(`after gRUN: ${randomUniqueNumber}`);
   }
 
   const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
