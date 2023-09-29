@@ -135,6 +135,8 @@ function getRandomUniqueNumber() {
 const randomUniqueNumber = getRandomUniqueNumber();
 console.log(randomUniqueNumber);
 
+alreadyUsedWords.push(randomUniqueNumber);
+
 
 function Milim() {
 
@@ -142,7 +144,7 @@ function Milim() {
   const [inputValue, setInputValue] = useState('');
   const [language, setLanguage] = useState('english');
   const [score, setScore] = useState(0);
-  const [word, setWord] = useState(randomNumber - 1);
+  const [word, setWord] = useState(randomUniqueNumber - 1);
 
   // ^^^^^^^^^^^^^^^
   // IMPORTANT thing here that I didn't see for some time. 
@@ -150,7 +152,7 @@ function Milim() {
   // of the word in the array, and NOT IT's ID. That's why if the State is 6, it shows the 7th word.
   // Because the word in array have internal numbers 0, 1, 2 etc.
 
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
   const [message, setMessage] = useState('');
   const [showPronunciation, setShowPronunciation] = useState(false);
   const [showFinalResults, setFinalResults] = useState(false);
@@ -209,8 +211,6 @@ function Milim() {
     const randomUniqueNumber = getRandomUniqueNumber();
     console.log(randomUniqueNumber);
 
-    alreadyUsedWords.push(words[word].id);
-
     console.log(`Right after declaration of randomUniqueNumber const ${randomUniqueNumber}`);
 
       if (inputValue === '') {
@@ -218,7 +218,7 @@ function Milim() {
         setMessage(`Type the word inside the input please`) :
         setMessage(`Напишите слово в поле, пожалуйста`);
       
-      } else if (inputValue === words[word].hebrew && counter < words.length - 2) {
+      } else if (inputValue === words[word].hebrew && counter < words.length - 1) {
 
         setScore(score + 1);
 
@@ -229,14 +229,23 @@ function Milim() {
         setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
 
-      } else if (counter < words.length - 2) {
+        alreadyUsedWords.push(randomUniqueNumber);
 
+      } else if (counter < words.length - 1) {
+
+        // console.log(`counter now: ${counter} `);
+        // console.log(counter < words.length - 2)
         language === 'english' ?
         setMessage(incorrectAnswerEng) :
         setMessage(incorrectAnswerRus)
         
         setWord(randomUniqueNumber - 1);
         setCounter(counter + 1);
+
+        // console.log(`counter now: ${counter} `);
+        // console.log(counter < words.length - 2)
+
+        alreadyUsedWords.push(randomUniqueNumber);
 
       } else if (inputValue === words[word].hebrew) {
 
@@ -263,7 +272,7 @@ function Milim() {
     //   return randomNumber;
     // }
 
-    console.log(`after gRUN: ${randomUniqueNumber}`);
+    console.log(`counter: ${counter}`);
   }
 
   const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
