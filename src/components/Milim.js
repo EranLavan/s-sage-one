@@ -7,7 +7,7 @@ let alreadyUsedWords = [];
 const words = [
   {
     id: 1,
-    english: 'Hello (1)',
+    english: 'Hello',
     russian: 'Здравствуйте',
     hebrew: 'שלום',
     pronuncEng: 'shalom',
@@ -16,7 +16,7 @@ const words = [
 
   {
     id: 2,
-    english: 'Good morning (2)',
+    english: 'Good morning',
     russian: 'Доброе утро',
     hebrew: 'בוקר טוב',
     pronuncEng: 'boker tov',
@@ -25,7 +25,7 @@ const words = [
 
   {
     id: 3,
-    english: 'City (3)',
+    english: 'City',
     russian: 'Город',
     hebrew: 'עיר',
     pronuncEng: 'ir',
@@ -34,7 +34,7 @@ const words = [
 
   {
     id: 4,
-    english: 'Street (4)',
+    english: 'Street',
     russian: 'Улица',
     hebrew: 'רחוב',
     pronuncEng: 'rekhOv',
@@ -43,7 +43,7 @@ const words = [
 
   {
     id: 5,
-    english: 'Sun (5)',
+    english: 'Sun',
     russian: 'Солнце',
     hebrew: 'שמש',
     pronuncEng: 'shEmesh',
@@ -52,7 +52,7 @@ const words = [
 
   {
     id: 6,
-    english: 'Tree (6)',
+    english: 'Tree',
     russian: 'Дерево',
     hebrew: 'עץ',
     pronuncEng: 'ets',
@@ -61,7 +61,7 @@ const words = [
 
   {
     id: 7,
-    english: 'Air (7)',
+    english: 'Air',
     russian: 'Воздух',
     hebrew: 'אוויר',
     pronuncEng: 'avir',
@@ -70,7 +70,7 @@ const words = [
 
   {
     id: 8,
-    english: 'Red (8)',
+    english: 'Red',
     russian: 'Красный',
     hebrew: 'אדום',
     pronuncEng: 'adOm',
@@ -79,7 +79,7 @@ const words = [
 
   {
     id: 9,
-    english: 'Sea (9)',
+    english: 'Sea',
     russian: 'Море',
     hebrew: 'ים',
     pronuncEng: 'yam',
@@ -88,7 +88,7 @@ const words = [
 
   {
     id: 10,
-    english: 'Haifa (10)',
+    english: 'Haifa',
     russian: 'Хайфа',
     hebrew: 'חיפה',
     pronuncEng: 'KheifA',
@@ -97,7 +97,7 @@ const words = [
 
   {
     id: 11,
-    english: 'To speak (infinitive) (11)',
+    english: 'To speak (infinitive)',
     russian: 'Разговаривать (инфинитив)',
     hebrew: 'לדבר',
     pronuncEng: 'ledabEr',
@@ -106,7 +106,7 @@ const words = [
 
   {
     id: 12,
-    english: 'see (present, single, m) (12)',
+    english: 'see (present, single, m)',
     russian: 'Видеть (настоящее время, ед. число, муж. род)',
     hebrew: 'רואה',
     pronuncEng: 'roE',
@@ -133,7 +133,6 @@ function getRandomUniqueNumber() {
 }
 
 const randomUniqueNumber = getRandomUniqueNumber();
-console.log(randomUniqueNumber);
 
 alreadyUsedWords.push(randomUniqueNumber);
 
@@ -145,18 +144,10 @@ function Milim() {
   const [language, setLanguage] = useState('english');
   const [score, setScore] = useState(0);
   const [word, setWord] = useState(randomUniqueNumber - 1);
-
-  // ^^^^^^^^^^^^^^^
-  // IMPORTANT thing here that I didn't see for some time. 
-  // We set the State of 'word' to 'randomNumber - 1', because useState gets a position
-  // of the word in the array, and NOT IT's ID. That's why if the State is 6, it shows the 7th word.
-  // Because the word in array have internal numbers 0, 1, 2 etc.
-
   const [counter, setCounter] = useState(1);
   const [message, setMessage] = useState('');
   const [showPronunciation, setShowPronunciation] = useState(false);
   const [showFinalResults, setFinalResults] = useState(false);
-
   const buttonRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -186,21 +177,6 @@ function Milim() {
 
   const checkAnswer = () => {
 
-    //THIS THING works, but still randomizer pretty often gets me the same word two times in a row.
-    // I mean, it can't choose a number that was used already, UNLESS it's SECOND time IN A ROW. 
-    // We need to fix this problem. 
-
-    // function getRandomUniqueNumber() {
-    //   do {
-    //     randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
-    //   } while (alreadyUsedWords.includes(randomNumber));
-    //   return randomNumber;
-    // }
-
-    // const randomUniqueNumber = getRandomUniqueNumber();
-
-    // alreadyUsedWords.push(words[word].id);
-
     function getRandomUniqueNumber() {
       do {
         randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
@@ -209,16 +185,13 @@ function Milim() {
     }
     
     const randomUniqueNumber = getRandomUniqueNumber();
-    console.log(randomUniqueNumber);
-
-    console.log(`Right after declaration of randomUniqueNumber const ${randomUniqueNumber}`);
 
       if (inputValue === '') {
         language === 'english' ? 
         setMessage(`Type the word inside the input please`) :
         setMessage(`Напишите слово в поле, пожалуйста`);
       
-      } else if (inputValue === words[word].hebrew && counter < words.length - 1) {
+      } else if (inputValue === words[word].hebrew && counter < words.length - 2) {
 
         setScore(score + 1);
 
@@ -231,7 +204,7 @@ function Milim() {
 
         alreadyUsedWords.push(randomUniqueNumber);
 
-      } else if (counter < words.length - 1) {
+      } else if (counter < words.length - 2) {
 
         // console.log(`counter now: ${counter} `);
         // console.log(counter < words.length - 2)
@@ -261,21 +234,9 @@ function Milim() {
     
     setInputValue('');
     setShowPronunciation(false);
-
-    
-    console.log(alreadyUsedWords);
-
-    // function getRandomUniqueNumber() {
-    //   do {
-    //     randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
-    //   } while (alreadyUsedWords.includes(randomNumber));
-    //   return randomNumber;
-    // }
-
-    console.log(`counter: ${counter}`);
   }
 
-  const currentWord = alreadyUsedWords[alreadyUsedWords.length - 1];
+  const previousWord = words[alreadyUsedWords[alreadyUsedWords.length - 2] - 1];
   
   const restart = () => {
     setFinalResults(false);
@@ -431,8 +392,8 @@ function Milim() {
               
               counter === 0 ? '' : (<div id='italic'>{
                 language === 'english' ?
-                words[currentWord.id - 1].pronuncEng :
-                words[currentWord.id - 1].pronuncRus
+                words[previousWord.id - 1].pronuncEng :
+                words[previousWord.id - 1].pronuncRus
                 }</div>) 
               
                 : ''
