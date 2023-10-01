@@ -1,127 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 // import { useLanguage } from './LanguageContext';
 import './Milim.css';
+import words from '../data/words.js'
 
 let alreadyUsedWords = [];
-
-const words = [
-  {
-    id: 1,
-    english: 'Hello',
-    russian: 'Здравствуйте',
-    hebrew: 'שלום',
-    pronuncEng: 'shalom',
-    pronuncRus: 'шалОм'
-  },
-
-  {
-    id: 2,
-    english: 'Good morning',
-    russian: 'Доброе утро',
-    hebrew: 'בוקר טוב',
-    pronuncEng: 'boker tov',
-    pronuncRus: 'бОкер тов'
-  },
-
-  {
-    id: 3,
-    english: 'City',
-    russian: 'Город',
-    hebrew: 'עיר',
-    pronuncEng: 'ir',
-    pronuncRus: 'ир'
-  },
-
-  {
-    id: 4,
-    english: 'Street',
-    russian: 'Улица',
-    hebrew: 'רחוב',
-    pronuncEng: 'rekhOv',
-    pronuncRus: 'рэхОв'
-  },
-
-  {
-    id: 5,
-    english: 'Sun',
-    russian: 'Солнце',
-    hebrew: 'שמש',
-    pronuncEng: 'shEmesh',
-    pronuncRus: 'шЭмеш'
-  },
-
-  {
-    id: 6,
-    english: 'Tree',
-    russian: 'Дерево',
-    hebrew: 'עץ',
-    pronuncEng: 'ets',
-    pronuncRus: 'эц'
-  },
-
-  {
-    id: 7,
-    english: 'Air',
-    russian: 'Воздух',
-    hebrew: 'אוויר',
-    pronuncEng: 'avir',
-    pronuncRus: 'авИр'
-  },
-
-  {
-    id: 8,
-    english: 'Red',
-    russian: 'Красный',
-    hebrew: 'אדום',
-    pronuncEng: 'adOm',
-    pronuncRus: 'адОм'
-  },
-
-  {
-    id: 9,
-    english: 'Sea',
-    russian: 'Море',
-    hebrew: 'ים',
-    pronuncEng: 'yam',
-    pronuncRus: 'ям'
-  },
-
-  {
-    id: 10,
-    english: 'Haifa',
-    russian: 'Хайфа',
-    hebrew: 'חיפה',
-    pronuncEng: 'KheifA',
-    pronuncRus: 'ХэйфА'
-  },
-
-  {
-    id: 11,
-    english: 'To speak (infinitive)',
-    russian: 'Разговаривать (инфинитив)',
-    hebrew: 'לדבר',
-    pronuncEng: 'ledabEr',
-    pronuncRus: 'ледабЭр'
-  },
-
-  {
-    id: 12,
-    english: 'see (present, single, m)',
-    russian: 'Видеть (настоящее время, ед. число, муж. род)',
-    hebrew: 'רואה',
-    pronuncEng: 'roE',
-    pronuncRus: 'роЭ'
-  },
-
-  {
-    id: 13,
-    english: '',
-    russian: '',
-    hebrew: '',
-    pronuncEng: '',
-    pronuncRus: ''
-  }
-]
 
 let randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
 
@@ -234,6 +116,7 @@ function Milim() {
     
     setInputValue('');
     setShowPronunciation(false);
+
   }
 
   const previousWord = words[alreadyUsedWords[alreadyUsedWords.length - 2] - 1];
@@ -272,6 +155,8 @@ function Milim() {
       document.removeEventListener('click', handleOutsideClick);
     }
   }, []);
+
+
 
 
   return (
@@ -390,7 +275,7 @@ function Milim() {
               showPronunciation 
               ? 
               
-              counter === 0 ? '' : (<div id='italic'>{
+              previousWord === undefined ? '' : (<div id='italic'>{
                 language === 'english' ?
                 words[previousWord.id - 1].pronuncEng :
                 words[previousWord.id - 1].pronuncRus
