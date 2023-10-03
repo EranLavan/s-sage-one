@@ -259,9 +259,118 @@ const words = [
     category: 'grocery'
   },
 
+  {
+    id: 27,
+    english: 'Beverage',
+    russian: 'Напиток',
+    hebrew: 'משקא',
+    pronuncEng: 'mashkE',
+    pronuncRus: 'машкЕ',
+    category: 'grocery'
+  },
+
+  {
+    id: 28,
+    english: 'Beer',
+    russian: 'Пиво',
+    hebrew: 'בירה',
+    pronuncEng: 'bira',
+    pronuncRus: 'бИра',
+    category: 'grocery'
+  },
+
+  {
+    id: 29,
+    english: 'Wine',
+    russian: 'Вино',
+    hebrew: 'יין',
+    pronuncEng: 'yAin',
+    pronuncRus: 'Яин',
+    category: 'grocery'
+  },
+  
+  {
+    id: 30,
+    english: 'Juice',
+    russian: 'Сок',
+    hebrew: 'מיץ',
+    pronuncEng: 'mitz',
+    pronuncRus: 'миц',
+    category: 'grocery'
+  },
+  
+  {
+    id: 31,
+    english: 'Water',
+    russian: 'Вода',
+    hebrew: 'מים',
+    pronuncEng: 'mAim',
+    pronuncRus: 'мАим',
+    category: 'grocery'
+  },
+
+  {
+    id: 32,
+    english: 'Tea',
+    russian: 'Чай',
+    hebrew: 'תה',
+    pronuncEng: 'te',
+    pronuncRus: 'тэ',
+    category: 'grocery'
+  },
+  
+  {
+    id: 33,
+    english: 'Coffee',
+    russian: 'Кофе',
+    hebrew: 'קפה',
+    pronuncEng: 'KafE',
+    pronuncRus: 'кафЭ',
+    category: 'grocery'
+  },
+  
+  {
+    id: 34,
+    english: 'Bread',
+    russian: 'Хлеб',
+    hebrew: 'לחם',
+    pronuncEng: 'lekhem',
+    pronuncRus: 'лехем',
+    category: 'grocery'
+  },
+  
+  {
+    id: 35,
+    english: 'Sugar',
+    russian: 'Сахар',
+    hebrew: 'סוכר',
+    pronuncEng: 'sukAr',
+    pronuncRus: 'сукАр',
+    category: 'grocery'
+  },
+  
+  {
+    id: 36,
+    english: 'Salt',
+    russian: 'Соль',
+    hebrew: 'מלח',
+    pronuncEng: 'mElakh',
+    pronuncRus: 'мЕлах',
+    category: 'grocery'
+  },
+  
+  {
+    id: 37,
+    english: 'Cheese',
+    russian: 'Сыр',
+    hebrew: 'גבינה',
+    pronuncEng: 'gvinA',
+    pronuncRus: 'гвинА',
+    category: 'grocery'
+  },
   
     {
-      id: 27,
+      id: 38,
       english: '',
       russian: '',
       hebrew: '',
