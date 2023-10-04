@@ -368,9 +368,99 @@ const words = [
     pronuncRus: 'гвинА',
     category: 'grocery'
   },
+
+  {
+    id: 38,
+    english: 'egg',
+    russian: 'яйцо',
+    hebrew: 'ביצה',
+    pronuncEng: 'beitzA',
+    pronuncRus: 'бейцА'
+  },
+
+  {
+    id: 39,
+    english: 'Hummus',
+    russian: 'Хумус',
+    hebrew: 'חומוס',
+    pronuncEng: 'humus',
+    pronuncRus: 'хумус'
+  },
+
+  {
+    id: 40,
+    english: 'Spoon',
+    russian: 'Ложка',
+    hebrew: 'כף',
+    pronuncEng: 'kaf',
+    pronuncRus: 'каф'
+  },
+
+  {
+    id: 41,
+    english: 'Teaspoon',
+    russian: 'Чайная ложка',
+    hebrew: 'כפית',
+    pronuncEng: 'kapit',
+    pronuncRus: 'капИт'
+  },
+
+  {
+    id: 42,
+    english: 'Fork',
+    russian: 'Вилка',
+    hebrew: 'מזלג',
+    pronuncEng: 'mazlEg',
+    pronuncRus: 'мазлЕг'
+  },
+
+  {
+    id: 43,
+    english: 'Knife',
+    russian: 'Нож',
+    hebrew: 'סכין',
+    pronuncEng: 'sakin',
+    pronuncRus: 'сакИн'
+  },
+
+  {
+    id: 44,
+    english: 'Bowl',
+    russian: 'Глубокая тарелка',
+    hebrew: 'קערה',
+    pronuncEng: 'kearA',
+    pronuncRus: 'кеарА'
+  },
+
+  {
+    id: 45,
+    english: 'Plate',
+    russian: 'Плоская тарелка',
+    hebrew: 'צלחת',
+    pronuncEng: 'tzalAkhat',
+    pronuncRus: 'цалАхат'
+  },
+
+  {
+    id: 46,
+    english: 'Bottle',
+    russian: 'Бутылка',
+    hebrew: 'בקבוק',
+    pronuncEng: 'bakbUk',
+    pronuncRus: 'бакбУк'
+  },
+
+  {
+    id: 47,
+    english: 'Cooking pot',
+    russian: 'Кастрюля',
+    hebrew: 'סיר',
+    pronuncEng: 'sir',
+    pronuncRus: 'сир'
+  },
   
     {
-      id: 38,
+      id: 48,
       english: '',
       russian: '',
       hebrew: '',
