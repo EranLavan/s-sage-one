@@ -371,11 +371,12 @@ const words = [
 
   {
     id: 38,
-    english: 'egg',
+    english: 'Egg',
     russian: 'яйцо',
     hebrew: 'ביצה',
     pronuncEng: 'beitzA',
-    pronuncRus: 'бейцА'
+    pronuncRus: 'бейцА',
+    category: 'grocery'
   },
 
   {
@@ -384,7 +385,8 @@ const words = [
     russian: 'Хумус',
     hebrew: 'חומוס',
     pronuncEng: 'humus',
-    pronuncRus: 'хумус'
+    pronuncRus: 'хумус',
+    category: 'grocery'
   },
 
   {
@@ -393,7 +395,8 @@ const words = [
     russian: 'Ложка',
     hebrew: 'כף',
     pronuncEng: 'kaf',
-    pronuncRus: 'каф'
+    pronuncRus: 'каф',
+    category: 'kitchen'
   },
 
   {
@@ -402,7 +405,8 @@ const words = [
     russian: 'Чайная ложка',
     hebrew: 'כפית',
     pronuncEng: 'kapit',
-    pronuncRus: 'капИт'
+    pronuncRus: 'капИт',
+    category: 'kitchen'
   },
 
   {
@@ -411,7 +415,8 @@ const words = [
     russian: 'Вилка',
     hebrew: 'מזלג',
     pronuncEng: 'mazlEg',
-    pronuncRus: 'мазлЕг'
+    pronuncRus: 'мазлЕг',
+    category: 'kitchen'
   },
 
   {
@@ -420,7 +425,8 @@ const words = [
     russian: 'Нож',
     hebrew: 'סכין',
     pronuncEng: 'sakin',
-    pronuncRus: 'сакИн'
+    pronuncRus: 'сакИн',
+    category: 'kitchen'
   },
 
   {
@@ -429,7 +435,8 @@ const words = [
     russian: 'Глубокая тарелка',
     hebrew: 'קערה',
     pronuncEng: 'kearA',
-    pronuncRus: 'кеарА'
+    pronuncRus: 'кеарА',
+    category: 'kitchen'
   },
 
   {
@@ -438,7 +445,8 @@ const words = [
     russian: 'Плоская тарелка',
     hebrew: 'צלחת',
     pronuncEng: 'tzalAkhat',
-    pronuncRus: 'цалАхат'
+    pronuncRus: 'цалАхат',
+    category: 'kitchen'
   },
 
   {
@@ -447,7 +455,8 @@ const words = [
     russian: 'Бутылка',
     hebrew: 'בקבוק',
     pronuncEng: 'bakbUk',
-    pronuncRus: 'бакбУк'
+    pronuncRus: 'бакбУк',
+    category: 'kitchen'
   },
 
   {
@@ -456,17 +465,159 @@ const words = [
     russian: 'Кастрюля',
     hebrew: 'סיר',
     pronuncEng: 'sir',
-    pronuncRus: 'сир'
+    pronuncRus: 'сир',
+    category: 'kitchen'
   },
   
     {
       id: 48,
+      english: 'Ill, sick',
+      russian: 'Больной',
+      hebrew: 'חולה',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 49,
+      english: 'I/You/He stand(s)',
+      russian: 'Я/ты/он стою/стоишь/стоит',
+      hebrew: 'עומד',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 50,
+      english: 'I/You/She stands',
+      russian: 'Я/ты/она стою/стоишь/стоит',
+      hebrew: 'עומדת',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 51,
+      english: 'Lesson',
+      russian: 'Урок',
+      hebrew: 'שעור',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 52,
+      english: 'Hot, warm',
+      russian: 'Горячий, тёплый',
+      hebrew: 'חם',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 53,
+      english: 'Also, as well',
+      russian: 'Тоже, также',
+      hebrew: 'גם',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'general'
+    },
+
+    {
+      id: 54,
+      english: 'Soldier (male)',
+      russian: 'Солдат',
+      hebrew: 'חייל',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'profession'
+    },
+
+    {
+      id: 55,
+      english: 'Window',
+      russian: 'Окно',
+      hebrew: 'חלון',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'house'
+    },
+
+    {
+      id: 56,
+      english: 'Table, desk',
+      russian: 'Стол',
+      hebrew: 'שולחן',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'house'
+    },
+
+    {
+      id: 57,
+      english: 'Garden',
+      russian: 'Сад',
+      hebrew: 'גן',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'city'
+    },
+
+    {
+      id: 58,
+      english: 'Winter',
+      russian: 'Зима',
+      hebrew: 'חורף',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'time'
+    },
+
+    {
+      id: 59,
+      english: 'Spring',
+      russian: 'Весна',
+      hebrew: 'אביב',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'time'
+    },
+
+    {
+      id: 60,
+      english: 'Summer',
+      russian: 'Лето',
+      hebrew: 'קיץ',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'time'
+    },
+
+    {
+      id: 61,
+      english: 'Autumn',
+      russian: 'Осень',
+      hebrew: 'סתיו',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'time'
+    },
+
+    {
+      id: 62,
       english: '',
       russian: '',
       hebrew: '',
       pronuncEng: '',
-      pronuncRus: ''
-    }
+      pronuncRus: '',
+      category: ''
+    },
   ]
 
 export default words
