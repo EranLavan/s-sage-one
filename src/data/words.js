@@ -474,8 +474,8 @@ const words = [
       english: 'Ill, sick',
       russian: 'Больной',
       hebrew: 'חולה',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'kholE',
+      pronuncRus: 'холЕ',
       category: 'general'
     },
 
@@ -484,8 +484,8 @@ const words = [
       english: 'I/You/He stand(s)',
       russian: 'Я/ты/он стою/стоишь/стоит',
       hebrew: 'עומד',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'omEd',
+      pronuncRus: 'омЭд',
       category: 'general'
     },
 
@@ -494,8 +494,8 @@ const words = [
       english: 'I/You/She stands',
       russian: 'Я/ты/она стою/стоишь/стоит',
       hebrew: 'עומדת',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'omEdet',
+      pronuncRus: 'омЭдэт',
       category: 'general'
     },
 
@@ -504,8 +504,8 @@ const words = [
       english: 'Lesson',
       russian: 'Урок',
       hebrew: 'שעור',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'shiUr',
+      pronuncRus: 'шиУр',
       category: 'general'
     },
 
@@ -514,8 +514,8 @@ const words = [
       english: 'Hot, warm',
       russian: 'Горячий, тёплый',
       hebrew: 'חם',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'kham',
+      pronuncRus: 'хам',
       category: 'general'
     },
 
@@ -524,8 +524,8 @@ const words = [
       english: 'Also, as well',
       russian: 'Тоже, также',
       hebrew: 'גם',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'gam',
+      pronuncRus: 'гам',
       category: 'general'
     },
 
@@ -534,8 +534,8 @@ const words = [
       english: 'Soldier (male)',
       russian: 'Солдат',
       hebrew: 'חייל',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'khayAl',
+      pronuncRus: 'хаЯль',
       category: 'profession'
     },
 
@@ -544,8 +544,8 @@ const words = [
       english: 'Window',
       russian: 'Окно',
       hebrew: 'חלון',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'khalOn',
+      pronuncRus: 'халОн',
       category: 'house'
     },
 
@@ -554,8 +554,8 @@ const words = [
       english: 'Table, desk',
       russian: 'Стол',
       hebrew: 'שולחן',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'shulkhAn',
+      pronuncRus: 'шульхАн',
       category: 'house'
     },
 
@@ -564,8 +564,8 @@ const words = [
       english: 'Garden',
       russian: 'Сад',
       hebrew: 'גן',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'gan',
+      pronuncRus: 'ган',
       category: 'city'
     },
 
@@ -574,8 +574,8 @@ const words = [
       english: 'Winter',
       russian: 'Зима',
       hebrew: 'חורף',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'khOref',
+      pronuncRus: 'хОрэф',
       category: 'time'
     },
 
@@ -584,8 +584,8 @@ const words = [
       english: 'Spring',
       russian: 'Весна',
       hebrew: 'אביב',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'aviv',
+      pronuncRus: 'авИв',
       category: 'time'
     },
 
@@ -594,8 +594,8 @@ const words = [
       english: 'Summer',
       russian: 'Лето',
       hebrew: 'קיץ',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'kAitz',
+      pronuncRus: 'кАиц',
       category: 'time'
     },
 
@@ -604,13 +604,145 @@ const words = [
       english: 'Autumn',
       russian: 'Осень',
       hebrew: 'סתיו',
-      pronuncEng: '',
-      pronuncRus: '',
+      pronuncEng: 'stav',
+      pronuncRus: 'став',
       category: 'time'
     },
 
     {
       id: 62,
+      english: 'I/You/He work(s)',
+      russian: 'я/ты/он работаю/ешь/ет',
+      hebrew: 'עובד',
+      pronuncEng: 'ovEd',
+      pronuncRus: 'овЭд',
+      category: 'verb'
+    },
+
+    {
+      id: 63,
+      english: 'I/You/She work(s)',
+      russian: 'я/ты/она работаю/ешь/ет',
+      hebrew: 'עובדת',
+      pronuncEng: 'ovEdet',
+      pronuncRus: 'овЭдэт',
+      category: 'verb'
+    },
+
+    {
+      id: 64,
+      english: 'We/You/They (m+f) work',
+      russian: 'мы/вы/они работаем/ете/ют (м или м+ж)',
+      hebrew: 'עובדים',
+      pronuncEng: 'ovdim',
+      pronuncRus: 'овдИм',
+      category: 'verb'
+    },
+
+    {
+      id: 65,
+      english: 'We/You/They (f) work',
+      russian: 'мы/вы/они работаем/ете/ют (ж)',
+      hebrew: 'עובדות',
+      pronuncEng: 'ovdOt',
+      pronuncRus: 'овдОт',
+      category: 'verb'
+    },
+
+    {
+      id: 66,
+      english: 'I worked',
+      russian: 'Я работал',
+      hebrew: 'עבדתי',
+      pronuncEng: 'avAdeti',
+      pronuncRus: 'авАдэти',
+      category: 'verb'
+    },
+
+    {
+      id: 67,
+      english: 'You (sing. masc.) worked',
+      russian: 'Ты работал',
+      hebrew: 'עבדת',
+      pronuncEng: 'avAdeta',
+      pronuncRus: 'авАдэта',
+      category: 'verb'
+    },
+
+    {
+      id: 68,
+      english: 'You (sing. fem.) worked',
+      russian: 'Ты работала',
+      hebrew: 'עבדת',
+      pronuncEng: 'avAdet',
+      pronuncRus: 'авАдэт',
+      category: 'verb'
+    },
+
+    {
+      id: 69,
+      english: 'He worked',
+      russian: 'Он работал',
+      hebrew: 'עבד',
+      pronuncEng: 'avAd',
+      pronuncRus: 'авАд',
+      category: 'verb'
+    },
+
+    {
+      id: 70,
+      english: 'She worked',
+      russian: 'Она работала',
+      hebrew: 'עבדה',
+      pronuncEng: 'avdA',
+      pronuncRus: 'авдА',
+      category: 'verb'
+    },
+
+    {
+      id: 71,
+      english: 'We worked',
+      russian: 'Мы работали',
+      hebrew: 'עבדנו',
+      pronuncEng: 'avAdnu',
+      pronuncRus: 'авАдну',
+      category: 'verb'
+    },
+
+    {
+      id: 72,
+      english: 'You (pl. masc.) worked',
+      russian: 'Вы (м или м+ж) работали',
+      hebrew: 'עבדתם',
+      pronuncEng: 'avAdetem',
+      pronuncRus: 'авАдэтэм',
+      category: 'verb'
+    },
+
+    {
+      id: 73,
+      english: 'You (pl. fem.) worked',
+      russian: 'Вы (ж.) работали',
+      hebrew: 'עבדתן',
+      pronuncEng: 'avAdeten',
+      pronuncRus: 'авАдэтэн',
+      category: 'verb'
+    },
+
+    {
+      id: 74,
+      english: 'They worked',
+      russian: 'Они работали',
+      hebrew: 'עבדו',
+      pronuncEng: 'avdU',
+      pronuncRus: 'авдУ',
+      category: 'verb'
+    },
+
+// СДЕЛАТЬ ФУНКЦИЮ "хватит", если юзер задолбался и хочет проверить, сколько у него уже сделано правильно
+    
+    {
+      id: 75,
       english: '',
       russian: '',
       hebrew: '',
