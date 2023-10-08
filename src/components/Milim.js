@@ -119,6 +119,11 @@ function Milim() {
 
   }
 
+  const stopQuiz = () => {
+    checkAnswer();
+    setFinalResults(true)
+  }
+
   const previousWord = words[alreadyUsedWords[alreadyUsedWords.length - 2] - 1];
   
   const restart = () => {
@@ -194,8 +199,8 @@ function Milim() {
           <h2>
           {
           language === 'english' ?
-          `${score} out of ${words.length - 1} were answered correctly (${Math.round(score/(words.length - 1)*10000)/100}%)` :
-          `${score} из ${words.length - 1} слов были названы правильно (${Math.round(score/(words.length - 1)*10000)/100}%)`
+          `${score} out of ${counter} were answered correctly (${Math.round(score/(counter)*10000)/100}%)` :
+          `${score} из ${counter} слов были названы правильно (${Math.round(score/(counter)*10000)/100}%)`
           }</h2>
         </div>
 
@@ -252,6 +257,17 @@ function Milim() {
             `Проверить!`
             }
           </button>
+
+          <button 
+            className='click-button'
+            onClick={() => stopQuiz()}
+          >
+          {
+            language === 'english' ?
+            `Stop` :
+            `Остановиться`
+          }
+        </button>
           {/* <button className='click-button' onClick={() => next()}>
             Next
           </button> */}
