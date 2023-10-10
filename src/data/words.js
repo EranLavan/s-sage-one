@@ -741,6 +741,146 @@ const words = [
     
     {
       id: 75,
+      english: 'Heart',
+      russian: 'Сердце',
+      hebrew: 'לב',
+      pronuncEng: 'lev',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 76,
+      english: 'Sure',
+      russian: 'Точно, уверен',
+      hebrew: 'בטח',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 77,
+      english: 'Small',
+      russian: 'Маленький',
+      hebrew: 'קטן',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 78,
+      english: 'Big',
+      russian: 'Большой',
+      hebrew: 'גדול',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 79,
+      english: 'Bag',
+      russian: 'Сумка',
+      hebrew: 'תיק',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 80,
+      english: 'Doctor',
+      russian: 'Врач',
+      hebrew: 'רופא',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 81,
+      english: 'Chair',
+      russian: 'Стул',
+      hebrew: 'כיסא',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 82,
+      english: 'Book',
+      russian: 'Книга',
+      hebrew: 'ספר',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 83,
+      english: 'Plane',
+      russian: 'Самолёт',
+      hebrew: 'מטוס',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 84,
+      english: 'Engineer',
+      russian: 'Инженер',
+      hebrew: 'מהנדס',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 85,
+      english: 'Page',
+      russian: 'Страница',
+      hebrew: 'עמוד',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 86,
+      english: 'Family',
+      russian: 'Семья',
+      hebrew: 'משפחה',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 87,
+      english: 'Story',
+      russian: 'Рассказ, история',
+      hebrew: 'סיפור',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 88,
+      english: 'Now',
+      russian: 'Сейчас',
+      hebrew: 'עכשיו',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 89,
       english: '',
       russian: '',
       hebrew: '',
@@ -748,6 +888,8 @@ const words = [
       pronuncRus: '',
       category: ''
     },
+
+
   ]
 
 export default words
