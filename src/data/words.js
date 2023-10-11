@@ -745,8 +745,8 @@ const words = [
       russian: 'Сердце',
       hebrew: 'לב',
       pronuncEng: 'lev',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'лев',
+      category: 'body'
     },
 
     {
@@ -754,9 +754,9 @@ const words = [
       english: 'Sure',
       russian: 'Точно, уверен',
       hebrew: 'בטח',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'bEtakh',
+      pronuncRus: 'бЕтах',
+      category: 'adverb'
     },
 
     {
@@ -764,9 +764,9 @@ const words = [
       english: 'Small',
       russian: 'Маленький',
       hebrew: 'קטן',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'katAn',
+      pronuncRus: 'катАн',
+      category: 'adjective'
     },
 
     {
@@ -774,9 +774,9 @@ const words = [
       english: 'Big',
       russian: 'Большой',
       hebrew: 'גדול',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'gadOl',
+      pronuncRus: 'гадОль',
+      category: 'adjective'
     },
 
     {
@@ -784,9 +784,9 @@ const words = [
       english: 'Bag',
       russian: 'Сумка',
       hebrew: 'תיק',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'tik',
+      pronuncRus: 'тик',
+      category: 'general'
     },
 
     {
@@ -794,9 +794,9 @@ const words = [
       english: 'Doctor',
       russian: 'Врач',
       hebrew: 'רופא',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'rofE',
+      pronuncRus: 'рофЭ',
+      category: 'profession'
     },
 
     {
@@ -804,9 +804,9 @@ const words = [
       english: 'Chair',
       russian: 'Стул',
       hebrew: 'כיסא',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'kisE',
+      pronuncRus: 'кисЭ',
+      category: 'general'
     },
 
     {
@@ -814,9 +814,9 @@ const words = [
       english: 'Book',
       russian: 'Книга',
       hebrew: 'ספר',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'sEfer',
+      pronuncRus: 'сЭфер',
+      category: 'general'
     },
 
     {
@@ -824,9 +824,9 @@ const words = [
       english: 'Plane',
       russian: 'Самолёт',
       hebrew: 'מטוס',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'matOs',
+      pronuncRus: 'матОс',
+      category: 'general'
     },
 
     {
@@ -834,9 +834,9 @@ const words = [
       english: 'Engineer',
       russian: 'Инженер',
       hebrew: 'מהנדס',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'mehandEs',
+      pronuncRus: 'меhандЭс',
+      category: 'profession'
     },
 
     {
@@ -844,9 +844,9 @@ const words = [
       english: 'Page',
       russian: 'Страница',
       hebrew: 'עמוד',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'amUd',
+      pronuncRus: 'амУд',
+      category: 'general'
     },
 
     {
@@ -854,9 +854,9 @@ const words = [
       english: 'Family',
       russian: 'Семья',
       hebrew: 'משפחה',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'mishpakhA',
+      pronuncRus: 'мишпахА',
+      category: 'general'
     },
 
     {
@@ -864,9 +864,9 @@ const words = [
       english: 'Story',
       russian: 'Рассказ, история',
       hebrew: 'סיפור',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'sipUr',
+      pronuncRus: 'сипУр',
+      category: 'general'
     },
 
     {
@@ -874,13 +874,203 @@ const words = [
       english: 'Now',
       russian: 'Сейчас',
       hebrew: 'עכשיו',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'akhshAv',
+      pronuncRus: 'ахшАв',
+      category: 'adverb'
     },
 
     {
       id: 89,
+      english: 'Letter (message)',
+      russian: 'Письмо',
+      hebrew: 'מכתב',
+      pronuncEng: 'MikhtAv',
+      pronuncRus: 'михтАв',
+      category: 'general'
+    },
+
+    {
+      id: 90,
+      english: 'President',
+      russian: 'Президент',
+      hebrew: 'נשיא',
+      pronuncEng: 'nasi',
+      pronuncRus: 'насИ',
+      category: 'profession'
+    },
+
+    {
+      id: 91,
+      english: 'Address',
+      russian: 'Адрес',
+      hebrew: 'כתובת',
+      pronuncEng: 'ktOvet',
+      pronuncRus: 'ктОвет',
+      category: 'general'
+    },
+
+    {
+      id: 92,
+      english: 'Place, settlement',
+      russian: 'Населённый пункт',
+      hebrew: 'ישוב',
+      pronuncEng: 'yishUv',
+      pronuncRus: 'йишУв',
+      category: 'general'
+    },
+
+    {
+      id: 93,
+      english: 'Zip code',
+      russian: 'Почтовый индекс',
+      hebrew: 'מיקוד',
+      pronuncEng: 'mikUd',
+      pronuncRus: 'микУд',
+      category: 'general'
+    },
+
+    {
+      id: 94,
+      english: 'Red',
+      russian: 'Красный',
+      hebrew: 'אדום',
+      pronuncEng: 'adOm',
+      pronuncRus: 'адОм',
+      category: 'color'
+    },
+
+    {
+      id: 95,
+      english: 'Orange',
+      russian: 'Оранжевый',
+      hebrew: 'כתום',
+      pronuncEng: 'katOm',
+      pronuncRus: 'катОм',
+      category: 'color'
+    },
+
+    {
+      id: 96,
+      english: 'Yellow',
+      russian: 'Жёлтый',
+      hebrew: 'צהוב',
+      pronuncEng: 'tzehOv',
+      pronuncRus: 'цэhОв',
+      category: 'color'
+    },
+
+    {
+      id: 97,
+      english: 'Green',
+      russian: 'Зелёный',
+      hebrew: 'ירוק',
+      pronuncEng: 'yarOk',
+      pronuncRus: 'ярОк',
+      category: 'color'
+    },
+
+    {
+      id: 98,
+      english: 'Blue',
+      russian: 'Синий',
+      hebrew: 'כחול',
+      pronuncEng: 'kakhOl',
+      pronuncRus: 'кахОль',
+      category: 'color'
+    },
+
+    {
+      id: 99,
+      english: 'Purple',
+      russian: 'Малиновый',
+      hebrew: 'סגול',
+      pronuncEng: 'sagOl',
+      pronuncRus: 'сагОль',
+      category: 'color'
+    },
+
+    {
+      id: 100,
+      english: 'Pink',
+      russian: 'Розовый',
+      hebrew: 'ורוד',
+      pronuncEng: 'varOd',
+      pronuncRus: 'варОд',
+      category: 'color'
+    },
+
+    {
+      id: 101,
+      english: 'Brown',
+      russian: 'Коричневый',
+      hebrew: 'חום',
+      pronuncEng: 'khum',
+      pronuncRus: 'хум',
+      category: 'color'
+    },
+
+    {
+      id: 102,
+      english: 'Gray',
+      russian: 'Серый',
+      hebrew: 'אפור',
+      pronuncEng: 'afOr',
+      pronuncRus: 'афОр',
+      category: 'color'
+    },
+
+    {
+      id: 103,
+      english: 'Black',
+      russian: 'Чёрный',
+      hebrew: 'שחור',
+      pronuncEng: 'shakhOr',
+      pronuncRus: 'шахОр',
+      category: 'color'
+    },
+
+    {
+      id: 104,
+      english: 'White',
+      russian: 'Белый',
+      hebrew: 'לבן',
+      pronuncEng: 'lavAn',
+      pronuncRus: 'лавАн',
+      category: 'color'
+    },
+
+    {
+      id: 105,
+      english: 'Daughters',
+      russian: 'Дочери',
+      hebrew: 'בנות',
+      pronuncEng: 'banOt',
+      pronuncRus: 'банОт',
+      category: 'family'
+    },
+
+    {
+      id: 106,
+      english: 'Rule (noun)',
+      russian: 'Правило',
+      hebrew: 'כלל',
+      pronuncEng: 'klal',
+      pronuncRus: 'кляль',
+      category: 'general'
+    },
+
+    {
+      id: 107,
+      english: 'Usually',
+      russian: 'Обычно',
+      hebrew: 'בדרך כלל',
+      pronuncEng: 'bedErekh klal',
+      pronuncRus: 'бедЭрех кляль',
+      category: 'adverb'
+    },
+
+    {
+      id: 108,
       english: '',
       russian: '',
       hebrew: '',
@@ -888,6 +1078,7 @@ const words = [
       pronuncRus: '',
       category: ''
     },
+
 
 
   ]
