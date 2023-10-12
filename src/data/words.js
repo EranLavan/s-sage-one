@@ -1071,6 +1071,206 @@ const words = [
 
     {
       id: 108,
+      english: 'I',
+      russian: 'Я',
+      hebrew: 'אני',
+      pronuncEng: 'ani',
+      pronuncRus: 'анИ',
+      category: 'pronoun'
+    },
+
+    {
+      id: 109,
+      english: 'You (male sing.)',
+      russian: 'Ты (муж.)',
+      hebrew: 'אתה',
+      pronuncEng: 'atA',
+      pronuncRus: 'атА',
+      category: 'pronoun'
+    },
+
+    {
+      id: 110,
+      english: 'You (fem. sing.)',
+      russian: 'Ты (жен.)',
+      hebrew: 'את',
+      pronuncEng: 'at',
+      pronuncRus: 'ат',
+      category: 'pronoun'
+    },
+
+    {
+      id: 111,
+      english: 'He',
+      russian: 'Он',
+      hebrew: 'הוא',
+      pronuncEng: 'hu',
+      pronuncRus: 'у',
+      category: 'pronoun'
+    },
+
+    {
+      id: 112,
+      english: 'She',
+      russian: 'Она',
+      hebrew: 'היא',
+      pronuncEng: 'hi',
+      pronuncRus: 'и',
+      category: 'pronoun'
+    },
+
+    {
+      id: 113,
+      english: 'We',
+      russian: 'Мы',
+      hebrew: 'אנחנו',
+      pronuncEng: 'anAkhnu',
+      pronuncRus: 'анАхну',
+      category: 'pronoun'
+    },
+
+    {
+      id: 114,
+      english: 'You (male or combined plural)',
+      russian: 'Вы (муж. множ.)',
+      hebrew: 'אתם',
+      pronuncEng: 'atEm',
+      pronuncRus: 'атЭм',
+      category: 'pronoun'
+    },
+
+    {
+      id: 115,
+      english: 'You (female plural)',
+      russian: 'Вы (жен. множ.)',
+      hebrew: 'אתן',
+      pronuncEng: 'atEn',
+      pronuncRus: 'атЭн',
+      category: 'pronoun'
+    },
+
+    {
+      id: 116,
+      english: 'They (male or combined)',
+      russian: 'Они (муж. множ.)',
+      hebrew: 'הם',
+      pronuncEng: 'hem',
+      pronuncRus: 'hэм',
+      category: 'pronoun'
+    },
+
+    {
+      id: 117,
+      english: 'They (female)',
+      russian: 'Они (жен. множ.)',
+      hebrew: 'הן',
+      pronuncEng: 'hen',
+      pronuncRus: 'hэн',
+      category: 'pronoun'
+    },
+
+    {
+      id: 118,
+      english: 'board, table (chart)',
+      russian: 'доска, таблица',
+      hebrew: 'לוח',
+      pronuncEng: 'lUakh',
+      pronuncRus: 'лУах',
+      category: 'general'
+    },
+
+    {
+      id: 119,
+      english: 'example',
+      russian: 'пример',
+      hebrew: 'דוגמה',
+      pronuncEng: 'dugmA',
+      pronuncRus: 'дугмА',
+      category: 'general'
+    },
+
+    {
+      id: 120,
+      english: 'dictation',
+      russian: 'диктант',
+      hebrew: 'כתיבה',
+      pronuncEng: 'ktivA',
+      pronuncRus: 'ктивА',
+      category: 'general'
+    },
+
+    {
+      id: 121,
+      english: 'flower',
+      russian: 'цветок',
+      hebrew: 'פרח',
+      pronuncEng: 'pEreh',
+      pronuncRus: 'пЕрех',
+      category: 'general'
+    },
+
+    {
+      id: 122,
+      english: 'soup',
+      russian: 'суп',
+      hebrew: 'מרק',
+      pronuncEng: 'marAk',
+      pronuncRus: 'марАк',
+      category: 'grocery'
+    },
+
+    {
+      id: 123,
+      english: 'male',
+      russian: 'мужской род',
+      hebrew: 'זכר',
+      pronuncEng: 'zakhAr',
+      pronuncRus: 'захАр',
+      category: 'general'
+    },
+
+    {
+      id: 124,
+      english: 'female',
+      russian: 'женский род',
+      hebrew: 'נקבה',
+      pronuncEng: 'nekevA',
+      pronuncRus: 'нэкевА',
+      category: 'general'
+    },
+
+    {
+      id: 125,
+      english: 'plural male or combined',
+      russian: 'множественное число мужского рода (или общее)',
+      hebrew: 'רבים',
+      pronuncEng: 'ravim',
+      pronuncRus: 'равИм',
+      category: 'general'
+    },
+
+    {
+      id: 126,
+      english: 'plural female',
+      russian: 'множественное число женского рода',
+      hebrew: 'רבות',
+      pronuncEng: 'ravOt',
+      pronuncRus: 'равОт',
+      category: 'general'
+    },
+
+    {
+      id: 127,
+      english: 'neighbours',
+      russian: 'соседи',
+      hebrew: 'שכנים',
+      pronuncEng: 'shkhenim',
+      pronuncRus: 'шхенИм',
+      category: 'general'
+    },
+
+    {
+      id: 128,
       english: '',
       russian: '',
       hebrew: '',
