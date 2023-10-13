@@ -113,10 +113,31 @@ function Milim() {
 
       }
 
+      console.log(`counter: ${counter}`);
+      console.log(`score: ${score}`);
+      console.log(`word: ${word}`);
+
+      if ((previousWord) !== undefined) { 
+        console.log(`previousWord.id - 1: ${previousWord.id - 1}`);
+      } else {
+        console.log(`previousWord.id - 1: undefined`)
+      }
+
+      console.log(`randomUniqueNumber: ${randomUniqueNumber}`);
+      console.log(`alreadyUsedWords: ${alreadyUsedWords}`);
+
     
     setInputValue('');
     setShowPronunciation(false);
 
+  }
+
+  const skip = () => {
+      checkAnswer();
+      setMessage('');
+      setWord(randomUniqueNumber - 1);
+      setCounter(counter + 1);
+      setShowPronunciation(false);
   }
 
   const stopQuiz = () => {
@@ -125,7 +146,7 @@ function Milim() {
   }
 
   const previousWord = words[alreadyUsedWords[alreadyUsedWords.length - 2] - 1];
-  
+
   const restart = () => {
     setFinalResults(false);
     setScore(0);
@@ -256,6 +277,17 @@ function Milim() {
             `Check!` :
             `Проверить!`
             }
+          </button>
+
+          <button
+            className='click-button'
+            onClick={() => skip()}
+          >
+          {
+            language === 'english' ?
+            `Skip this word` :
+            `Пропустить`
+          }
           </button>
 
           <button 
