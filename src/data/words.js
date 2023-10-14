@@ -1271,6 +1271,206 @@ const words = [
 
     {
       id: 128,
+      english: 'relatives',
+      russian: 'родственники',
+      hebrew: 'קרובים',
+      pronuncEng: 'kruvim',
+      pronuncRus: 'крувИм',
+      category: ''
+    },
+
+    {
+      id: 129,
+      english: '(I) can',
+      russian: '(я) могу',
+      hebrew: 'יכול',
+      pronuncEng: 'yekhOl',
+      pronuncRus: 'йехОль',
+      category: ''
+    },
+
+    {
+      id: 130,
+      english: 'note, small letter',
+      russian: 'записка',
+      hebrew: 'פתק',
+      pronuncEng: 'pEtek',
+      pronuncRus: 'пЕтэк',
+      category: ''
+    },
+
+    {
+      id: 131,
+      english: 'manager',
+      russian: 'менеджер, начальник',
+      hebrew: 'מנהל',
+      pronuncEng: 'menahEl',
+      pronuncRus: 'менаЭль',
+      category: ''
+    },
+
+    {
+      id: 132,
+      english: 'problem',
+      russian: 'проблема',
+      hebrew: 'בעיה',
+      pronuncEng: "be'aya",
+      pronuncRus: "бэ'айя",
+      category: ''
+    },
+
+    {
+      id: 133,
+      english: 'clerk (m)',
+      russian: 'клерк',
+      hebrew: 'פקיד',
+      pronuncEng: 'pakid',
+      pronuncRus: 'пакИд',
+      category: ''
+    },
+
+    {
+      id: 134,
+      english: 'intermission',
+      russian: 'перерыв',
+      hebrew: 'הפסקה',
+      pronuncEng: 'afsakA',
+      pronuncRus: 'афсакА',
+      category: ''
+    },
+
+    {
+      id: 135,
+      english: 'later',
+      russian: 'позже',
+      hebrew: 'אחר כך',
+      pronuncEng: 'Akhar kakh',
+      pronuncRus: 'Ахар ках',
+      category: ''
+    },
+
+    {
+      id: 136,
+      english: 'right (side)',
+      russian: 'правый',
+      hebrew: 'ימינה',
+      pronuncEng: 'yamina',
+      pronuncRus: 'ямИна',
+      category: ''
+    },
+
+    {
+      id: 137,
+      english: 'left',
+      russian: 'левый',
+      hebrew: 'שמולה',
+      pronuncEng: 'smOla',
+      pronuncRus: 'смОла',
+      category: ''
+    },
+
+    {
+      id: 138,
+      english: 'talk, conversation',
+      russian: 'разговор',
+      hebrew: 'שיחה',
+      pronuncEng: 'sikhA',
+      pronuncRus: 'сихА',
+      category: ''
+    },
+
+    {
+      id: 139,
+      english: 'party',
+      russian: 'вечеринка',
+      hebrew: 'מסיבה',
+      pronuncEng: 'mesibA',
+      pronuncRus: 'месибА',
+      category: ''
+    },
+
+    {
+      id: 140,
+      english: 'army',
+      russian: 'армия',
+      hebrew: 'צבא',
+      pronuncEng: 'tzava',
+      pronuncRus: 'цава',
+      category: ''
+    },
+
+    {
+      id: 141,
+      english: 'secretary (m)',
+      russian: 'секретарь',
+      hebrew: 'מזכיר',
+      pronuncEng: 'mazkir',
+      pronuncRus: 'мазкИр',
+      category: ''
+    },
+
+    {
+      id: 142,
+      english: 'singer',
+      russian: 'певец',
+      hebrew: 'זמר',
+      pronuncEng: 'zamAr',
+      pronuncRus: 'замАр',
+      category: ''
+    },
+
+    {
+      id: 143,
+      english: 'more',
+      russian: 'ещё',
+      hebrew: 'עוד',
+      pronuncEng: 'od',
+      pronuncRus: 'од',
+      category: ''
+    },
+
+    {
+      id: 144,
+      english: 'quickly, fast',
+      russian: 'быстро',
+      hebrew: 'מהר',
+      pronuncEng: 'mahEr',
+      pronuncRus: 'маhэр',
+      category: ''
+    },
+
+    {
+      id: 145,
+      english: 'more than',
+      russian: 'более, больше',
+      hebrew: 'יותר',
+      pronuncEng: 'yotEr',
+      pronuncRus: 'йотЭр',
+      category: ''
+    },
+
+    {
+      id: 146,
+      english: 'slowly',
+      russian: 'медленно',
+      hebrew: 'לאט',
+      pronuncEng: 'leAt',
+      pronuncRus: 'леАт',
+      category: ''
+    },
+
+    {
+      id: 147,
+      english: 'ball or pill',
+      russian: 'мяч, шар (и таблетка тоже)',
+      hebrew: 'כדור',
+      pronuncEng: 'kadUr',
+      pronuncRus: 'кадУр',
+      category: ''
+    },
+
+    {
+      id: 148,
       english: '',
       russian: '',
       hebrew: '',
