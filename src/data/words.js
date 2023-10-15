@@ -1171,7 +1171,7 @@ const words = [
 
     {
       id: 118,
-      english: 'board, table (chart)',
+      english: 'Board, table (chart)',
       russian: 'доска, таблица',
       hebrew: 'לוח',
       pronuncEng: 'lUakh',
@@ -1181,7 +1181,7 @@ const words = [
 
     {
       id: 119,
-      english: 'example',
+      english: 'Example',
       russian: 'пример',
       hebrew: 'דוגמה',
       pronuncEng: 'dugmA',
@@ -1191,7 +1191,7 @@ const words = [
 
     {
       id: 120,
-      english: 'dictation',
+      english: 'Dictation',
       russian: 'диктант',
       hebrew: 'כתיבה',
       pronuncEng: 'ktivA',
@@ -1201,7 +1201,7 @@ const words = [
 
     {
       id: 121,
-      english: 'flower',
+      english: 'Flower',
       russian: 'цветок',
       hebrew: 'פרח',
       pronuncEng: 'pEreh',
@@ -1211,7 +1211,7 @@ const words = [
 
     {
       id: 122,
-      english: 'soup',
+      english: 'Soup',
       russian: 'суп',
       hebrew: 'מרק',
       pronuncEng: 'marAk',
@@ -1221,7 +1221,7 @@ const words = [
 
     {
       id: 123,
-      english: 'male',
+      english: 'Male',
       russian: 'мужской род',
       hebrew: 'זכר',
       pronuncEng: 'zakhAr',
@@ -1231,7 +1231,7 @@ const words = [
 
     {
       id: 124,
-      english: 'female',
+      english: 'Female',
       russian: 'женский род',
       hebrew: 'נקבה',
       pronuncEng: 'nekevA',
@@ -1241,7 +1241,7 @@ const words = [
 
     {
       id: 125,
-      english: 'plural male or combined',
+      english: 'Plural male or combined',
       russian: 'множественное число мужского рода (или общее)',
       hebrew: 'רבים',
       pronuncEng: 'ravim',
@@ -1251,7 +1251,7 @@ const words = [
 
     {
       id: 126,
-      english: 'plural female',
+      english: 'Plural female',
       russian: 'множественное число женского рода',
       hebrew: 'רבות',
       pronuncEng: 'ravOt',
@@ -1261,7 +1261,7 @@ const words = [
 
     {
       id: 127,
-      english: 'neighbours',
+      english: 'Neighbours',
       russian: 'соседи',
       hebrew: 'שכנים',
       pronuncEng: 'shkhenim',
@@ -1271,12 +1271,12 @@ const words = [
 
     {
       id: 128,
-      english: 'relatives',
+      english: 'Relatives',
       russian: 'родственники',
       hebrew: 'קרובים',
       pronuncEng: 'kruvim',
       pronuncRus: 'крувИм',
-      category: ''
+      category: 'general'
     },
 
     {
@@ -1286,191 +1286,361 @@ const words = [
       hebrew: 'יכול',
       pronuncEng: 'yekhOl',
       pronuncRus: 'йехОль',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 130,
-      english: 'note, small letter',
+      english: 'Note, small letter',
       russian: 'записка',
       hebrew: 'פתק',
       pronuncEng: 'pEtek',
       pronuncRus: 'пЕтэк',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 131,
-      english: 'manager',
+      english: 'Manager',
       russian: 'менеджер, начальник',
       hebrew: 'מנהל',
       pronuncEng: 'menahEl',
       pronuncRus: 'менаЭль',
-      category: ''
+      category: 'profession'
     },
 
     {
       id: 132,
-      english: 'problem',
+      english: 'Problem',
       russian: 'проблема',
       hebrew: 'בעיה',
       pronuncEng: "be'aya",
       pronuncRus: "бэ'айя",
-      category: ''
+      category: 'general'
     },
 
     {
       id: 133,
-      english: 'clerk (m)',
+      english: 'Clerk (m)',
       russian: 'клерк',
       hebrew: 'פקיד',
       pronuncEng: 'pakid',
       pronuncRus: 'пакИд',
-      category: ''
+      category: 'profession'
     },
 
     {
       id: 134,
-      english: 'intermission',
+      english: 'Intermission',
       russian: 'перерыв',
       hebrew: 'הפסקה',
       pronuncEng: 'afsakA',
       pronuncRus: 'афсакА',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 135,
-      english: 'later',
+      english: 'Later',
       russian: 'позже',
       hebrew: 'אחר כך',
       pronuncEng: 'Akhar kakh',
       pronuncRus: 'Ахар ках',
-      category: ''
+      category: 'adverb'
     },
 
     {
       id: 136,
-      english: 'right (side)',
+      english: 'Right (side)',
       russian: 'правый',
       hebrew: 'ימינה',
       pronuncEng: 'yamina',
       pronuncRus: 'ямИна',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 137,
-      english: 'left',
+      english: 'Left',
       russian: 'левый',
       hebrew: 'שמולה',
       pronuncEng: 'smOla',
       pronuncRus: 'смОла',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 138,
-      english: 'talk, conversation',
+      english: 'Talk, conversation',
       russian: 'разговор',
       hebrew: 'שיחה',
       pronuncEng: 'sikhA',
       pronuncRus: 'сихА',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 139,
-      english: 'party',
+      english: 'Party',
       russian: 'вечеринка',
       hebrew: 'מסיבה',
       pronuncEng: 'mesibA',
       pronuncRus: 'месибА',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 140,
-      english: 'army',
+      english: 'Army',
       russian: 'армия',
       hebrew: 'צבא',
       pronuncEng: 'tzava',
       pronuncRus: 'цава',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 141,
-      english: 'secretary (m)',
+      english: 'Secretary (m)',
       russian: 'секретарь',
       hebrew: 'מזכיר',
       pronuncEng: 'mazkir',
       pronuncRus: 'мазкИр',
-      category: ''
+      category: 'profession'
     },
 
     {
       id: 142,
-      english: 'singer',
+      english: 'Singer',
       russian: 'певец',
       hebrew: 'זמר',
       pronuncEng: 'zamAr',
       pronuncRus: 'замАр',
-      category: ''
+      category: 'profession'
     },
 
     {
       id: 143,
-      english: 'more',
+      english: 'More',
       russian: 'ещё',
       hebrew: 'עוד',
       pronuncEng: 'od',
       pronuncRus: 'од',
-      category: ''
+      category: 'adverb'
     },
 
     {
       id: 144,
-      english: 'quickly, fast',
+      english: 'Quickly, fast',
       russian: 'быстро',
       hebrew: 'מהר',
       pronuncEng: 'mahEr',
       pronuncRus: 'маhэр',
-      category: ''
+      category: 'adverb'
     },
 
     {
       id: 145,
-      english: 'more than',
+      english: 'More than',
       russian: 'более, больше',
       hebrew: 'יותר',
       pronuncEng: 'yotEr',
       pronuncRus: 'йотЭр',
-      category: ''
+      category: 'adverb'
     },
 
     {
       id: 146,
-      english: 'slowly',
+      english: 'Slowly',
       russian: 'медленно',
       hebrew: 'לאט',
       pronuncEng: 'leAt',
       pronuncRus: 'леАт',
-      category: ''
+      category: 'adverb'
     },
 
     {
       id: 147,
-      english: 'ball or pill',
+      english: 'Ball or pill',
       russian: 'мяч, шар (и таблетка тоже)',
       hebrew: 'כדור',
       pronuncEng: 'kadUr',
       pronuncRus: 'кадУр',
-      category: ''
+      category: 'general'
     },
 
     {
       id: 148,
+      english: 'Limited',
+      russian: 'ограничено',
+      hebrew: 'מצומצם',
+      pronuncEng: 'metzumtzAm',
+      pronuncRus: 'мецумцАм',
+      category: 'adverb'
+    },
+
+    {
+      id: 149,
+      english: 'To recommend (infinitive)',
+      russian: 'рекомендовать (инфинитив)',
+      hebrew: 'להמליץ',
+      pronuncEng: 'lehamlitz',
+      pronuncRus: 'леhамлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 150,
+      english: 'Recommend (present time, m)',
+      russian: 'рекомендую (м)',
+      hebrew: 'ממליץ',
+      pronuncEng: 'mamlitz',
+      pronuncRus: 'мамлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 151,
+      english: 'I recommended',
+      russian: 'Я рекомендовал(а)',
+      hebrew: 'המלצתי',
+      pronuncEng: 'himlAtzti',
+      pronuncRus: 'hимлАцти',
+      category: 'hifil'
+    },
+
+    {
+      id: 152,
+      english: 'He recommended',
+      russian: 'Он рекомендовал',
+      hebrew: 'המליץ',
+      pronuncEng: 'himlitz',
+      pronuncRus: 'hимлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 153,
+      english: 'We recommended',
+      russian: 'Мы рекомендовали',
+      hebrew: 'המלצנו',
+      pronuncEng: 'himlAtznu',
+      pronuncRus: 'hимлАцну',
+      category: 'hifil'
+    },
+
+    {
+      id: 154,
+      english: 'You (pl.m) recommended',
+      russian: 'Вы (мн.м) рекомендовали',
+      hebrew: 'המלצתם',
+      pronuncEng: 'himlatztem',
+      pronuncRus: 'hимлАцтэм',
+      category: 'hifil'
+    },
+
+    {
+      id: 155,
+      english: 'They recommended',
+      russian: 'Они рекомендовали',
+      hebrew: 'המליצו',
+      pronuncEng: 'himlitzu',
+      pronuncRus: 'hимлицУ',
+      category: 'hifil'
+    },
+
+    {
+      id: 156,
+      english: 'I will recommend',
+      russian: 'Я буду рекомендовать',
+      hebrew: 'אמליץ',
+      pronuncEng: 'amlitz',
+      pronuncRus: 'амлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 157,
+      english: 'You (sing.m) will recommend',
+      russian: 'Ты (м) будешь рекомендовать',
+      hebrew: 'תמליץ',
+      pronuncEng: 'tamlitz',
+      pronuncRus: 'тамлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 158,
+      english: 'You (sing.f) will recommend',
+      russian: 'Ты (ж) будешь рекомендовать',
+      hebrew: 'תמליצי',
+      pronuncEng: 'tamlitzi',
+      pronuncRus: 'тамлицИ',
+      category: 'hifil'
+    },
+
+    {
+      id: 159,
+      english: 'He will recommend',
+      russian: 'Он будет рекомендовать',
+      hebrew: 'ימליץ',
+      pronuncEng: 'yamlitz',
+      pronuncRus: 'ямлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 160,
+      english: 'She will recommend',
+      russian: 'Она будет рекомендовать',
+      hebrew: 'תמליץ',
+      pronuncEng: 'tamlitz',
+      pronuncRus: 'тамлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 161,
+      english: 'We will recommend',
+      russian: 'Мы будем рекомендовать',
+      hebrew: 'נמליץ',
+      pronuncEng: 'namlitz',
+      pronuncRus: 'намлИц',
+      category: 'hifil'
+    },
+
+    {
+      id: 162,
+      english: 'You (pl.m) will recommend',
+      russian: 'Вы (мн.м) будете рекомендовать',
+      hebrew: 'תמליצו',
+      pronuncEng: 'tamlitzu',
+      pronuncRus: 'тамлицУ',
+      category: 'hifil'
+    },
+
+    {
+      id: 163,
+      english: 'You (pl.f) will recommend',
+      russian: 'Вы (мн.ж) будете рекомендовать',
+      hebrew: 'ימליצו',
+      pronuncEng: 'yamlitzu',
+      pronuncRus: 'ямлицУ',
+      category: 'hifil'
+    },
+
+    {
+      id: 164,
+      english: 'Something',
+      russian: 'Что-то, что-либо',
+      hebrew: 'משהו',
+      pronuncEng: 'mAshehu',
+      pronuncRus: 'мАшеhу',
+      category: 'general'
+    },
+
+    {
+      id: 165,
       english: '',
       russian: '',
       hebrew: '',
