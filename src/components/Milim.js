@@ -4,6 +4,7 @@ import './Milim.css';
 import words from '../data/words.js'
 
 let alreadyUsedWords = [];
+let incorrectAnswers = [];
 
 let randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
 
@@ -101,6 +102,7 @@ function Milim() {
         // console.log(counter < words.length - 2)
 
         alreadyUsedWords.push(randomUniqueNumber);
+        incorrectAnswers.push(randomUniqueNumber);
 
       } else if (inputValue === words[word].hebrew) {
 
@@ -109,6 +111,7 @@ function Milim() {
       
       } else {
 
+        incorrectAnswers.push(randomUniqueNumber);
         setFinalResults(true);
 
       }
@@ -125,6 +128,9 @@ function Milim() {
 
       console.log(`randomUniqueNumber: ${randomUniqueNumber}`);
       console.log(`alreadyUsedWords: ${alreadyUsedWords}`);
+      console.log(`incorrectAnswers: ${incorrectAnswers}`);
+
+      console.log(`_______________________________________\n_______________________________________`)
 
     
     setInputValue('');
@@ -133,11 +139,26 @@ function Milim() {
   }
 
   const skip = () => {
+
+    function getRandomUniqueNumber() {
+      do {
+        randomNumber = (Math.ceil(Math.random()*(words.length - 1)));
+      } while (alreadyUsedWords.includes(randomNumber));
+      return randomNumber;
+    }
+    
+    const randomUniqueNumber = getRandomUniqueNumber();
+
       checkAnswer();
       setMessage('');
       setWord(randomUniqueNumber - 1);
       setCounter(counter + 1);
       setShowPronunciation(false);
+
+      alreadyUsedWords.push(randomUniqueNumber);
+
+      // FIX THE BUG!!: if i used all the words and click "skip" button, i overload the page (gpt says it's called
+      // a "performance bottleneck" but i'm not sure that it's it)
   }
 
   const stopQuiz = () => {
