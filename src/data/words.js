@@ -1641,6 +1641,206 @@ const words = [
 
     {
       id: 165,
+      english: 'Clock, watch',
+      russian: 'Часы',
+      hebrew: 'שעון',
+      pronuncEng: 'shaOn',
+      pronuncRus: 'шаОн',
+      category: 'general'
+    },
+
+    {
+      id: 166,
+      english: 'To begin (infinitive)',
+      russian: 'Начинать (инфинитив)',
+      hebrew: 'להתחיל',
+      pronuncEng: 'lehatkhil',
+      pronuncRus: 'леатхИль',
+      category: 'hifil'
+    },
+
+    {
+      id: 167,
+      english: '(I/you/he) begin(s)',
+      russian: 'Начинаю (наст.вр.)',
+      hebrew: 'מתחיל',
+      pronuncEng: 'matkhil',
+      pronuncRus: 'матхИль',
+      category: 'hifil'
+    },
+
+    {
+      id: 168,
+      english: 'Gift',
+      russian: 'Подарок',
+      hebrew: 'מתנה',
+      pronuncEng: 'matanA',
+      pronuncRus: 'матанА',
+      category: 'general'
+    },
+
+    {
+      id: 169,
+      english: 'Imperative',
+      russian: 'Повелительное наклонение',
+      hebrew: 'ציווי',
+      pronuncEng: 'tzivUi',
+      pronuncRus: 'цивУй',
+      category: 'general'
+    },
+
+    {
+      id: 170,
+      english: 'Change money',
+      russian: 'Сдача, размен',
+      hebrew: 'עודף',
+      pronuncEng: 'odef',
+      pronuncRus: 'одэф',
+      category: 'general'
+    },
+
+    {
+      id: 171,
+      english: 'Cute',
+      russian: 'Милый',
+      hebrew: 'חמוד',
+      pronuncEng: 'khamUd',
+      pronuncRus: 'хамУд',
+      category: 'adjective'
+    },
+
+    {
+      id: 172,
+      english: 'Language',
+      russian: 'Язык (лингв.)',
+      hebrew: 'שפה',
+      pronuncEng: 'safa',
+      pronuncRus: 'сафА',
+      category: 'general'
+    },
+
+    {
+      id: 173,
+      english: 'Sentence',
+      russian: 'Предложение, суд',
+      hebrew: 'משפט',
+      pronuncEng: 'mishpAt',
+      pronuncRus: 'мишпАт',
+      category: 'general'
+    },
+
+    {
+      id: 174,
+      english: 'Half',
+      russian: 'Половина',
+      hebrew: 'חצי',
+      pronuncEng: 'khetzi',
+      pronuncRus: 'хЭци',
+      category: 'general'
+    },
+
+    {
+      id: 175,
+      english: 'Quarter',
+      russian: 'Четверть',
+      hebrew: 'רבע',
+      pronuncEng: 'reva',
+      pronuncRus: 'рева',
+      category: 'general'
+    },
+
+    {
+      id: 176,
+      english: 'Around, about, circa',
+      russian: 'Около, приблизительно',
+      hebrew: 'בערך',
+      pronuncEng: 'beErekh',
+      pronuncRus: 'беЭрех',
+      category: 'adverb'
+    },
+
+    {
+      id: 177,
+      english: 'Late',
+      russian: 'Поздно',
+      hebrew: 'מאוחר',
+      pronuncEng: 'meukhAr',
+      pronuncRus: 'меухАр',
+      category: 'adverb'
+    },
+
+    {
+      id: 178,
+      english: 'Early',
+      russian: 'Рано',
+      hebrew: 'מוקדם',
+      pronuncEng: 'mukdAm',
+      pronuncRus: 'мукдАм',
+      category: 'adverb'
+    },
+
+    {
+      id: 179,
+      english: 'Really',
+      russian: 'Реально, действительно',
+      hebrew: 'באמת',
+      pronuncEng: 'beEmet',
+      pronuncRus: 'беЭмет',
+      category: 'adverb'
+    },
+
+    {
+      id: 180,
+      english: 'Different, other',
+      russian: 'Другой',
+      hebrew: 'אחר',
+      pronuncEng: 'akhEr',
+      pronuncRus: 'ахЭр',
+      category: 'general'
+    },
+
+    {
+      id: 181,
+      english: 'Date of birth',
+      russian: 'Дата рождения',
+      hebrew: 'תאריך לידה',
+      pronuncEng: 'taarikh leida',
+      pronuncRus: 'таарИх лейдА',
+      category: 'general'
+    },
+
+    {
+      id: 182,
+      english: 'Gender',
+      russian: 'Пол (гендер)',
+      hebrew: 'מין',
+      pronuncEng: 'min',
+      pronuncRus: 'мин',
+      category: 'general'
+    },
+
+    {
+      id: 183,
+      english: 'Like, as',
+      russian: 'Как, такой как',
+      hebrew: 'כמו',
+      pronuncEng: 'kmo',
+      pronuncRus: 'кмо',
+      category: 'adverb'
+    },
+
+    {
+      id: 184,
+      english: 'War',
+      russian: 'Война',
+      hebrew: 'מלחמה',
+      pronuncEng: 'milkhamA',
+      pronuncRus: 'мильхамА',
+      category: 'general'
+    },
+
+    {
+      id: 185,
       english: '',
       russian: '',
       hebrew: '',
