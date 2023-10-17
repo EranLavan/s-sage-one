@@ -1841,16 +1841,183 @@ const words = [
 
     {
       id: 185,
+      english: 'Towels',
+      russian: 'Полотенца',
+      hebrew: 'מגבות',
+      pronuncEng: 'magvOt',
+      pronuncRus: 'магвОт',
+      category: 'general'
+    },
+
+    {
+      id: 186,
+      english: 'Key',
+      russian: 'Ключ',
+      hebrew: 'מפתח',
+      pronuncEng: 'maftEakh',
+      pronuncRus: 'мафтЭах',
+      category: 'general'
+    },
+
+    {
+      id: 187,
+      english: 'Dream',
+      russian: 'Мечта',
+      hebrew: 'חלום',
+      pronuncEng: 'khalOm',
+      pronuncRus: 'халОм',
+      category: 'general'
+    },
+
+    {
+      id: 188,
+      english: 'To dream (infinitive)',
+      russian: 'Мечтать (инфинитив)',
+      hebrew: 'לחלום',
+      pronuncEng: 'lakhalOm',
+      pronuncRus: 'лахалОм',
+      category: 'paal'
+    },
+
+    {
+      id: 189,
+      english: 'To dream (present, single, m)',
+      russian: 'Мечтать (наст.вр, ед.число)',
+      hebrew: 'חולם',
+      pronuncEng: 'kholEm',
+      pronuncRus: 'холЕм',
+      category: 'paal'
+    },
+
+    {
+      id: 190,
+      english: 'He dreamed',
+      russian: 'Он мечтал',
+      hebrew: 'חלם',
+      pronuncEng: 'khalAm',
+      pronuncRus: 'халАм',
+      category: 'paal'
+    },
+
+    {
+      id: 191,
+      english: 'I will dream',
+      russian: 'Я буду мечтать',
+      hebrew: 'אחלום',
+      pronuncEng: 'ekhelOm',
+      pronuncRus: 'эхелОм',
+      category: 'paal'
+    },
+
+    {
+      id: 192,
+      english: 'You (m) will dream',
+      russian: 'Ты (м.) будешь мечтать',
+      hebrew: 'תחלום',
+      pronuncEng: 'takhalOm',
+      pronuncRus: 'тахалОм',
+      category: 'paal'
+    },
+
+    {
+      id: 193,
+      english: 'You (f) will dream',
+      russian: 'Ты (ж.) будешь мечтать',
+      hebrew: 'תחלמי',
+      pronuncEng: 'takhalmi',
+      pronuncRus: 'тахальмИ',
+      category: 'paal'
+    },
+
+    {
+      id: 194,
+      english: 'He will dream',
+      russian: 'Он будет мечтать',
+      hebrew: 'יחלום',
+      pronuncEng: 'yakhalOm',
+      pronuncRus: 'яхалОм',
+      category: 'paal'
+    },
+
+    {
+      id: 195,
+      english: 'She will dream',
+      russian: 'Она будет мечтать',
+      hebrew: 'תחלום',
+      pronuncEng: 'takhalOm',
+      pronuncRus: 'тахалОм',
+      category: 'paal'
+    },
+
+    {
+      id: 196,
+      english: 'We will dream',
+      russian: 'Мы будем мечтать',
+      hebrew: 'נחלום',
+      pronuncEng: 'nakhalOm',
+      pronuncRus: 'нахалОм',
+      category: 'paal'
+    },
+
+    {
+      id: 197,
+      english: 'You (pl.) will dream',
+      russian: 'Вы будете мечтать',
+      hebrew: 'תחלמו',
+      pronuncEng: 'takhalmU',
+      pronuncRus: 'тахальмУ',
+      category: 'paal'
+    },
+
+    {
+      id: 198,
+      english: 'They will dream',
+      russian: 'Они будут мечтать',
+      hebrew: 'יחלמו',
+      pronuncEng: 'yakhalmU',
+      pronuncRus: 'яхальмУ',
+      category: 'paal'
+    },
+
+    {
+      id: 199,
+      english: 'Firstborn',
+      russian: 'Первенец, перворожденный',
+      hebrew: 'בכור',
+      pronuncEng: 'bkhor',
+      pronuncRus: 'бхор',
+      category: 'general'
+    },
+
+    {
+      id: 200,
+      english: 'Section, segment, part, expression, passage',
+      russian: 'Часть, выражение, словосочетание',
+      hebrew: 'קטע',
+      pronuncEng: 'kEta',
+      pronuncRus: 'кЕта',
+      category: 'general'
+    },
+
+    {
+      id: 201,
+      english: 'Symbol, sign (not "semel")',
+      russian: 'Символ, знак (но не эмблема)',
+      hebrew: 'סימן',
+      pronuncEng: 'simAn',
+      pronuncRus: 'симАн',
+      category: 'general'
+    },
+
+    {
+      id: 202,
       english: '',
       russian: '',
       hebrew: '',
       pronuncEng: '',
       pronuncRus: '',
       category: ''
-    },
-
-
-
+    }
   ]
 
 export default words
