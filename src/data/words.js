@@ -2011,13 +2011,304 @@ const words = [
 
     {
       id: 202,
+      english: 'nose',
+      russian: 'нос',
+      hebrew: 'אף',
+      pronuncEng: 'af',
+      pronuncRus: 'аф',
+      category: 'body'
+    },
+
+    {
+      id: 203,
+      english: 'ear',
+      russian: 'ухо',
+      hebrew: 'אוזן',
+      pronuncEng: 'Ozen',
+      pronuncRus: 'Озэн',
+      category: 'body'
+    },
+
+    {
+      id: 204,
+      english: 'neck',
+      russian: 'шея',
+      hebrew: 'צוואר',
+      pronuncEng: 'tzavAr',
+      pronuncRus: 'цавАр',
+      category: 'body'
+    },
+
+    {
+      id: 205,
+      english: 'tooth',
+      russian: 'зуб',
+      hebrew: 'שן',
+      pronuncEng: 'shen',
+      pronuncRus: 'шен',
+      category: 'body'
+    },
+
+    {
+      id: 206,
+      english: 'throat',
+      russian: 'горло',
+      hebrew: 'גרון',
+      pronuncEng: 'garOn',
+      pronuncRus: 'гарОн',
+      category: 'body'
+    },
+
+    {
+      id: 207,
+      english: 'stomach',
+      russian: 'живот',
+      hebrew: 'בטן',
+      pronuncEng: 'bEten',
+      pronuncRus: 'бЕтэн',
+      category: 'body'
+    },
+
+    {
+      id: 208,
+      english: 'back',
+      russian: 'спина',
+      hebrew: 'גב',
+      pronuncEng: 'gav',
+      pronuncRus: 'гав',
+      category: 'body'
+    },
+
+    {
+      id: 209,
+      english: 'finger',
+      russian: 'палец',
+      hebrew: 'אצבע',
+      pronuncEng: 'Etzba',
+      pronuncRus: 'Эцба',
+      category: 'body'
+    },
+
+    {
+      id: 210,
+      english: 'pain',
+      russian: 'боль',
+      hebrew: 'כאב',
+      pronuncEng: 'kaAv',
+      pronuncRus: 'каАв',
+      category: 'general'
+    },
+
+    {
+      id: 211,
+      english: 'pea',
+      russian: 'горох',
+      hebrew: 'אפונה',
+      pronuncEng: 'afunA',
+      pronuncRus: 'афунА',
+      category: 'grocery'
+    },
+
+    {
+      id: 212,
+      english: 'marrow, zucchini, courgette',
+      russian: 'кабачок',
+      hebrew: 'קישוא',
+      pronuncEng: 'kishU',
+      pronuncRus: 'кишУ',
+      category: 'grocery'
+    },
+
+    {
+      id: 213,
+      english: 'radish',
+      russian: 'редька или редис',
+      hebrew: 'צנון',
+      pronuncEng: 'tznon',
+      pronuncRus: 'цнон',
+      category: 'grocery'
+    },
+
+    {
+      id: 214,
+      english: 'pumpkin',
+      russian: 'тыква',
+      hebrew: 'דלעת',
+      pronuncEng: 'dlAat',
+      pronuncRus: 'длАат',
+      category: 'grocery'
+    },
+
+    {
+      id: 215,
+      english: 'cauliflower',
+      russian: 'цветная капуста',
+      hebrew: 'כרובית',
+      pronuncEng: 'kruvit',
+      pronuncRus: 'крувИт',
+      category: 'grocery'
+    },
+
+    {
+      id: 216,
+      english: 'lettuce, salad green',
+      russian: 'листовой салат',
+      hebrew: 'חסה',
+      pronuncEng: 'khAsa',
+      pronuncRus: 'хАса',
+      category: 'grocery'
+    },
+
+    {
+      id: 217,
+      english: 'pear',
+      russian: 'груша',
+      hebrew: 'אגס',
+      pronuncEng: 'agAs',
+      pronuncRus: 'агАс',
+      category: 'grocery'
+    },
+
+    {
+      id: 218,
+      english: 'grapes',
+      russian: 'виноград',
+      hebrew: 'ענבים',
+      pronuncEng: 'anavim',
+      pronuncRus: 'анавИм',
+      category: 'grocery'
+    },
+
+    {
+      id: 219,
+      english: 'beet',
+      russian: 'свёкла',
+      hebrew: 'שזיף',
+      pronuncEng: 'shazif',
+      pronuncRus: 'шазИф',
+      category: 'grocery'
+    },
+
+    {
+      id: 220,
+      english: 'fig',
+      russian: 'инжир, смоква, фига',
+      hebrew: 'תאנה',
+      pronuncEng: "te'enA",
+      pronuncRus: 'тэенА',
+      category: 'grocery'
+    },
+
+    {
+      id: 221,
+      english: 'healthy',
+      russian: 'здоровый',
+      hebrew: 'בריא',
+      pronuncEng: 'bari',
+      pronuncRus: 'барИ',
+      category: 'adjective'
+    },
+
+    {
+      id: 222,
+      english: 'female doctor',
+      russian: 'врач (ж.)',
+      hebrew: 'רופאה',
+      pronuncEng: "rof'a",
+      pronuncRus: "роф'а",
+      category: 'profession'
+    },
+
+    {
+      id: 223,
+      english: 'family doctor (fem.)',
+      russian: 'семейный доктор (ж.)',
+      hebrew: 'רופאת משפחה',
+      pronuncEng: 'rofAt mishpakhA',
+      pronuncRus: 'рофАт мишпахА',
+      category: 'profession'
+    },
+
+    {
+      id: 224,
+      english: 'dentist (m.)',
+      russian: 'стоматолог (м.)',
+      hebrew: 'רופא שיניים',
+      pronuncEng: 'rofe sheinAim',
+      pronuncRus: 'рофЭ шиинАим',
+      category: 'profession'
+    },
+
+    {
+      id: 225,
+      english: 'otolaryngologist',
+      russian: 'отоларинголог',
+      hebrew: 'רופא אא"ג',
+      pronuncEng: "rofe a'ag",
+      pronuncRus: 'рофЭ а-аг',
+      category: 'profession'
+    },
+
+    {
+      id: 226,
+      english: 'surgeon',
+      russian: 'хирург',
+      hebrew: 'מנתח',
+      pronuncEng: 'menatEakh',
+      pronuncRus: 'менатЭах',
+      category: 'profession'
+    },
+
+    {
+      id: 227,
+      english: 'dermatologist',
+      russian: 'дерматолог',
+      hebrew: 'רופא עור',
+      pronuncEng: 'rofe or',
+      pronuncRus: 'рофэ ор',
+      category: 'profession'
+    },
+
+    {
+      id: 228,
+      english: 'smartphone',
+      russian: 'смартфон',
+      hebrew: 'טלפון חכם',
+      pronuncEng: 'telefon khakhAm',
+      pronuncRus: 'тэлэфон хахАм',
+      category: 'general'
+    },
+
+    {
+      id: 229,
       english: '',
       russian: '',
       hebrew: '',
       pronuncEng: '',
       pronuncRus: '',
       category: ''
-    }
+    },
+
+    {
+      id: 230,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 231,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
   ]
 
 export default words
