@@ -2011,8 +2011,8 @@ const words = [
 
     {
       id: 202,
-      english: 'nose',
-      russian: 'нос',
+      english: 'Nose',
+      russian: 'Нос',
       hebrew: 'אף',
       pronuncEng: 'af',
       pronuncRus: 'аф',
@@ -2021,8 +2021,8 @@ const words = [
 
     {
       id: 203,
-      english: 'ear',
-      russian: 'ухо',
+      english: 'Ear',
+      russian: 'Ухо',
       hebrew: 'אוזן',
       pronuncEng: 'Ozen',
       pronuncRus: 'Озэн',
@@ -2031,8 +2031,8 @@ const words = [
 
     {
       id: 204,
-      english: 'neck',
-      russian: 'шея',
+      english: 'Neck',
+      russian: 'Шея',
       hebrew: 'צוואר',
       pronuncEng: 'tzavAr',
       pronuncRus: 'цавАр',
@@ -2041,8 +2041,8 @@ const words = [
 
     {
       id: 205,
-      english: 'tooth',
-      russian: 'зуб',
+      english: 'Tooth',
+      russian: 'Зуб',
       hebrew: 'שן',
       pronuncEng: 'shen',
       pronuncRus: 'шен',
@@ -2051,8 +2051,8 @@ const words = [
 
     {
       id: 206,
-      english: 'throat',
-      russian: 'горло',
+      english: 'Throat',
+      russian: 'Горло',
       hebrew: 'גרון',
       pronuncEng: 'garOn',
       pronuncRus: 'гарОн',
@@ -2061,8 +2061,8 @@ const words = [
 
     {
       id: 207,
-      english: 'stomach',
-      russian: 'живот',
+      english: 'Stomach',
+      russian: 'Живот',
       hebrew: 'בטן',
       pronuncEng: 'bEten',
       pronuncRus: 'бЕтэн',
@@ -2071,8 +2071,8 @@ const words = [
 
     {
       id: 208,
-      english: 'back',
-      russian: 'спина',
+      english: 'Back',
+      russian: 'Спина',
       hebrew: 'גב',
       pronuncEng: 'gav',
       pronuncRus: 'гав',
@@ -2081,8 +2081,8 @@ const words = [
 
     {
       id: 209,
-      english: 'finger',
-      russian: 'палец',
+      english: 'Finger',
+      russian: 'Палец',
       hebrew: 'אצבע',
       pronuncEng: 'Etzba',
       pronuncRus: 'Эцба',
@@ -2091,18 +2091,18 @@ const words = [
 
     {
       id: 210,
-      english: 'pain',
-      russian: 'боль',
+      english: 'Pain',
+      russian: 'Боль',
       hebrew: 'כאב',
-      pronuncEng: 'kaAv',
-      pronuncRus: 'каАв',
+      pronuncEng: 'keEv',
+      pronuncRus: 'кэЕв',
       category: 'general'
     },
 
     {
       id: 211,
-      english: 'pea',
-      russian: 'горох',
+      english: 'Pea',
+      russian: 'Горох',
       hebrew: 'אפונה',
       pronuncEng: 'afunA',
       pronuncRus: 'афунА',
@@ -2111,8 +2111,8 @@ const words = [
 
     {
       id: 212,
-      english: 'marrow, zucchini, courgette',
-      russian: 'кабачок',
+      english: 'Marrow, zucchini, courgette',
+      russian: 'Кабачок',
       hebrew: 'קישוא',
       pronuncEng: 'kishU',
       pronuncRus: 'кишУ',
@@ -2121,8 +2121,8 @@ const words = [
 
     {
       id: 213,
-      english: 'radish',
-      russian: 'редька или редис',
+      english: 'Radish',
+      russian: 'Редька или редис',
       hebrew: 'צנון',
       pronuncEng: 'tznon',
       pronuncRus: 'цнон',
@@ -2131,8 +2131,8 @@ const words = [
 
     {
       id: 214,
-      english: 'pumpkin',
-      russian: 'тыква',
+      english: 'Pumpkin',
+      russian: 'Тыква',
       hebrew: 'דלעת',
       pronuncEng: 'dlAat',
       pronuncRus: 'длАат',
@@ -2141,8 +2141,8 @@ const words = [
 
     {
       id: 215,
-      english: 'cauliflower',
-      russian: 'цветная капуста',
+      english: 'Cauliflower',
+      russian: 'Цветная капуста',
       hebrew: 'כרובית',
       pronuncEng: 'kruvit',
       pronuncRus: 'крувИт',
@@ -2151,8 +2151,8 @@ const words = [
 
     {
       id: 216,
-      english: 'lettuce, salad green',
-      russian: 'листовой салат',
+      english: 'Lettuce, salad green',
+      russian: 'Листовой салат',
       hebrew: 'חסה',
       pronuncEng: 'khAsa',
       pronuncRus: 'хАса',
@@ -2161,8 +2161,8 @@ const words = [
 
     {
       id: 217,
-      english: 'pear',
-      russian: 'груша',
+      english: 'Pear',
+      russian: 'Груша',
       hebrew: 'אגס',
       pronuncEng: 'agAs',
       pronuncRus: 'агАс',
@@ -2171,8 +2171,8 @@ const words = [
 
     {
       id: 218,
-      english: 'grapes',
-      russian: 'виноград',
+      english: 'Grapes',
+      russian: 'Виноград',
       hebrew: 'ענבים',
       pronuncEng: 'anavim',
       pronuncRus: 'анавИм',
@@ -2181,8 +2181,8 @@ const words = [
 
     {
       id: 219,
-      english: 'beet',
-      russian: 'свёкла',
+      english: 'Beet',
+      russian: 'Свёкла',
       hebrew: 'שזיף',
       pronuncEng: 'shazif',
       pronuncRus: 'шазИф',
@@ -2191,8 +2191,8 @@ const words = [
 
     {
       id: 220,
-      english: 'fig',
-      russian: 'инжир, смоква, фига',
+      english: 'Fig',
+      russian: 'Инжир, смоква, фига',
       hebrew: 'תאנה',
       pronuncEng: "te'enA",
       pronuncRus: 'тэенА',
@@ -2201,8 +2201,8 @@ const words = [
 
     {
       id: 221,
-      english: 'healthy',
-      russian: 'здоровый',
+      english: 'Healthy',
+      russian: 'Здоровый',
       hebrew: 'בריא',
       pronuncEng: 'bari',
       pronuncRus: 'барИ',
@@ -2211,8 +2211,8 @@ const words = [
 
     {
       id: 222,
-      english: 'female doctor',
-      russian: 'врач (ж.)',
+      english: 'Female doctor',
+      russian: 'Врач (ж.)',
       hebrew: 'רופאה',
       pronuncEng: "rof'a",
       pronuncRus: "роф'а",
@@ -2221,8 +2221,8 @@ const words = [
 
     {
       id: 223,
-      english: 'family doctor (fem.)',
-      russian: 'семейный доктор (ж.)',
+      english: 'Family doctor (fem.)',
+      russian: 'Семейный доктор (ж.)',
       hebrew: 'רופאת משפחה',
       pronuncEng: 'rofAt mishpakhA',
       pronuncRus: 'рофАт мишпахА',
@@ -2231,8 +2231,8 @@ const words = [
 
     {
       id: 224,
-      english: 'dentist (m.)',
-      russian: 'стоматолог (м.)',
+      english: 'Dentist (m.)',
+      russian: 'Стоматолог (м.)',
       hebrew: 'רופא שיניים',
       pronuncEng: 'rofe sheinAim',
       pronuncRus: 'рофЭ шиинАим',
@@ -2241,8 +2241,8 @@ const words = [
 
     {
       id: 225,
-      english: 'otolaryngologist',
-      russian: 'отоларинголог',
+      english: 'Otolaryngologist',
+      russian: 'Отоларинголог',
       hebrew: 'רופא אא"ג',
       pronuncEng: "rofe a'ag",
       pronuncRus: 'рофЭ а-аг',
@@ -2251,8 +2251,8 @@ const words = [
 
     {
       id: 226,
-      english: 'surgeon',
-      russian: 'хирург',
+      english: 'Surgeon',
+      russian: 'Хирург',
       hebrew: 'מנתח',
       pronuncEng: 'menatEakh',
       pronuncRus: 'менатЭах',
@@ -2261,8 +2261,8 @@ const words = [
 
     {
       id: 227,
-      english: 'dermatologist',
-      russian: 'дерматолог',
+      english: 'Dermatologist',
+      russian: 'Дерматолог',
       hebrew: 'רופא עור',
       pronuncEng: 'rofe or',
       pronuncRus: 'рофэ ор',
@@ -2271,8 +2271,8 @@ const words = [
 
     {
       id: 228,
-      english: 'smartphone',
-      russian: 'смартфон',
+      english: 'Smartphone',
+      russian: 'Смартфон',
       hebrew: 'טלפון חכם',
       pronuncEng: 'telefon khakhAm',
       pronuncRus: 'тэлэфон хахАм',
@@ -2281,16 +2281,56 @@ const words = [
 
     {
       id: 229,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Channel',
+      russian: 'Канал',
+      hebrew: 'ערוץ',
+      pronuncEng: 'arUtz',
+      pronuncRus: 'арУц',
+      category: 'general'
     },
 
     {
       id: 230,
+      english: 'Never',
+      russian: 'Никогда',
+      hebrew: 'עף פעם',
+      pronuncEng: 'af paAm',
+      pronuncRus: 'аф паАм',
+      category: 'adverb'
+    },
+
+    {
+      id: 231,
+      english: 'Driver license',
+      russian: 'Водительские права',
+      hebrew: 'רישיון נהיגה',
+      pronuncEng: 'rishyUn nehigA',
+      pronuncRus: 'ришьЮн нэхигА',
+      category: 'general'
+    },
+
+    {
+      id: 232,
+      english: 'Secret',
+      russian: 'Секрет',
+      hebrew: 'סוד',
+      pronuncEng: 'sod',
+      pronuncRus: 'сод',
+      category: 'general'
+    },
+
+    {
+      id: 233,
+      english: 'In general',
+      russian: 'В основном',
+      hebrew: 'בעיקר',
+      pronuncEng: "be'ikAr",
+      pronuncRus: 'бэикАр',
+      category: 'general'
+    },
+
+    {
+      id: 234,
       english: '',
       russian: '',
       hebrew: '',
@@ -2300,7 +2340,7 @@ const words = [
     },
 
     {
-      id: 231,
+      id: 235,
       english: '',
       russian: '',
       hebrew: '',
