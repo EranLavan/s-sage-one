@@ -2331,16 +2331,26 @@ const words = [
 
     {
       id: 234,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Soft, fluffy',
+      russian: 'Мягкий, пушистый',
+      hebrew: 'רך',
+      pronuncEng: 'rakh',
+      pronuncRus: 'рах',
+      category: 'adjective'
     },
 
     {
       id: 235,
+      english: 'Less',
+      russian: 'Меньше',
+      hebrew: 'פחות',
+      pronuncEng: 'pakhOt',
+      pronuncRus: 'пахОт',
+      category: 'adverb'
+    },
+
+    {
+      id: 236,
       english: '',
       russian: '',
       hebrew: '',
