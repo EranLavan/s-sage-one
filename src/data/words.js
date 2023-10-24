@@ -2351,6 +2351,76 @@ const words = [
 
     {
       id: 236,
+      english: 'lecture, talk, discourse',
+      russian: '',
+      hebrew: 'הרצאה',
+      pronuncEng: 'hartzaA',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 237,
+      english: 'season',
+      russian: '',
+      hebrew: 'עונה',
+      pronuncEng: 'onA',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 238,
+      english: 'vacation, freedom',
+      russian: '',
+      hebrew: 'חופשה',
+      pronuncEng: 'khufshA',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 239,
+      english: 'seasons of the year',
+      russian: '',
+      hebrew: 'עונות השנה',
+      pronuncEng: 'onOt ha-shanA',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 240,
+      english: 'exactly',
+      russian: '',
+      hebrew: 'בדיוק',
+      pronuncEng: 'bediyUk',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 241,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 242,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 243,
       english: '',
       russian: '',
       hebrew: '',
