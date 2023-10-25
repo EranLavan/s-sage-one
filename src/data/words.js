@@ -2326,7 +2326,7 @@ const words = [
       hebrew: 'בעיקר',
       pronuncEng: "be'ikAr",
       pronuncRus: 'бэикАр',
-      category: 'general'
+      category: 'adverb'
     },
 
     {
@@ -2351,66 +2351,186 @@ const words = [
 
     {
       id: 236,
-      english: 'lecture, talk, discourse',
-      russian: '',
+      english: 'Lecture, talk, discourse',
+      russian: 'Лекция, обсуждение',
       hebrew: 'הרצאה',
       pronuncEng: 'hartzaA',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'харцаА',
+      category: 'general'
     },
 
     {
       id: 237,
-      english: 'season',
-      russian: '',
+      english: 'Season',
+      russian: 'Сезон, время года',
       hebrew: 'עונה',
       pronuncEng: 'onA',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'онА',
+      category: 'time'
     },
 
     {
       id: 238,
-      english: 'vacation, freedom',
-      russian: '',
+      english: 'Vacation, freedom',
+      russian: 'Отпуск, каникулы',
       hebrew: 'חופשה',
       pronuncEng: 'khufshA',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'хуфшА',
+      category: 'general'
     },
 
     {
       id: 239,
-      english: 'seasons of the year',
-      russian: '',
+      english: 'Seasons of the year',
+      russian: 'Времена года (словосочетание)',
       hebrew: 'עונות השנה',
       pronuncEng: 'onOt ha-shanA',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'онОт а-шанА',
+      category: 'time'
     },
 
     {
       id: 240,
-      english: 'exactly',
-      russian: '',
+      english: 'Exactly',
+      russian: 'Точно, ровно, в точности',
       hebrew: 'בדיוק',
       pronuncEng: 'bediyUk',
-      pronuncRus: '',
-      category: ''
+      pronuncRus: 'бедиЮк',
+      category: 'adverb'
     },
 
     {
       id: 241,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'On time',
+      russian: 'Вовремя',
+      hebrew: 'בזמן',
+      pronuncEng: 'be-zmAn',
+      pronuncRus: 'бе-зман',
+      category: 'adverb'
     },
 
     {
       id: 242,
+      english: 'Pool',
+      russian: 'Бассейн',
+      hebrew: 'בריכה',
+      pronuncEng: 'brikhA',
+      pronuncRus: 'брихА',
+      category: 'general'
+    },
+
+    {
+      id: 243,
+      english: 'Test, exam',
+      russian: 'Тест, контрольная работа',
+      hebrew: 'מבחן',
+      pronuncEng: 'mivkhAn',
+      pronuncRus: 'мивхАн',
+      category: 'general'
+    },
+
+    {
+      id: 244,
+      english: 'Review, examination, control',
+      russian: 'Проверка',
+      hebrew: 'ביקורת',
+      pronuncEng: 'bikOret',
+      pronuncRus: 'бикОрэт',
+      category: 'general'
+    },
+
+    {
+      id: 245,
+      english: 'Gardener',
+      russian: 'Садовник',
+      hebrew: 'גנן',
+      pronuncEng: 'ganAn',
+      pronuncRus: 'ганАн',
+      category: 'profession'
+    },
+
+    {
+      id: 246,
+      english: 'Plan, program',
+      russian: 'План, программа',
+      hebrew: 'תוכנית',
+      pronuncEng: 'tokhnit',
+      pronuncRus: 'тохнИт',
+      category: 'general'
+    },
+
+    {
+      id: 247,
+      english: 'Scrambled egg',
+      russian: 'Омлет, взболтанное яйцо',
+      hebrew: 'ביצה מקושקשת',
+      pronuncEng: 'beitzA mekushkEshet',
+      pronuncRus: 'бейцА мекушкЕшет',
+      category: 'grocery'
+    },
+
+    {
+      id: 248,
+      english: 'Warrior',
+      russian: 'Воин',
+      hebrew: 'לוחם',
+      pronuncEng: 'lOkhem',
+      pronuncRus: 'лОхэм',
+      category: 'general'
+    },
+
+    {
+      id: 249,
+      english: 'To visit (inf.)',
+      russian: 'посещать (инфинитив)',
+      hebrew: 'לבקר',
+      pronuncEng: 'levakEr',
+      pronuncRus: 'левакЭр',
+      category: 'piel'
+    },
+
+    {
+      id: 250,
+      english: 'I/you visit (sing. masc.)',
+      russian: 'Посещать (1 лицо, ед.ч, м.р.)',
+      hebrew: 'מבקר',
+      pronuncEng: 'mevakEr',
+      pronuncRus: 'мевакЭр',
+      category: 'piel'
+    },
+
+    {
+      id: 251,
+      english: 'He visited',
+      russian: 'Он посещал/посетил',
+      hebrew: 'בקר',
+      pronuncEng: 'bikEr',
+      pronuncRus: 'бикЭр',
+      category: 'piel'
+    },
+
+    {
+      id: 252,
+      english: 'I visited',
+      russian: 'Я посещал/посетил',
+      hebrew: 'בקרתי',
+      pronuncEng: 'bikArti',
+      pronuncRus: 'бикАрти',
+      category: 'piel'
+    },
+
+    {
+      id: 253,
+      english: 'I will visit',
+      russian: 'Я буду посещать',
+      hebrew: 'אבקר',
+      pronuncEng: 'avakEr',
+      pronuncRus: 'авакЭр',
+      category: 'piel'
+    },
+
+    {
+      id: 254,
       english: '',
       russian: '',
       hebrew: '',
@@ -2420,7 +2540,7 @@ const words = [
     },
 
     {
-      id: 243,
+      id: 255,
       english: '',
       russian: '',
       hebrew: '',
@@ -2429,6 +2549,225 @@ const words = [
       category: ''
     },
 
+    {
+      id: 256,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 257,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 258,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 259,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 260,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 261,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 262,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 263,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 264,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 265,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 266,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 267,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 268,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 269,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 270,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 271,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 272,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 273,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 274,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 275,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 276,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 277,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
   ]
 
 export default words

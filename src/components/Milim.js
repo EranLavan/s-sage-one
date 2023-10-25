@@ -157,8 +157,20 @@ function Milim() {
 
       alreadyUsedWords.push(randomUniqueNumber);
 
-      // FIX THE BUG!!: if i used all the words and click "skip" button, i overload the page (gpt says it's called
-      // a "performance bottleneck" but i'm not sure that it's it)
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!      
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!      
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // BUG BUG BUG BUG BUG BUG BUG BUG HERE !!!!!!!!!!!!!!!!!
+      // FIX THE BUG!!: if i used all the words and click "skip" button, i overload the page
+      // a "performance bottleneck"? but i'm not sure that it's it
   }
 
   const stopQuiz = () => {
