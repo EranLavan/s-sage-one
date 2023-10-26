@@ -2531,122 +2531,122 @@ const words = [
 
     {
       id: 254,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To fly (inf.)',
+      russian: 'Летать (инфинитив)',
+      hebrew: 'לטוס',
+      pronuncEng: 'latUs',
+      pronuncRus: 'латУс',
+      category: 'paal'
     },
 
     {
       id: 255,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I/you fly (masc)',
+      russian: 'Летать (ед.ч., м.р.)',
+      hebrew: 'טס',
+      pronuncEng: 'tas',
+      pronuncRus: 'тас',
+      category: 'paal'
     },
 
     {
       id: 256,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I flied',
+      russian: '(Я) летал',
+      hebrew: 'טסתי',
+      pronuncEng: 'tAsti',
+      pronuncRus: 'тАсти',
+      category: 'paal'
     },
 
     {
       id: 257,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I will fly',
+      russian: 'Буду летать',
+      hebrew: 'אטוס',
+      pronuncEng: 'atUs',
+      pronuncRus: 'атУс',
+      category: 'paal'
     },
 
     {
       id: 258,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Moon',
+      russian: 'Луна',
+      hebrew: 'חושך',
+      pronuncEng: 'khOshekh',
+      pronuncRus: 'хОшех',
+      category: 'general'
     },
 
     {
       id: 259,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'One day (single word)',
+      russian: 'Один день (одним словом)',
+      hebrew: 'יממה',
+      pronuncEng: 'yemamA',
+      pronuncRus: 'йемамА',
+      category: 'general'
     },
 
     {
       id: 260,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Almost',
+      russian: 'Почти',
+      hebrew: 'כמעט',
+      pronuncEng: "kim'At",
+      pronuncRus: "ким'Ат",
+      category: 'adverb'
     },
 
     {
       id: 261,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Protein',
+      russian: 'Белок',
+      hebrew: 'חלבון',
+      pronuncEng: 'khalvOn',
+      pronuncRus: 'хальвОн',
+      category: 'grocery'
     },
 
     {
       id: 262,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Carbohydrate',
+      russian: 'Углевод',
+      hebrew: 'פחמימה',
+      pronuncEng: 'pakhmimA',
+      pronuncRus: 'пахмимА',
+      category: 'grocery'
     },
 
     {
       id: 263,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Reception time',
+      russian: 'Время приёма',
+      hebrew: 'קבלת קהל',
+      pronuncEng: 'kabalAt kahAl',
+      pronuncRus: 'кабалАт кахаль',
+      category: 'general'
     },
 
     {
       id: 264,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Working hours',
+      russian: 'Рабочие часы',
+      hebrew: 'שעות פעילות',
+      pronuncEng: 'shaOt peilUt',
+      pronuncRus: 'шаОт пэилУт',
+      category: 'general'
     },
 
     {
       id: 265,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Buckwheat',
+      russian: 'Гречка',
+      hebrew: 'כוסמת',
+      pronuncEng: 'kusEmet',
+      pronuncRus: 'кусЭмет',
+      category: 'grocery'
     },
 
     {
