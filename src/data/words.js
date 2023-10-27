@@ -2324,6 +2324,7 @@ const words = [
       english: 'In general',
       russian: 'В основном',
       hebrew: 'בעיקר',
+      //also could be בכללי (bekhlali`)
       pronuncEng: "be'ikAr",
       pronuncRus: 'бэикАр',
       category: 'adverb'
@@ -2651,52 +2652,52 @@ const words = [
 
     {
       id: 266,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Best regards, ...',
+      russian: 'C уважением, ...',
+      hebrew: 'בברכה',
+      pronuncEng: 'bibrakhA',
+      pronuncRus: 'бибрахА',
+      category: 'general'
     },
 
     {
       id: 267,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To worry (inf.)',
+      russian: 'Волноваться, переживать (инфинитив)',
+      hebrew: 'לדאוג',
+      pronuncEng: "lid'Og",
+      pronuncRus: "лид'Ог",
+      category: 'paal'
     },
 
     {
       id: 268,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I/You worry (masc)',
+      russian: 'Волноваться, переживать (ед.ч., м.р)',
+      hebrew: 'דואג',
+      pronuncEng: 'doEg',
+      pronuncRus: 'доЭг',
+      category: 'paal'
     },
 
     {
       id: 269,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'He worried',
+      russian: 'Он волновался, он переживал',
+      hebrew: 'דאג',
+      pronuncEng: "da'Ag",
+      pronuncRus: 'даАг',
+      category: 'paal'
     },
 
     {
       id: 270,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I will worry',
+      russian: 'Я буду волноваться/переживать',
+      hebrew: 'אדאג',
+      pronuncEng: "ed'Ag",
+      pronuncRus: "эд'Аг",
+      category: 'paal'
     },
 
     {
