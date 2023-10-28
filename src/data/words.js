@@ -2702,56 +2702,86 @@ const words = [
 
     {
       id: 271,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To increase / to expand (infinitive)',
+      russian: 'Увеличить (инфинитив)',
+      hebrew: 'להגדיל',
+      pronuncEng: 'lehagdil',
+      pronuncRus: 'леhагдИль',
+      category: 'hifil'
     },
 
     {
       id: 272,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I/You increase/expand (masc.)',
+      russian: 'Увеличить (наст.вр., ед.ч., м.р.)',
+      hebrew: 'מגדיל',
+      pronuncEng: 'magdil',
+      pronuncRus: 'магдИль',
+      category: 'hifil'
     },
 
     {
       id: 273,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I increased/expanded',
+      russian: '(Я) увеличил',
+      hebrew: 'הגדלתי',
+      pronuncEng: 'higdAlti',
+      pronuncRus: 'хигдАльти',
+      category: 'hifil'
     },
 
     {
       id: 274,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'He increased/expanded',
+      russian: '(Он) увеличил',
+      hebrew: 'הגדיל',
+      pronuncEng: 'higdil',
+      pronuncRus: 'хигдИль',
+      category: 'hifil'
     },
 
     {
       id: 275,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I will increase/expand',
+      russian: 'Я буду увеличивать',
+      hebrew: 'אגדיל',
+      pronuncEng: 'agdil',
+      pronuncRus: 'агдИль',
+      category: 'hifil'
     },
 
     {
       id: 276,
+      english: '...am being increased',
+      russian: 'Я увеличиваюсь',
+      hebrew: 'מוגדל',
+      pronuncEng: 'mugdAl',
+      pronuncRus: 'мугдАль',
+      category: 'hufal'
+    },
+
+    {
+      id: 277,
+      english: 'He was increased/expanded',
+      russian: 'Он был увеличен',
+      hebrew: 'הוגדל',
+      pronuncEng: 'hugdal',
+      pronuncRus: 'хугдАль',
+      category: 'hufal'
+    },
+
+    {
+      id: 278,
+      english: 'He will be increased/expanded',
+      russian: 'Он будет увеличен',
+      hebrew: 'יוגדל',
+      pronuncEng: 'yugdAl',
+      pronuncRus: 'йугдАль',
+      category: 'hufal'
+    },
+
+    {
+      id: 279,
       english: '',
       russian: '',
       hebrew: '',
@@ -2760,15 +2790,7 @@ const words = [
       category: ''
     },
 
-    {
-      id: 277,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
-    },
+
   ]
 
 export default words
