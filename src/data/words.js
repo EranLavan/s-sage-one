@@ -2782,6 +2782,56 @@ const words = [
 
     {
       id: 279,
+      english: 'To be sorry, to regret (inf.)',
+      russian: 'Извиняться (инфинитив)',
+      hebrew: 'להצטער',
+      pronuncEng: 'lehitztaEr',
+      pronuncRus: 'лехицтаЭр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 280,
+      english: 'To be sorry (sing. masc. present)',
+      russian: 'Извиняться (ед.ч., м.р., наст.вр)',
+      hebrew: 'מצטער',
+      pronuncEng: 'mitztaEr',
+      pronuncRus: 'мицтаЭр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 281,
+      english: 'To be sorry (plur. masc. present)',
+      russian: 'Извиняться (мн.ч., м.р., наст.вр)',
+      hebrew: 'מצטערים',
+      pronuncEng: 'mitztaarim',
+      pronuncRus: 'мицтаарИм',
+      category: 'hitpael'
+    },
+
+    {
+      id: 282,
+      english: 'I was sorry',
+      russian: '(Я) извинялся',
+      hebrew: 'הצטערתי',
+      pronuncEng: 'hitztaArti',
+      pronuncRus: 'хицтаАрти',
+      category: 'hitpael'
+    },
+
+    {
+      id: 283,
+      english: 'He was sorry',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: 'hitpael'
+    },
+
+    {
+      id: 284,
       english: '',
       russian: '',
       hebrew: '',
@@ -2790,6 +2840,145 @@ const words = [
       category: ''
     },
 
+    {
+      id: 285,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 286,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 287,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 288,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 289,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 290,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 291,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 292,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 293,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 294,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 295,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 296,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 297,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 298,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
 
   ]
 
