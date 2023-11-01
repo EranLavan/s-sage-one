@@ -2823,145 +2823,355 @@ const words = [
     {
       id: 283,
       english: 'He was sorry',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
+      russian: '(Он) извинялся',
+      hebrew: 'הצטער',
+      pronuncEng: 'hitztaEr',
+      pronuncRus: 'хицтаЭр',
       category: 'hitpael'
     },
 
     {
       id: 284,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'I will be sorry',
+      russian: '(Я) буду извиняться',
+      hebrew: 'אצטער',
+      pronuncEng: 'etztaEr',
+      pronuncRus: 'эцтаЭр',
+      category: 'hitpael'
     },
 
     {
       id: 285,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Pencil case',
+      russian: 'Пенал',
+      hebrew: 'קלמר',
+      pronuncEng: 'kalmAr',
+      pronuncRus: 'кальмАр',
+      category: 'general'
     },
 
     {
       id: 286,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Chimney',
+      russian: 'Труба, дымоход',
+      hebrew: 'ארובה',
+      pronuncEng: 'aruvA',
+      pronuncRus: 'арувА',
+      category: 'general'
     },
 
     {
       id: 287,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'A chance meeting',
+      russian: 'Случайная встреча',
+      hebrew: 'פגישה מקרית',
+      pronuncEng: 'pgishA mikrit',
+      pronuncRus: 'пгишА микрИт',
+      category: 'general'
     },
 
     {
       id: 288,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Quiet, stillness, tranquility',
+      russian: 'Тишина, спокойствие',
+      hebrew: 'שקט',
+      pronuncEng: 'shEket',
+      pronuncRus: 'шЕкет',
+      category: 'general'
     },
 
     {
       id: 289,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Appetite',
+      russian: 'Аппетит',
+      hebrew: 'תאבון',
+      pronuncEng: 'teavOn',
+      pronuncRus: 'тэавОн',
+      category: 'general'
     },
 
     {
       id: 290,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Rest, relaxing (noun)',
+      russian: 'Отдых',
+      hebrew: 'מנוחה',
+      pronuncEng: 'menukhA',
+      pronuncRus: 'менухА',
+      category: 'general'
     },
 
     {
       id: 291,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Runny nose',
+      russian: 'Насморк',
+      hebrew: 'נזלת',
+      pronuncEng: 'nazElet',
+      pronuncRus: 'назЭлет',
+      category: 'general'
     },
 
     {
       id: 292,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Asthma',
+      russian: 'Астма',
+      hebrew: 'קצרת',
+      pronuncEng: 'katzEret',
+      pronuncRus: 'кацЕрет',
+      category: 'general'
     },
 
     {
       id: 293,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Wide, broad',
+      russian: 'Широкий',
+      hebrew: 'רחב',
+      pronuncEng: 'rakhAv',
+      pronuncRus: 'рахАв',
+      category: 'adjective'
     },
 
     {
       id: 294,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Charming',
+      russian: 'Очаровательный',
+      hebrew: 'מקסים',
+      pronuncEng: 'maksim',
+      pronuncRus: 'максИм',
+      category: 'adjective'
     },
 
     {
       id: 295,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'View, scenery',
+      russian: 'Вид, пейзаж',
+      hebrew: 'נוף',
+      pronuncEng: 'nof',
+      pronuncRus: 'ноф',
+      category: 'general'
     },
 
     {
       id: 296,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Trouble, woe',
+      russian: 'Несчастье, беда',
+      hebrew: 'צרה',
+      pronuncEng: 'tzara',
+      pronuncRus: 'царА',
+      category: 'general'
     },
 
     {
       id: 297,
+      english: 'Narrow (but not razE)',
+      russian: 'Узкий (не разЭ)',
+      hebrew: 'צר',
+      pronuncEng: 'tzar',
+      pronuncRus: 'цар',
+      category: 'adjective'
+    },
+
+    {
+      id: 298,
+      english: 'Preferable',
+      russian: 'Предпочтительный',
+      hebrew: 'עדיף',
+      pronuncEng: 'adif',
+      pronuncRus: 'адИф',
+      category: 'adjective'
+    },
+
+    {
+      id: 299,
+      english: 'Umbrella',
+      russian: 'Зонтик',
+      hebrew: 'מטרייה',
+      pronuncEng: 'mitriyA',
+      pronuncRus: 'митриЯ',
+      category: 'general'
+    },
+    
+    {
+      id: 300,
+      english: 'Era, period',
+      russian: 'Эра, период',
+      hebrew: 'תקופה',
+      pronuncEng: 'tkufA',
+      pronuncRus: 'ткуфА',
+      category: 'general'
+    },
+
+    {
+      id: 301,
+      english: 'Believe (sing masc present)',
+      russian: 'Верить (ед.ч., м.р., наст.вр.)',
+      hebrew: 'מאמין',
+      pronuncEng: 'meamin',
+      pronuncRus: 'мэамИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 302,
+      english: 'High quality, qualitative',
+      russian: 'Высококлассный, качественный',
+      hebrew: 'איכותי',
+      pronuncEng: 'eikhuti',
+      pronuncRus: 'эйхутИ',
+      category: 'adjective'
+    },
+
+    {
+      id: 303,
+      english: 'Science',
+      russian: 'Наука',
+      hebrew: 'מדע',
+      pronuncEng: 'madA',
+      pronuncRus: 'мадА',
+      category: 'adjective'
+    },
+
+    {
+      id: 304,
+      english: 'Presentation, performance',
+      russian: 'Представление, презентация',
+      hebrew: 'הצגה',
+      pronuncEng: 'hatzagA',
+      pronuncRus: 'хацагА',
+      category: 'general'
+    },
+
+    {
+      id: 305,
+      english: 'Volunteer',
+      russian: 'Волонтёр, доброволец',
+      hebrew: 'מתנדב',
+      pronuncEng: 'mitnadEv',
+      pronuncRus: 'митнадЭв',
+      category: 'general'
+    },
+
+    {
+      id: 306,
+      english: 'To hang out (singular present)',
+      russian: 'Проводить время',
+      hebrew: 'מבלה',
+      pronuncEng: 'mevalE',
+      pronuncRus: 'мевалЕ',
+      category: 'piel'
+    },
+
+    {
+      id: 307,
+      english: 'To arrive (sing masc present)',
+      russian: 'Прибывать (наст.вр., м.р., ед.ч.)',
+      hebrew: 'מגיע',
+      pronuncEng: 'magia',
+      pronuncRus: 'магИа',
+      category: 'hifil'
+    },
+
+    {
+      id: 308,
+      english: 'Suitcase',
+      russian: 'Чемодан',
+      hebrew: 'מזוודה',
+      pronuncEng: 'mizvadA',
+      pronuncRus: 'мизвадА',
+      category: 'general'
+    },
+
+    {
+      id: 309,
+      english: 'Pastry',
+      russian: 'Выпечка',
+      hebrew: 'מאפה',
+      pronuncEng: "ma'afE",
+      pronuncRus: 'маафЭ',
+      category: 'grocery'
+    },
+
+    {
+      id: 310,
+      english: 'To believe, to trust (inf.)',
+      russian: 'Доверять (инфинитив)',
+      hebrew: 'להאמין',
+      pronuncEng: 'lehaamin',
+      pronuncRus: 'лехаамИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 311,
+      english: '(I) believed, (I) trusted',
+      russian: '(Я) доверял',
+      hebrew: 'האמנתי',
+      pronuncEng: 'heemAnti',
+      pronuncRus: 'хэемАнти',
+      category: 'hifil'
+    },
+
+    {
+      id: 312,
+      english: '(He) believed, (he) trusted',
+      russian: '(Он) доверял',
+      hebrew: 'האמין',
+      pronuncEng: 'heemin',
+      pronuncRus: 'хээмИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 313,
+      english: 'I will believe, I will trust',
+      russian: '(Я) буду доверять',
+      hebrew: 'אאמין',
+      pronuncEng: 'aamin',
+      pronuncRus: 'аамИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 314,
+      english: 'To hang out (infinitive)',
+      russian: 'Проводить время (инфинитив)',
+      hebrew: 'לבלות',
+      pronuncEng: 'levalOt',
+      pronuncRus: 'левалОт',
+      category: 'piel'
+    },
+
+    {
+      id: 315,
+      english: '(I) was hanging out',
+      russian: '(Я) проводил время',
+      hebrew: 'בליתי',
+      pronuncEng: 'biliti',
+      pronuncRus: 'билИти',
+      category: 'piel'
+    },
+
+    {
+      id: 316,
+      english: '(He) was hanging out',
+      russian: '(Он) проводил время',
+      hebrew: 'בלה',
+      pronuncEng: 'bilA',
+      pronuncRus: 'билА',
+      category: 'piel'
+    },
+
+    {
+      id: 317,
+      english: 'I will hang out',
+      russian: '(Я) буду проводить время',
+      hebrew: 'אבלה',
+      pronuncEng: 'avalE',
+      pronuncRus: 'авалЕ',
+      category: 'piel'
+    },
+
+    {
+      id: 318,
       english: '',
       russian: '',
       hebrew: '',
@@ -2970,15 +3180,8 @@ const words = [
       category: ''
     },
 
-    {
-      id: 298,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
-    },
+
+
 
   ]
 
