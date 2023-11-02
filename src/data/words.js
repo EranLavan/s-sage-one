@@ -3172,6 +3172,286 @@ const words = [
 
     {
       id: 318,
+      english: 'Relationship',
+      russian: 'Отношения',
+      hebrew: 'מערכת יחסים',
+      pronuncEng: "ma'arEkhet yakhasim",
+      pronuncRus: 'маарЭхэт яхасИм',
+      category: 'general'
+    },
+
+    {
+      id: 319,
+      english: 'Population',
+      russian: 'Население',
+      hebrew: 'אוכלוסייה',
+      pronuncEng: 'ukhlusiA',
+      pronuncRus: 'ухлусиЯ',
+      category: 'general'
+    },
+
+    {
+      id: 320,
+      english: 'Individual (adj)',
+      russian: 'Индивидуальный',
+      hebrew: 'פרט',
+      pronuncEng: 'prat',
+      pronuncRus: 'прат',
+      category: 'general'
+    },
+
+    {
+      id: 321,
+      english: 'Youth, young man',
+      russian: 'Юноша',
+      hebrew: 'נער',
+      pronuncEng: 'naAr',
+      pronuncRus: 'наАр',
+      category: 'general'
+    },
+
+    {
+      id: 322,
+      english: 'To contact/phone/call (infinitive)',
+      russian: 'Связываться, созваниваться (инфинитив)',
+      hebrew: 'להתקשר',
+      pronuncEng: 'lehitkashEr',
+      pronuncRus: 'лехиткашЕр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 323,
+      english: 'To contact/phone/call (present sing. masc.)',
+      russian: 'Связываться, созваниваться (наст.вр.)',
+      hebrew: 'מתקשר',
+      pronuncEng: 'mitkashEr',
+      pronuncRus: 'миткашЕр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 324,
+      english: '(I) contacted/phoned/called',
+      russian: '(Я) созвонился/связался',
+      hebrew: 'התקשרתי',
+      pronuncEng: 'hitkashArti',
+      pronuncRus: 'хиткашАрти',
+      category: 'hitpael'
+    },
+
+    {
+      id: 325,
+      english: '(He) contacted/phoned/called',
+      russian: '(Он) связался/созвонился',
+      hebrew: 'התקשר',
+      pronuncEng: 'hitkashEr',
+      pronuncRus: 'хиткашЭр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 326,
+      english: 'I will contact/phone/call',
+      russian: 'Я созвонюсь/свяжусь',
+      hebrew: 'אתקשר',
+      pronuncEng: 'etkashEr',
+      pronuncRus: 'эткашЕр',
+      category: 'hitpael'
+    },
+
+    {
+      id: 327,
+      english: 'To ring, to chime, to call by telephone (infinitive)',
+      russian: 'Звонить, звенеть (инфинитив)',
+      hebrew: 'לצלצל',
+      pronuncEng: 'letzaltzEl',
+      pronuncRus: 'лецальцЕль',
+      category: 'piel'
+    },
+
+    {
+      id: 328,
+      english: 'To ring/chime/call (present, masc, singular)',
+      russian: 'Звонить (наст.вр., ед.ч., м.р.)',
+      hebrew: 'מצלצל',
+      pronuncEng: 'metzaltzEl',
+      pronuncRus: 'мецальцЕль',
+      category: 'piel'
+    },
+
+    {
+      id: 329,
+      english: '(I) called/rang/chimed',
+      russian: '(Я) /по/звонил',
+      hebrew: 'צלצלתי',
+      pronuncEng: 'tziltzAlti',
+      pronuncRus: 'цильцАльти',
+      category: 'piel'
+    },
+
+    {
+      id: 330,
+      english: '(He) called/rang/chimed',
+      russian: '(Он) звонил/позвонил',
+      hebrew: 'צלצל',
+      pronuncEng: 'tziltzEl',
+      pronuncRus: 'цильцЕль',
+      category: 'piel'
+    },
+
+    {
+      id: 331,
+      english: 'I will ring/call',
+      russian: '(Я) позвоню',
+      hebrew: 'אצלצל',
+      pronuncEng: 'atzaltzEl',
+      pronuncRus: 'ацальцЕль',
+      category: 'piel'
+    },
+
+    {
+      id: 332,
+      english: 'Comfortable, convenient',
+      russian: 'Удобный/удобно',
+      hebrew: 'נוח',
+      pronuncEng: 'nUakh',
+      pronuncRus: 'нУах',
+      category: 'adverb'
+    },
+
+    {
+      id: 333,
+      english: 'Warranty card',
+      russian: 'Гарантийный талон',
+      hebrew: 'תעודת אחריות',
+      pronuncEng: 'teudAt akharayUt',
+      pronuncRus: 'тэудАт ахараЮт',
+      category: 'general'
+    },
+
+    {
+      id: 334,
+      english: 'At all',
+      russian: 'Совсем, вообще',
+      hebrew: 'בכלל',
+      pronuncEng: 'bikhlAl',
+      pronuncRus: 'бихлЯль',
+      category: 'adverb'
+    },
+
+    {
+      id: 335,
+      english: 'Sound, voice',
+      russian: 'Звук, голос',
+      hebrew: 'קול',
+      pronuncEng: 'kol',
+      pronuncRus: 'коль',
+      category: 'general'
+    },
+
+    {
+      id: 336,
+      english: 'Broken (about technical things)',
+      russian: 'Сломанный (про технику)',
+      hebrew: 'מקולקל',
+      pronuncEng: 'mekulkAl',
+      pronuncRus: 'мекулькАль',
+      category: 'adverb'
+    },
+
+    {
+      id: 337,
+      english: 'Postcard',
+      russian: 'Открытка',
+      hebrew: 'גלויה',
+      pronuncEng: 'gluyA',
+      pronuncRus: 'глуЯ',
+      category: 'general'
+    },
+
+    {
+      id: 338,
+      english: 'Parcel, package',
+      russian: 'Посылка',
+      hebrew: 'חבילה',
+      pronuncEng: 'havilA',
+      pronuncRus: 'хавилА',
+      category: 'general'
+    },
+
+    {
+      id: 339,
+      english: 'Blessing',
+      russian: 'Благословение',
+      hebrew: 'ברכה',
+      pronuncEng: 'brakhA',
+      pronuncRus: 'брахА',
+      category: 'general'
+    },
+
+    {
+      id: 340,
+      english: 'To order, to invite (infinitive)',
+      russian: 'Заказать (инфинитив)',
+      hebrew: 'להזמין',
+      pronuncEng: 'lehazmin',
+      pronuncRus: 'лехазмИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 341,
+      english: 'To order, to invite (present, sing. masc.)',
+      russian: 'Заказать (наст.вр., ед.ч., м.р.)',
+      hebrew: 'מזמין',
+      pronuncEng: 'mazmin',
+      pronuncRus: 'мазмИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 342,
+      english: '(I) ordered / invited',
+      russian: '(Я) заказал(а)',
+      hebrew: 'הזמנתי',
+      pronuncEng: 'hizmAnti',
+      pronuncRus: 'хизмАнти',
+      category: 'hifil'
+    },
+
+    {
+      id: 343,
+      english: '(He) ordered / invited',
+      russian: '(Он) заказал',
+      hebrew: 'הזמין',
+      pronuncEng: 'hizmin',
+      pronuncRus: 'хизмИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 344,
+      english: '(I) will order / invite',
+      russian: '(Я) закажу',
+      hebrew: 'אזמין',
+      pronuncEng: 'azmin',
+      pronuncRus: 'азмИн',
+      category: 'hifil'
+    },
+
+    {
+      id: 345,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 346,
       english: '',
       russian: '',
       hebrew: '',
