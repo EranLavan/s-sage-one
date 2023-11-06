@@ -3442,6 +3442,216 @@ const words = [
 
     {
       id: 345,
+      english: 'To ignite (infinitive)',
+      russian: 'Зажигать (инфинитив)',
+      hebrew: 'להדליק',
+      pronuncEng: 'lehadlik',
+      pronuncRus: 'лехадлИк',
+      category: 'hifil'
+    },
+
+    {
+      id: 346,
+      english: 'To ignite (sing. masc. present)',
+      russian: 'Зажигать (наст.вр., ед.ч., м.р.)',
+      hebrew: 'מדליק',
+      pronuncEng: 'madlik',
+      pronuncRus: 'мадлИк',
+      category: 'hifil'
+    },
+
+    {
+      id: 347,
+      english: '(I) ignited / lit smth.',
+      russian: '(Я) зажёг',
+      hebrew: 'הדלקתי',
+      pronuncEng: 'hidlakti',
+      pronuncRus: 'хидлАкти',
+      category: 'hifil'
+    },
+
+    {
+      id: 348,
+      english: '(He) ignited / lit smth.',
+      russian: '(Он) зажёг',
+      hebrew: 'הדליק',
+      pronuncEng: 'hidlik',
+      pronuncRus: 'хидлИк',
+      category: 'hifil'
+    },
+
+    {
+      id: 349,
+      english: '(I will) ignite smth.',
+      russian: '(Я буду) зажигать',
+      hebrew: 'אדליק',
+      pronuncEng: 'adlik',
+      pronuncRus: 'адлИк',
+      category: 'hifil'
+    },
+
+    {
+      id: 350,
+      english: 'Candle',
+      russian: 'Свеча',
+      hebrew: 'נר',
+      pronuncEng: 'ner',
+      pronuncRus: 'нэр',
+      category: 'general'
+    },
+
+    {
+      id: 351,
+      english: 'Squirrel',
+      russian: 'Белка',
+      hebrew: 'סנאי',
+      pronuncEng: 'snAi',
+      pronuncRus: 'снАи',
+      category: 'animals'
+    },
+
+    {
+      id: 352,
+      english: 'Kettle',
+      russian: 'Чайник',
+      hebrew: 'קומקום',
+      pronuncEng: 'kumkUm',
+      pronuncRus: 'кумкУм',
+      category: 'general'
+    },
+
+    {
+      id: 353,
+      english: 'Stove, oven, heater',
+      russian: 'Печь, духовка',
+      hebrew: 'תנור',
+      pronuncEng: 'tanUr',
+      pronuncRus: 'танУр',
+      category: 'general'
+    },
+
+    {
+      id: 354,
+      english: 'Bonfire, campfire',
+      russian: 'Костёр',
+      hebrew: 'מדורה',
+      pronuncEng: 'medurA',
+      pronuncRus: 'медурА',
+      category: 'general'
+    },
+
+    {
+      id: 355,
+      english: 'Match (for flame lighting)',
+      russian: 'Спичка',
+      hebrew: 'גפרור',
+      pronuncEng: 'gafrUr',
+      pronuncRus: 'гафрУр',
+      category: 'general'
+    },
+
+    {
+      id: 356,
+      english: 'Playing card',
+      russian: 'Игральная карта',
+      hebrew: 'קלף',
+      pronuncEng: 'klaf',
+      pronuncRus: 'клаф',
+      category: 'general'
+    },
+
+    {
+      id: 357,
+      english: 'To decide (infinitive)',
+      russian: 'Принять решение (инфинитив)',
+      hebrew: 'להחליט',
+      pronuncEng: 'lehahlit',
+      pronuncRus: 'леахлИт',
+      category: 'hifil'
+    },
+
+    {
+      id: 358,
+      english: 'To decide (sing. masc. present)',
+      russian: 'Принять решение (наст.вр., м.р., ед.ч.)',
+      hebrew: 'מחליט',
+      pronuncEng: 'makhlit',
+      pronuncRus: 'махлИт',
+      category: 'hifil'
+    },
+
+    {
+      id: 359,
+      english: '(I) decided',
+      russian: '(Я) принял решение',
+      hebrew: 'החלטתי',
+      pronuncEng: 'hekhlAteti',
+      pronuncRus: 'эхлАтэти',
+      category: 'hifil'
+    },
+
+    {
+      id: 360,
+      english: '(He) decided',
+      russian: '(Он) принял решение',
+      hebrew: 'החליט',
+      pronuncEng: 'hekhlit',
+      pronuncRus: 'эхлИт',
+      category: 'hifil'
+    },
+
+    {
+      id: 361,
+      english: '(I will) decide',
+      russian: '(Я буду) принимать решение',
+      hebrew: 'אחליט',
+      pronuncEng: 'akhlit',
+      pronuncRus: 'ахлИт',
+      category: 'hifil'
+    },
+
+    {
+      id: 362,
+      english: 'Finish, complete (infinitive)',
+      russian: 'Заканчивать, завершать',
+      hebrew: 'לגמור',
+      pronuncEng: 'ligmOr',
+      pronuncRus: 'лигмОр',
+      category: 'paal'
+    },
+
+    {
+      id: 363,
+      english: 'Completely, totally, entirely, utterly',
+      russian: 'Полностью, абсолютно',
+      hebrew: 'לגמרי',
+      pronuncEng: 'legamrEi',
+      pronuncRus: 'легамрЭ',
+      category: 'adverb'
+    },
+
+    {
+      id: 364,
+      english: 'SMS message (but not סמס)',
+      russian: 'СМС-сообщение (но не סמס)',
+      hebrew: 'מסרון',
+      pronuncEng: 'misrOn',
+      pronuncRus: 'мисрОн',
+      category: 'general'
+    },
+
+    {
+      id: 365,
+      english: 'Make an appointment with the doctor',
+      russian: 'Записаться на приём к врачу',
+      hebrew: 'לקבוע תור לרופא',
+      pronuncEng: 'likbOa tor le-rofE',
+      pronuncRus: 'ликбОа тор ле-рофЭ',
+      category: 'phrase'
+    },
+
+    {
+      id: 366,
       english: '',
       russian: '',
       hebrew: '',
@@ -3451,7 +3661,37 @@ const words = [
     },
 
     {
-      id: 346,
+      id: 367,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 368,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 369,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 370,
       english: '',
       russian: '',
       hebrew: '',
