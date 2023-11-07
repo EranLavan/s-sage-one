@@ -3652,46 +3652,146 @@ const words = [
 
     {
       id: 366,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Often',
+      russian: 'Часто',
+      hebrew: 'לעתים קרובות',
+      pronuncEng: 'leitim krovOt',
+      pronuncRus: 'леитИм кровОт',
+      category: 'adverb'
     },
 
     {
       id: 367,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Rarely',
+      russian: 'Редко',
+      hebrew: 'לעתים רחוקות',
+      pronuncEng: 'leitim rekhokOt',
+      pronuncRus: 'леитИм рехокОт',
+      category: 'adverb'
     },
 
     {
       id: 368,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To watch (infinitive)',
+      russian: 'Смотреть (что-либо), наблюдать (инфин.)',
+      hebrew: 'לצפות',
+      pronuncEng: 'litzpOt',
+      pronuncRus: 'лицпОт',
+      category: 'paal'
     },
 
     {
       id: 369,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To watch (sing. masc. present)',
+      russian: 'Смотреть что-либо, наблюдать (наст.вр.)',
+      hebrew: 'צופה',
+      pronuncEng: 'tzofE',
+      pronuncRus: 'цофЭ',
+      category: 'paal'
     },
 
     {
       id: 370,
+      english: 'Teenage girl, young woman',
+      russian: 'Юная девушка (не בחורה)',
+      hebrew: 'נערה',
+      pronuncEng: 'naarA',
+      pronuncRus: 'наарА',
+      category: 'general'
+    },
+
+    {
+      id: 371,
+      english: 'Topic, subject',
+      russian: 'Тема',
+      hebrew: 'נושא',
+      pronuncEng: 'nosE',
+      pronuncRus: 'носЭ',
+      category: 'general'
+    },
+
+    {
+      id: 372,
+      english: 'Examination, checkup (not מבחן)',
+      russian: 'Контрольная, тест (не מבחן)',
+      hebrew: 'מבדק',
+      pronuncEng: 'mivdAk',
+      pronuncRus: 'мивдАк',
+      category: 'general'
+    },
+
+    {
+      id: 373,
+      english: 'Busy',
+      russian: 'Занят',
+      hebrew: 'עסוק',
+      pronuncEng: 'asUk',
+      pronuncRus: 'асУк',
+      category: 'adverb'
+    },
+
+    {
+      id: 374,
+      english: 'Previous, prior, in the past',
+      russian: 'Предыдущий; раньше',
+      hebrew: 'קודם',
+      pronuncEng: 'kOdem',
+      pronuncRus: 'кОдэм',
+      category: 'adverb'
+    },
+
+    {
+      id: 375,
+      english: 'To wait (infinitive)',
+      russian: 'Ждать (инфинитив)',
+      hebrew: 'לחכות',
+      pronuncEng: 'lekhakOt',
+      pronuncRus: 'лехакОт',
+      category: 'piel'
+    },
+
+    {
+      id: 376,
+      english: 'To wait (sing. present masc.)',
+      russian: 'Ждать (ед.ч., м.р., наст. вр)',
+      hebrew: 'מחכה',
+      pronuncEng: 'mekhakE',
+      pronuncRus: 'мехакЕ',
+      category: 'piel'
+    },
+
+    {
+      id: 377,
+      english: '(I) waited',
+      russian: '(Я) ждал',
+      hebrew: 'חכיתי',
+      pronuncEng: 'khikiti',
+      pronuncRus: 'хикИти',
+      category: 'piel'
+    },
+
+    {
+      id: 378,
+      english: '(He) waited',
+      russian: '(Он) ждал',
+      hebrew: 'חכה',
+      pronuncEng: 'khikA',
+      pronuncRus: 'хикА',
+      category: 'piel'
+    },
+
+    {
+      id: 379,
+      english: '(I) will wait',
+      russian: '(Я) буду ждать',
+      hebrew: 'אחכה',
+      pronuncEng: 'ekhakE',
+      pronuncRus: 'эхакЕ',
+      category: 'piel'
+    },
+
+    {
+      id: 380,
       english: '',
       russian: '',
       hebrew: '',
@@ -3699,7 +3799,6 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-
 
 
 
