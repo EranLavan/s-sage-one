@@ -3792,6 +3792,116 @@ const words = [
 
     {
       id: 380,
+      english: 'Toothpaste',
+      russian: 'Зубная паста',
+      hebrew: 'משחת שיניים',
+      pronuncEng: 'mishkhAt shinAim',
+      pronuncRus: 'мишхАт шинАим',
+      category: 'piel'
+    },
+
+    {
+      id: 381,
+      english: 'To clean (teeth) (present, single)',
+      russian: 'Чистить (зубы) (наст.вр.)',
+      hebrew: 'מצחצח',
+      pronuncEng: 'metzakhtzEakh',
+      pronuncRus: 'мецахцЕах',
+      category: 'piel'
+    },
+
+    {
+      id: 382,
+      english: 'To clean teeth (infinitive)',
+      russian: 'Чистить (зубы) (инф.)',
+      hebrew: 'לצחצח',
+      pronuncEng: 'letzakhtzEakh',
+      pronuncRus: 'лецахцЕах',
+      category: 'piel'
+    },
+
+    {
+      id: 383,
+      english: '(I) cleaned teeth',
+      russian: '(Я) чистил(а) (зубы)',
+      hebrew: 'צחצחתי',
+      pronuncEng: 'tzikhtzAkhti',
+      pronuncRus: 'цихцАхти',
+      category: 'piel'
+    },
+
+    {
+      id: 384,
+      english: '(I) will clean teeth',
+      russian: '(Я) буду чистить (зубы)',
+      hebrew: 'אצחצח',
+      pronuncEng: 'etzakhtzEakh',
+      pronuncRus: 'эцахцЕах',
+      category: 'piel'
+    },
+    
+    {
+      id: 385,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 386,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 387,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+    
+    {
+      id: 388,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+    
+    {
+      id: 389,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+    
+    {
+      id: 390,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+    
+    {
+      id: 391,
       english: '',
       russian: '',
       hebrew: '',
