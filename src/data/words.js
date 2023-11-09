@@ -3842,66 +3842,106 @@ const words = [
     
     {
       id: 385,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Omelet',
+      russian: 'Омлет',
+      hebrew: 'חביתה',
+      pronuncEng: 'khavitA',
+      pronuncRus: 'хавитА',
+      category: 'grocery'
     },
 
     {
       id: 386,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To wish, to congratulate (present, masc, sing)',
+      russian: 'Желать, поздравлять (наст.вр.)',
+      hebrew: 'מאחל',
+      pronuncEng: 'meakhEl',
+      pronuncRus: 'мэахЭль',
+      category: 'piel'
     },
 
     {
       id: 387,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Ask, request, seek (present, masc, sing)',
+      russian: 'Спрашивать, запрашивать (наст.вр)',
+      hebrew: 'מבקש',
+      pronuncEng: 'mevakEsh',
+      pronuncRus: 'мевакЕш',
+      category: 'piel'
     },
     
     {
       id: 388,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To explain, to clarify (present, sing, masc)',
+      russian: 'Объяснять, разъяснять (наст.вр.)',
+      hebrew: 'מסביר',
+      pronuncEng: 'masbir',
+      pronuncRus: 'масбИр',
+      category: 'hifil'
     },
     
     {
       id: 389,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To stop, to interrupt (present, sing, masc)',
+      russian: 'Останавливать, прерывать',
+      hebrew: 'מפסיק',
+      pronuncEng: 'mafsik',
+      pronuncRus: 'мафсИк',
+      category: 'hifil'
     },
     
     {
       id: 390,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To listen, to pay attention (sing. masc. present)',
+      russian: 'Прислушиваться, внимать',
+      hebrew: 'מקשיב',
+      pronuncEng: 'makshiv',
+      pronuncRus: 'макшИв',
+      category: 'hifil'
     },
     
     {
       id: 391,
+      english: 'To participate (sing. masc. present)',
+      russian: 'Принимать участие',
+      hebrew: 'משתתף',
+      pronuncEng: 'mishtatEf',
+      pronuncRus: 'миштатЭф',
+      category: 'hitpael'
+    },
+
+    {
+      id: 392,
+      english: 'To get married (sing. masc. present)',
+      russian: 'Жениться (наст.вр., м.р.)',
+      hebrew: 'מתחתן',
+      pronuncEng: 'mitkhatEn',
+      pronuncRus: 'митхатЭн',
+      category: 'hitpael'
+    },
+
+    {
+      id: 393,
+      english: 'To apologize (sing. masc. present)',
+      russian: 'Извиняться (наст.вр., м.р.)',
+      hebrew: 'מיתנצל',
+      pronuncEng: 'mitnatzEl',
+      pronuncRus: 'митнацЕль',
+      category: 'hitpael'
+    },
+
+    {
+      id: 394,
+      english: 'To remain (sing. masc. present)',
+      russian: 'Оставаться (наст.вр., м.р.)',
+      hebrew: 'נשאר',
+      pronuncEng: "nish'Ar",
+      pronuncRus: "ниш'Ар",
+      category: 'nifal'
+    },
+
+    {
+      id: 395,
       english: '',
       russian: '',
       hebrew: '',
@@ -3909,7 +3949,6 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-
 
 
   ]
