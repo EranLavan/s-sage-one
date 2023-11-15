@@ -3942,60 +3942,60 @@ const words = [
 
     {
       id: 395,
-      english: '',
-      russian: '',
+      english: 'To play (infinitive)',
+      russian: 'играть (инфинитив)',
       hebrew: 'לשחק',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      pronuncEng: 'lesakhEk',
+      pronuncRus: 'лесахЭк',
+      category: 'piel'
     },
 
     {
       id: 396,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To gossip (present, single, masc)',
+      russian: 'Сплетничать (наст.вр., ед.ч., м.р.)',
+      hebrew: 'מרכל',
+      pronuncEng: 'merakhEl',
+      pronuncRus: 'мерахЭль',
+      category: 'piel'
     },
 
     {
       id: 397,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Stone',
+      russian: 'Камень',
+      hebrew: 'אבן',
+      pronuncEng: 'Even',
+      pronuncRus: 'Эвен',
+      category: 'general'
     },
 
     {
       id: 398,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Cave',
+      russian: 'Пещера',
+      hebrew: 'מערה',
+      pronuncEng: 'maarA',
+      pronuncRus: 'маарА',
+      category: 'general'
     },
 
     {
       id: 399,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To remind of...',
+      russian: 'Напоминать о...',
+      hebrew: 'להזכיר',
+      pronuncEng: 'lehazkir',
+      pronuncRus: 'лехазкИр',
+      category: 'nifal'
     },
 
     {
       id: 400,
-      english: '',
+      english: 'Silent, tacit',
       russian: '',
       hebrew: '',
-      pronuncEng: '',
+      pronuncEng: 'shOtek',
       pronuncRus: '',
       category: ''
     },
