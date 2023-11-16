@@ -3993,45 +3993,255 @@ const words = [
     {
       id: 400,
       english: 'Silent, tacit',
-      russian: '',
-      hebrew: '',
-      pronuncEng: 'shOtek',
-      pronuncRus: '',
-      category: ''
+      russian: 'Тихий, молчаливый, негласный',
+      hebrew: 'שותק',
+      pronuncEng: 'shotek',
+      pronuncRus: 'шотек',
+      category: 'adjective'
     },
 
     {
       id: 401,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'In a year',
+      russian: 'Через год',
+      hebrew: 'בעוד שנה',
+      pronuncEng: 'be-od shanA',
+      pronuncRus: 'бэ-од шанА',
+      category: 'adverb'
     },
 
     {
       id: 402,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'In the next year',
+      russian: 'В следующем году',
+      hebrew: 'בשנה הבאה',
+      pronuncEng: 'be-shanA abaA',
+      pronuncRus: 'бэ-шанА абаА',
+      category: 'adverb'
     },
 
     {
       id: 403,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Website, web address',
+      russian: 'Сайт, адрес сайта',
+      hebrew: 'אתר',
+      pronuncEng: 'atar',
+      pronuncRus: 'атар',
+      category: 'general'
     },
 
     {
       id: 404,
+      english: 'Minister',
+      russian: 'Министр',
+      hebrew: 'שר',
+      pronuncEng: 'sar',
+      pronuncRus: 'сар',
+      category: 'profession'
+    },
+
+    {
+      id: 405,
+      english: 'Help, support (noun)',
+      russian: 'Помощь, поддержка',
+      hebrew: 'סיוע',
+      pronuncEng: 'siyua',
+      pronuncRus: 'сиюа',
+      category: 'general'
+    },
+
+    {
+      id: 406,
+      english: 'To influence (infinitive)',
+      russian: 'Влиять (инфинитив)',
+      hebrew: 'להשפיע',
+      pronuncEng: 'lehashpia',
+      pronuncRus: 'лехаспИа',
+      category: 'hifil'
+    },
+    
+    {
+      id: 407,
+      english: 'To hide (infinitive)',
+      russian: 'Прятаться (инфинитив)',
+      hebrew: 'להתחבא',
+      pronuncEng: 'lehitkhabE',
+      pronuncRus: 'лехитхабЭ',
+      category: 'hitpael'
+    },
+    
+    {
+      id: 408,
+      english: 'To come to an end',
+      russian: 'Заканчиваться, завершаться',
+      hebrew: 'להיגמר',
+      pronuncEng: 'lehigamEr',
+      pronuncRus: 'лехигамЭр',
+      category: 'nifal'
+    },
+    
+    {
+      id: 409,
+      english: 'Some of them',
+      russian: 'Некоторые',
+      hebrew: 'אחדים',
+      pronuncEng: 'akhadim (or akhadot if f.)',
+      pronuncRus: 'ахадИм/ахадОт',
+      category: 'general'
+    },
+    
+    {
+      id: 410,
+      english: 'Art',
+      russian: 'Искусство',
+      hebrew: 'אומנות',
+      pronuncEng: 'omanUt',
+      pronuncRus: 'оманУт',
+      category: 'general'
+    },
+    
+    {
+      id: 411,
+      english: 'Happiness, joy',
+      russian: 'Радость, счастье',
+      hebrew: 'אושר',
+      pronuncEng: 'osher',
+      pronuncRus: 'ошер',
+      category: 'general'
+    },
+    
+    {
+      id: 412,
+      english: 'Middle',
+      russian: 'Середина',
+      hebrew: 'אמצע',
+      pronuncEng: 'emtza',
+      pronuncRus: 'эмца',
+      category: 'general'
+    },
+    
+    {
+      id: 413,
+      english: 'Graveyard',
+      russian: 'Кладбище',
+      hebrew: 'בית קברות',
+      pronuncEng: 'beit kvarot',
+      pronuncRus: 'бейт кварОт',
+      category: 'general'
+    },
+    
+    {
+      id: 414,
+      english: 'Palm tree',
+      russian: 'Пальма',
+      hebrew: 'דקל',
+      pronuncEng: 'dEkel',
+      pronuncRus: 'дЭкель',
+      category: 'general'
+    },
+    
+    {
+      id: 415,
+      english: 'Dedication (on a book)',
+      russian: 'Посвящение (в книге)',
+      hebrew: 'הקדשה',
+      pronuncEng: 'hakdashA',
+      pronuncRus: '(х)акдаШа',
+      category: 'general'
+    },
+    
+    {
+      id: 416,
+      english: 'Thought',
+      russian: 'Мысль',
+      hebrew: 'מחשבה',
+      pronuncEng: 'makhshavA',
+      pronuncRus: 'махшавА',
+      category: 'general'
+    },
+    
+    {
+      id: 417,
+      english: 'Hoe',
+      russian: 'Мотыга',
+      hebrew: 'מעדר',
+      pronuncEng: 'maadEr',
+      pronuncRus: 'маадЭр',
+      category: 'general'
+    },
+    
+    {
+      id: 418,
+      english: 'Reason',
+      russian: 'Причина',
+      hebrew: 'סיבה',
+      pronuncEng: 'siba',
+      pronuncRus: 'сибА',
+      category: 'general'
+    },
+    
+    {
+      id: 419,
+      english: 'Piano',
+      russian: 'Пианино',
+      hebrew: 'פסנתר',
+      pronuncEng: 'psanter',
+      pronuncRus: 'псантер',
+      category: 'general'
+    },
+    
+    {
+      id: 420,
+      english: 'Section, excerpt',
+      russian: 'Часть, фрагмент общего',
+      hebrew: 'קטע',
+      pronuncEng: 'keta',
+      pronuncRus: 'кета',
+      category: 'general'
+    },
+    
+    {
+      id: 421,
+      english: 'Tuberculosis',
+      russian: 'Туберкулёз',
+      hebrew: 'שחפת',
+      pronuncEng: 'shakhefet',
+      pronuncRus: 'шахЕфет',
+      category: 'general'
+    },
+    
+    {
+      id: 422,
+      english: 'Method',
+      russian: 'Метод',
+      hebrew: 'שיטה',
+      pronuncEng: 'shita',
+      pronuncRus: 'шита',
+      category: 'general'
+    },
+        
+    {
+      id: 423,
+      english: 'Poetry',
+      russian: 'Поэзия',
+      hebrew: 'שירה',
+      pronuncEng: 'shira',
+      pronuncRus: 'шира',
+      category: 'general'
+    },
+        
+    {
+      id: 424,
+      english: 'To reap, to pick up, to collect, to gather (infinitive)',
+      russian: 'Собирать, пожинать (инфинитив)',
+      hebrew: 'לאסוף',
+      pronuncEng: 'leesOf',
+      pronuncRus: 'леэсОф',
+      category: 'paal'
+    },
+        
+    {
+      id: 425,
       english: '',
       russian: '',
       hebrew: '',
@@ -4039,9 +4249,9 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-
+        
     {
-      id: 405,
+      id: 426,
       english: '',
       russian: '',
       hebrew: '',
