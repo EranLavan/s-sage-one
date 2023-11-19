@@ -4242,6 +4242,126 @@ const words = [
         
     {
       id: 425,
+      english: 'Accident, road accident',
+      russian: 'Авария',
+      hebrew: 'תאונה',
+      pronuncEng: 'teunA',
+      pronuncRus: 'тэунА',
+      category: 'general'
+    },
+        
+    {
+      id: 426,
+      english: 'Moon',
+      russian: 'Луна',
+      hebrew: 'ירח',
+      pronuncEng: 'yarEakh',
+      pronuncRus: 'ярЭах',
+      category: 'general'
+    },
+            
+    {
+      id: 427,
+      english: 'To discuss (inf.)',
+      russian: 'Обсуждать (инф.)',
+      hebrew: 'לדון',
+      pronuncEng: 'ladUn',
+      pronuncRus: 'ладУн',
+      category: 'paal'
+    },
+            
+    {
+      id: 428,
+      english: 'Solution',
+      russian: 'Решение',
+      hebrew: 'פתרון',
+      pronuncEng: 'pitrOn',
+      pronuncRus: 'питрОн',
+      category: 'general'
+    },
+            
+    {
+      id: 429,
+      english: 'Agreement',
+      russian: 'Соглашение',
+      hebrew: 'הסכם',
+      pronuncEng: 'heskEm',
+      pronuncRus: 'хескЕм',
+      category: 'general'
+    },
+            
+    {
+      id: 430,
+      english: 'To sign up (inf.)',
+      russian: 'Подписывать (инф.)',
+      hebrew: 'לחתום',
+      pronuncEng: 'lakhtOm',
+      pronuncRus: 'лахтОм',
+      category: 'paal'
+    },
+            
+    {
+      id: 431,
+      english: 'Medicine (pl.)',
+      russian: 'Лекарства (мн.)',
+      hebrew: 'תרופות',
+      pronuncEng: 'trufOt',
+      pronuncRus: 'труфОт',
+      category: 'general'
+    },
+            
+    {
+      id: 432,
+      english: 'Vaccine',
+      russian: '',
+      hebrew: 'חיסון',
+      pronuncEng: 'khisun',
+      pronuncRus: '',
+      category: 'general'
+    },
+            
+    {
+      id: 433,
+      english: 'To listen to (inf.)',
+      russian: '',
+      hebrew: 'להקשיב',
+      pronuncEng: 'lehakshiv',
+      pronuncRus: '',
+      category: 'hifil'
+    },
+            
+    {
+      id: 434,
+      english: 'To use (inf.)',
+      russian: '',
+      hebrew: 'להשתמש',
+      pronuncEng: 'lehishtamEsh',
+      pronuncRus: '',
+      category: 'hitpael'
+    },
+            
+    {
+      id: 435,
+      english: 'To agree',
+      russian: '',
+      hebrew: 'להסכים',
+      pronuncEng: 'lehaskim',
+      pronuncRus: '',
+      category: 'hifil'
+    },
+            
+    {
+      id: 436,
+      english: 'Routine',
+      russian: '',
+      hebrew: 'שגרה',
+      pronuncEng: 'shigrA',
+      pronuncRus: '',
+      category: 'general'
+    },
+            
+    {
+      id: 437,
       english: '',
       russian: '',
       hebrew: '',
@@ -4249,9 +4369,169 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-        
+            
     {
-      id: 426,
+      id: 438,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 439,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 440,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 441,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 442,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 443,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 444,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 445,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 446,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 447,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 448,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 449,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 450,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 451,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 452,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 453,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+            
+    {
+      id: 454,
       english: '',
       russian: '',
       hebrew: '',
