@@ -4313,50 +4313,50 @@ const words = [
     {
       id: 432,
       english: 'Vaccine',
-      russian: '',
+      russian: 'Вакцина',
       hebrew: 'חיסון',
       pronuncEng: 'khisun',
-      pronuncRus: '',
+      pronuncRus: 'хисун',
       category: 'general'
     },
             
     {
       id: 433,
       english: 'To listen to (inf.)',
-      russian: '',
+      russian: 'Слушать (что-либо)',
       hebrew: 'להקשיב',
       pronuncEng: 'lehakshiv',
-      pronuncRus: '',
+      pronuncRus: 'лехакшИв',
       category: 'hifil'
     },
             
     {
       id: 434,
       english: 'To use (inf.)',
-      russian: '',
+      russian: 'Использовать (инф.)',
       hebrew: 'להשתמש',
       pronuncEng: 'lehishtamEsh',
-      pronuncRus: '',
+      pronuncRus: 'лехиштамЕш',
       category: 'hitpael'
     },
             
     {
       id: 435,
       english: 'To agree',
-      russian: '',
+      russian: 'Соглашаться (инф.)',
       hebrew: 'להסכים',
       pronuncEng: 'lehaskim',
-      pronuncRus: '',
+      pronuncRus: 'лехаскИм',
       category: 'hifil'
     },
             
     {
       id: 436,
       english: 'Routine',
-      russian: '',
+      russian: 'Рутина',
       hebrew: 'שגרה',
       pronuncEng: 'shigrA',
-      pronuncRus: '',
+      pronuncRus: 'щигрА',
       category: 'general'
     },
             
