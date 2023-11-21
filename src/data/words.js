@@ -4362,142 +4362,142 @@ const words = [
             
     {
       id: 437,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Long shirt',
+      russian: 'Рубашка/кофта с длинными рукавами',
+      hebrew: 'חולצה ארוכה',
+      pronuncEng: 'hultzA arukA',
+      pronuncRus: 'хульцА арукА',
+      category: 'clothes'
     },
             
     {
       id: 438,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Warm hat / woolen hat',
+      russian: 'Тёплая шапка',
+      hebrew: 'כובע צמר',
+      pronuncEng: 'kova tzEmer',
+      pronuncRus: 'кова цЕмер',
+      category: 'clothes'
     },
             
     {
       id: 439,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Boots',
+      russian: 'Сапоги',
+      hebrew: 'מגפיים',
+      pronuncEng: 'magafAim',
+      pronuncRus: 'магафАим',
+      category: 'clothes'
     },
             
     {
       id: 440,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Sneakers',
+      russian: 'Кроссовки',
+      hebrew: 'נעלי ספורט',
+      pronuncEng: 'Naalei sport',
+      pronuncRus: 'Кроссовки',
+      category: 'clothes'
     },
             
     {
       id: 441,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Sandals, flip-flop',
+      russian: 'Сандалии, тапочки',
+      hebrew: 'כפכפים',
+      pronuncEng: 'kafkafim',
+      pronuncRus: 'кафкафИм',
+      category: 'clothes'
     },
             
     {
       id: 442,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Hail, hailstone',
+      russian: 'Град',
+      hebrew: 'ברד',
+      pronuncEng: 'barAd',
+      pronuncRus: 'барАд',
+      category: 'weather'
     },
             
     {
       id: 443,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Haze',
+      russian: 'Дымка, сухой туман, смог',
+      hebrew: 'אובך',
+      pronuncEng: 'Ovekh',
+      pronuncRus: 'Овех',
+      category: 'weather'
     },
             
     {
       id: 444,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Fog',
+      russian: 'Туман',
+      hebrew: 'ערפל',
+      pronuncEng: 'arafEl',
+      pronuncRus: 'арафЭль',
+      category: 'weather'
     },
             
     {
       id: 445,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Umbrella',
+      russian: 'Зонт',
+      hebrew: 'מטרייה',
+      pronuncEng: 'mitriyA',
+      pronuncRus: 'митриЯ',
+      category: 'general'
     },
             
     {
       id: 446,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Sun umbrella, parasol',
+      russian: 'Зонт от солнца',
+      hebrew: 'שמשייה',
+      pronuncEng: 'shimshiyA',
+      pronuncRus: 'шимшиЯ',
+      category: 'general'
     },
             
     {
       id: 447,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Stove, oven, heater',
+      russian: 'Печь, нагреватель',
+      hebrew: 'תנור',
+      pronuncEng: 'tanUr',
+      pronuncRus: 'танУр',
+      category: 'general'
     },
             
     {
       id: 448,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Light rain, drizzle',
+      russian: 'Лёгкий дождь, изморось',
+      hebrew: 'טיפטוף',
+      pronuncEng: 'tiftUf',
+      pronuncRus: 'тифтУф',
+      category: 'weather'
     },
             
     {
       id: 449,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Literature',
+      russian: 'Литература',
+      hebrew: 'ספרות',
+      pronuncEng: 'sifrUt',
+      pronuncRus: 'сифрУт',
+      category: 'general'
     },
             
     {
       id: 450,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To translate (inf.)',
+      russian: 'Переводить (инф.)',
+      hebrew: 'לתרגם',
+      pronuncEng: 'letargEm',
+      pronuncRus: 'летаргЕм',
+      category: 'piel'
     },
             
     {
