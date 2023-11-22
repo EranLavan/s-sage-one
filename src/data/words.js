@@ -4502,26 +4502,66 @@ const words = [
             
     {
       id: 451,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Traffic light',
+      russian: 'Светофор',
+      hebrew: 'רמזור',
+      pronuncEng: 'ramzOr',
+      pronuncRus: 'рамзОр',
+      category: 'general'
     },
             
     {
       id: 452,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Pedestrian sidewalk',
+      russian: 'Тротуар',
+      hebrew: 'מדרכה',
+      pronuncEng: 'midrakhA',
+      pronuncRus: 'мидрахА',
+      category: 'general'
     },
             
     {
       id: 453,
+      english: 'Busy',
+      russian: 'Занят',
+      hebrew: 'תפוס',
+      pronuncEng: 'tafUs',
+      pronuncRus: 'тафУс',
+      category: 'adverb'
+    },
+            
+    {
+      id: 454,
+      english: 'Nonstop, direct, without stops',
+      russian: 'Прямой (рейс), без остановок',
+      hebrew: 'ישיר',
+      pronuncEng: 'yashir',
+      pronuncRus: 'яшИр',
+      category: 'adverb'
+    },
+                
+    {
+      id: 455,
+      english: 'Wide',
+      russian: 'Широкий',
+      hebrew: 'רחב',
+      pronuncEng: 'rakhAv',
+      pronuncRus: 'рахАв',
+      category: 'general'
+    },
+                
+    {
+      id: 456,
+      english: 'Noisy',
+      russian: 'Шумный',
+      hebrew: 'רועש',
+      pronuncEng: 'roEsh',
+      pronuncRus: 'роЭш',
+      category: 'adverb'
+    },
+                
+    {
+      id: 457,
       english: '',
       russian: '',
       hebrew: '',
@@ -4529,9 +4569,29 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-            
+                
     {
-      id: 454,
+      id: 458,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+                
+    {
+      id: 459,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+                
+    {
+      id: 460,
       english: '',
       russian: '',
       hebrew: '',
