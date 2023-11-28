@@ -2211,11 +2211,11 @@ const words = [
 
     {
       id: 222,
-      english: 'Female doctor',
-      russian: 'Врач (ж.)',
-      hebrew: 'רופאה',
-      pronuncEng: "rof'a",
-      pronuncRus: "роф'а",
+      english: 'Doctor',
+      russian: 'Врач',
+      hebrew: 'רופא',
+      pronuncEng: "rofE",
+      pronuncRus: "рофЭ",
       category: 'profession'
     },
 
@@ -4562,36 +4562,126 @@ const words = [
                 
     {
       id: 457,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Furniture',
+      russian: 'Мебель',
+      hebrew: 'רהיטים',
+      pronuncEng: 'rahitim',
+      pronuncRus: 'раитИм',
+      category: 'general'
     },
                 
     {
       id: 458,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Cleaning',
+      russian: 'Уборка, чистота',
+      hebrew: 'ניקיון',
+      pronuncEng: 'nikayOn',
+      pronuncRus: 'никайОн',
+      category: 'general'
     },
                 
     {
       id: 459,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Tenant',
+      russian: 'Жилец (квартиросъёмщик)',
+      hebrew: 'דייר',
+      pronuncEng: 'dayAr',
+      pronuncRus: 'дайАр',
+      category: 'general'
     },
                 
     {
       id: 460,
+      english: 'Quiet (adj., f.)',
+      russian: 'Тихая',
+      hebrew: 'שקטה',
+      pronuncEng: 'shketA',
+      pronuncRus: 'шкетА',
+      category: 'adjective'
+    },
+                
+    {
+      id: 461,
+      english: 'Drone, quadrocopter',
+      russian: 'Дрон, квадрокоптер',
+      hebrew: 'רחפן',
+      pronuncEng: 'rakhfAn',
+      pronuncRus: 'рахфАн',
+      category: 'general'
+    },  
+
+    {
+      id: 462,
+      english: 'A year in advance (f.e. for a payment)',
+      russian: 'За год вперёд (например, оплата)',
+      hebrew: 'שנה מראש',
+      pronuncEng: 'shanA me-rOsh',
+      pronuncRus: 'шанА ме-рОш',
+      category: 'adverb'
+    },
+                    
+    {
+      id: 463,
+      english: 'To throw (garbage) away, present, masc.',
+      russian: 'Выбрасывать (мусор)',
+      hebrew: 'שופך',
+      pronuncEng: 'shofEkh',
+      pronuncRus: 'шофЕх',
+      category: 'paal'
+    },
+                    
+    {
+      id: 464,
+      english: 'Real estate agency',
+      russian: 'Агентство недвижимости',
+      hebrew: 'משרד תווך',
+      pronuncEng: 'misrad tivUkh',
+      pronuncRus: 'мисрАд тивУх',
+      category: 'general'
+    },
+                    
+    {
+      id: 465,
+      english: 'Realtor',
+      russian: 'Риэлтор',
+      hebrew: 'מתווך',
+      pronuncEng: 'metavEkh',
+      pronuncRus: 'меватЭх',
+      category: 'profession'
+    },
+                    
+    {
+      id: 466,
+      english: 'Contract, agreement',
+      russian: 'Контракт, соглашение',
+      hebrew: 'חוזה',
+      pronuncEng: 'khozE',
+      pronuncRus: 'хозЭ',
+      category: 'general'
+    },     
+
+    {
+      id: 467,
+      english: 'To let the rent (present, masc)',
+      russian: 'Сдавать (недвижимость), наст.вр.',
+      hebrew: 'משכיר',
+      pronuncEng: 'maskir',
+      pronuncRus: 'маскИр',
+      category: 'hifil'
+    },
+
+    {
+      id: 468,
+      english: 'To rent, to hire',
+      russian: 'Снимать (недвижимость), наст.вр.',
+      hebrew: 'שוכר',
+      pronuncEng: 'sokhEr',
+      pronuncRus: 'сохЭр',
+      category: 'paal'
+    },
+
+    {
+      id: 469,
       english: '',
       russian: '',
       hebrew: '',
@@ -4600,6 +4690,75 @@ const words = [
       category: ''
     },
 
+    {
+      id: 470,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 471,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 472,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 473,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 474,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 475,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 476,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
 
   ]
 
