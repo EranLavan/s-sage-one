@@ -4682,22 +4682,22 @@ const words = [
 
     {
       id: 469,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Game, play',
+      russian: 'Игра',
+      hebrew: 'משחק',
+      pronuncEng: 'miskhAk',
+      pronuncRus: 'мисхАк',
+      category: 'general'
     },
 
     {
       id: 470,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Probably, apparently',
+      russian: 'Вероятно, по видимому',
+      hebrew: 'כנראה',
+      pronuncEng: "kanir'E",
+      pronuncRus: "канир'Э",
+      category: 'adverb'
     },
 
     {
