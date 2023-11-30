@@ -4702,46 +4702,56 @@ const words = [
 
     {
       id: 471,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Construction, process of building',
+      russian: 'Стройка',
+      hebrew: 'בנייה',
+      pronuncEng: 'bniyA',
+      pronuncRus: 'бниЯ',
+      category: 'general'
     },
 
     {
       id: 472,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Renovation',
+      russian: 'Ремонт',
+      hebrew: 'שיפוץ',
+      pronuncEng: 'shipUtz',
+      pronuncRus: 'шипУц',
+      category: 'general'
     },
 
     {
       id: 473,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Rich, wealthy, abundant',
+      russian: 'Богатый',
+      hebrew: 'עשיר',
+      pronuncEng: 'ashir',
+      pronuncRus: 'ашИр',
+      category: 'adjective'
     },
 
     {
       id: 474,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Illuminated, lighted',
+      russian: 'Освещённый, светлый',
+      hebrew: 'מואר',
+      pronuncEng: 'muAr',
+      pronuncRus: 'муАр',
+      category: 'adjective'
     },
 
     {
       id: 475,
+      english: 'Dark',
+      russian: 'Тёмный',
+      hebrew: 'חשוך',
+      pronuncEng: 'khashUkh',
+      pronuncRus: 'хашУх',
+      category: 'adjective'
+    },
+
+    {
+      id: 476,
       english: '',
       russian: '',
       hebrew: '',
@@ -4751,7 +4761,77 @@ const words = [
     },
 
     {
-      id: 476,
+      id: 477,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 478,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 479,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 480,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 481,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 482,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 483,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+
+    {
+      id: 484,
       english: '',
       russian: '',
       hebrew: '',
