@@ -4752,52 +4752,52 @@ const words = [
 
     {
       id: 476,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Emotion',
+      russian: 'Эмоция',
+      hebrew: 'רגש',
+      pronuncEng: 'rEgesh',
+      pronuncRus: 'рЭгеш',
+      category: 'general'
     },
 
     {
       id: 477,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Jealousy, envy',
+      russian: 'Зависть, ревность',
+      hebrew: 'קנאה',
+      pronuncEng: "kin'A",
+      pronuncRus: "кин'А",
+      category: 'general'
     },
 
     {
       id: 478,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Idea',
+      russian: 'Идея',
+      hebrew: 'רעיון',
+      pronuncEng: 'raayOn',
+      pronuncRus: 'раайОн',
+      category: 'general'
     },
 
     {
       id: 479,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'According to',
+      russian: 'Согласно... , в соответствии с...',
+      hebrew: 'לפי',
+      pronuncEng: 'lefi',
+      pronuncRus: 'лефИ',
+      category: 'adverb'
     },
 
     {
       id: 480,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Kill, slay, murder (inf.)',
+      russian: 'Убивать (инфинитив)',
+      hebrew: 'להרוג',
+      pronuncEng: 'laharOg',
+      pronuncRus: 'лахарОг',
+      category: 'paal'
     },
 
     {
