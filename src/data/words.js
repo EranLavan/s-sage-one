@@ -4802,32 +4802,32 @@ const words = [
 
     {
       id: 481,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To save, to economise (infinitive)',
+      russian: 'Сберегать, копить',
+      hebrew: 'לחסוך',
+      pronuncEng: 'lakhsOkh',
+      pronuncRus: 'лахсОх',
+      category: 'paal'
     },
 
     {
       id: 482,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Advantage, positive side',
+      russian: 'Плюс, положительный момент',
+      hebrew: 'יתרון',
+      pronuncEng: 'yitrOn',
+      pronuncRus: 'йитрОн',
+      category: 'general'
     },
 
     {
       id: 483,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Drawback, disadvantage',
+      russian: 'Недостаток, минус',
+      hebrew: 'חיסרון',
+      pronuncEng: 'khisarOn',
+      pronuncRus: 'хисарОн',
+      category: 'general'
     },
 
     {
