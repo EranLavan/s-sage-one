@@ -2293,7 +2293,7 @@ const words = [
       id: 230,
       english: 'Never',
       russian: 'Никогда',
-      hebrew: 'עף פעם',
+      hebrew: 'אף פעם לא',
       pronuncEng: 'af paAm',
       pronuncRus: 'аф паАм',
       category: 'adverb'
@@ -4839,6 +4839,9 @@ const words = [
       pronuncRus: '',
       category: ''
     },
+
+    // IDEA: after finishing the session, render all the words that
+    // were run through and display them in lists (correct, incorrect answers etc.)
 
   ]
 
