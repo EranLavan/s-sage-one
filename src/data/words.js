@@ -4832,6 +4832,68 @@ const words = [
 
     {
       id: 484,
+      english: 'To be injured',
+      russian: 'Быть раненым',
+      hebrew: 'להיפצע',
+      pronuncEng: 'lehipatzE',
+      pronuncRus: 'лехипацЭ',
+      category: 'nifal'
+    },
+
+    {
+      id: 485,
+      english: 'To respond',
+      russian: 'Реагировать, откликаться',
+      hebrew: 'להגיב',
+      pronuncEng: 'lehagiv',
+      pronuncRus: 'лехагИв',
+      category: 'hifil'
+    },
+
+    {
+      id: 486,
+      english: 'Website',
+      russian: 'Вебсайт',
+      hebrew: 'אתר',
+      pronuncEng: 'atAr',
+      pronuncRus: 'атАр',
+      category: 'general'
+    },
+    
+    {
+      id: 487,
+      english: 'Leader',
+      russian: 'Лидер',
+      hebrew: 'מנהיג',
+      pronuncEng: 'manhig',
+      pronuncRus: 'манхИг',
+      category: 'general'
+    },
+    
+    {
+      id: 488,
+      english: 'To cause, to result in...',
+      russian: 'Приводить к...',
+      hebrew: 'לגרום',
+      pronuncEng: 'lagrOm',
+      pronuncRus: 'лагрОм',
+      category: 'paal'
+    },
+
+    //Ieva
+    
+    {
+      id: 489,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+    
+    {
+      id: 490,
       english: '',
       russian: '',
       hebrew: '',
