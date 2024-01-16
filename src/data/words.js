@@ -4879,21 +4879,79 @@ const words = [
       pronuncRus: 'лагрОм',
       category: 'paal'
     },
-
-    //Ieva
     
     {
       id: 489,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'To report',
+      russian: 'Сообщать',
+      hebrew: 'לדווח',
+      pronuncEng: 'ledavEakh',
+      pronuncRus: 'ледавЕах',
+      category: 'piel'
     },
     
     {
       id: 490,
+      english: 'To join',
+      russian: 'Присоединяться',
+      hebrew: 'להצטרף',
+      pronuncEng: 'lehitztarEf',
+      pronuncRus: 'лехицтарЭф',
+      category: 'hitpael'
+    },    
+
+    {
+      id: 491,
+      english: 'To inform',
+      russian: 'Информировать',
+      hebrew: 'להודיע',
+      pronuncEng: 'lehodia',
+      pronuncRus: 'леходИа',
+      category: 'hifil'
+    },
+        
+    {
+      id: 492,
+      english: 'To bring down, to lower',
+      russian: 'Снизить, сбавить, спустить',
+      hebrew: 'להוריד',
+      pronuncEng: 'lehorid',
+      pronuncRus: 'лехорИд',
+      category: 'hifil'
+    },
+        
+    {
+      id: 493,
+      english: 'To pull, to remove, to withdraw',
+      russian: 'Удалять, извлекать, выводить, вынимать',
+      hebrew: 'להוציא',
+      pronuncEng: 'lehotzi',
+      pronuncRus: 'лехоцИ',
+      category: 'hifil'
+    },
+        
+    {
+      id: 494,
+      english: 'To add',
+      russian: 'Добавлять',
+      hebrew: 'להוסיף',
+      pronuncEng: 'lehosif',
+      pronuncRus: 'лехосИф',
+      category: 'hifil'
+    },
+        
+    {
+      id: 495,
+      english: 'To appear',
+      russian: 'Являться, появляться',
+      hebrew: 'להופיע',
+      pronuncEng: 'lehofia',
+      pronuncRus: 'лехофИа',
+      category: 'hifil'
+    },
+        
+    {
+      id: 496,
       english: '',
       russian: '',
       hebrew: '',
@@ -4904,6 +4962,9 @@ const words = [
 
     // IDEA: after finishing the session, render all the words that
     // were run through and display them in lists (correct, incorrect answers etc.)
+
+    // IDEA 2: User should have an option to add words to this file, although it means he has to 
+    // fill up all the properties
 
   ]
 
