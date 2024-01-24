@@ -191,6 +191,106 @@ const itWords = [
 
   {
     id: 20,
+    english: 'ink',
+    russian: 'чернила',
+    hebrew: 'דיו',
+    pronuncEng: 'dyO',
+    pronuncRus: 'дьйО',
+    category: 'it'
+  },
+  
+  {
+    id: 21,
+    english: 'USB flash disk',
+    russian: 'флешка',
+    hebrew: 'דיסק און קי',
+    pronuncEng: 'disk on ki',
+    pronuncRus: 'диск он ки',
+    category: 'it'
+  },
+  
+  {
+    id: 22,
+    english: 'External HDD',
+    russian: 'внешний жесткий диск',
+    hebrew: 'דיסק קשיח חיצוני',
+    pronuncEng: 'disk kashiakh khitzonI',
+    pronuncRus: 'диск кашИах хицонИ',
+    category: 'it'
+  },
+  
+  {
+    id: 23,
+    english: 'Homepage',
+    russian: 'домашняя страница',
+    hebrew: 'דף הבית',
+    pronuncEng: 'daf ha-bait',
+    pronuncRus: 'даф абАйт',
+    category: 'it'
+  },
+  
+  {
+    id: 24,
+    english: 'Browser',
+    russian: 'браузер',
+    hebrew: 'דפדפן',
+    pronuncEng: 'dafdefAn',
+    pronuncRus: 'дафдефАн',
+    category: 'it'
+  },
+  
+  {
+    id: 25,
+    english: 'Hardware requirements',
+    russian: 'аппаратные требования',
+    hebrew: 'דרישות חומרה',
+    pronuncEng: 'drishOt khomrA',
+    pronuncRus: 'дришОт хомрА',
+    category: 'it'
+  },
+  
+  {
+    id: 26,
+    english: 'Settings',
+    russian: 'настройки',
+    hebrew: 'הגדרות',
+    pronuncEng: 'hagdarOt',
+    pronuncRus: 'агдарОт',
+    category: 'it'
+  },
+  
+  {
+    id: 27,
+    english: 'CBT (Computer Based Training)',
+    russian: 'CBT (Computer Based Training)',
+    hebrew: 'הדב"ם הדרכה בעזרת מחשב',
+    pronuncEng: 'adbAm (adrakhA be-ezrAt makhshev)',
+    pronuncRus: 'адбАм (адрахА бээзрАт махШэв)',
+    category: 'it'
+  },
+  
+  {
+    id: 28,
+    english: 'Paste',
+    russian: 'вставить',
+    hebrew: 'הדבק',
+    pronuncEng: 'hadbEk',
+    pronuncRus: 'адбЭк',
+    category: 'it'
+  },
+  
+  {
+    id: 29,
+    english: 'Compilation',
+    russian: 'компиляция',
+    hebrew: 'הדור',
+    pronuncEng: 'idUr',
+    pronuncRus: 'идУр',
+    category: 'it'
+  },
+  
+  {
+    id: 30,
     english: '',
     russian: '',
     hebrew: '',
