@@ -291,6 +291,156 @@ const itWords = [
   
   {
     id: 30,
+    english: 'Simulation',
+    russian: 'симуляция',
+    hebrew: 'הדמיה',
+    pronuncEng: 'admayA',
+    pronuncRus: 'адмаЯ',
+    category: 'it'
+  },
+    
+  {
+    id: 31,
+    english: 'Message',
+    russian: 'сообщение',
+    hebrew: 'הודעה',
+    pronuncEng: 'hodaA',
+    pronuncRus: 'одаА',
+    category: 'it'
+  },
+    
+  {
+    id: 32,
+    english: 'Download',
+    russian: 'скачивание',
+    hebrew: 'הורדה',
+    pronuncEng: 'horadA',
+    pronuncRus: 'орадА',
+    category: 'it'
+  },
+    
+  {
+    id: 33,
+    english: 'Comment',
+    russian: 'комментарий',
+    hebrew: 'הערה',
+    pronuncEng: 'earA',
+    pronuncRus: 'эарА',
+    category: 'it'
+  },
+    
+  {
+    id: 34,
+    english: 'Activation',
+    russian: 'включение, активация',
+    hebrew: 'הפעלה',
+    pronuncEng: 'afalA',
+    pronuncRus: 'афалА',
+    category: 'it'
+  },
+    
+  {
+    id: 35,
+    english: 'Authorization',
+    russian: 'авторизация',
+    hebrew: 'הרשאה',
+    pronuncEng: 'harshaA',
+    pronuncRus: 'аршаА',
+    category: 'it'
+  },
+    
+  {
+    id: 36,
+    english: 'Installation',
+    russian: 'инсталляция, установка',
+    hebrew: 'התקנה',
+    pronuncEng: 'hatkanA',
+    pronuncRus: 'атканА',
+    category: 'it'
+  },
+    
+  {
+    id: 37,
+    english: 'Virus',
+    russian: 'вирус',
+    hebrew: 'וירוס',
+    pronuncEng: 'virus',
+    pronuncRus: 'вирус',
+    category: 'it'
+  },
+    
+  {
+    id: 38,
+    english: 'Speech recognition',
+    russian: 'распознавание речи',
+    hebrew: 'זיהוי דיבור',
+    pronuncEng: 'zihUi dibUr',
+    pronuncRus: 'зиУй дибУр',
+    category: 'it'
+  },
+    
+  {
+    id: 39,
+    english: 'Voice recognition',
+    russian: 'распознавание голоса',
+    hebrew: 'זיהוי קול',
+    pronuncEng: 'zihUi kol',
+    pronuncRus: 'зиУй коль',
+    category: 'it'
+  },
+    
+  {
+    id: 40,
+    english: 'Copyright',
+    russian: 'копирайт, право обладания',
+    hebrew: 'זכות יוצרים',
+    pronuncEng: 'zkhut yotzrim',
+    pronuncRus: 'зхут йоцрИм',
+    category: 'it'
+  },
+      
+  {
+    id: 41,
+    english: 'Memory',
+    russian: 'память',
+    hebrew: 'זכרון',
+    pronuncEng: 'zikarOn',
+    pronuncRus: 'зикарОн',
+    category: 'it'
+  },
+        
+  {
+    id: 42,
+    english: 'In real time',
+    russian: 'в реальном времени',
+    hebrew: 'זמן אמת',
+    pronuncEng: 'zman emEt',
+    pronuncRus: 'зман эмЭт',
+    category: 'it'
+  },
+        
+  {
+    id: 43,
+    english: 'Hardware',
+    russian: 'хардвэр',
+    hebrew: 'חומרה',
+    pronuncEng: 'khomrA',
+    pronuncRus: 'хомрА',
+    category: 'it'
+  },
+        
+  {
+    id: 44,
+    english: 'Firewall',
+    russian: 'фаервол',
+    hebrew: 'חומת אש',
+    pronuncEng: 'khomAt Esh',
+    pronuncRus: 'хомАт Эш',
+    category: 'it'
+  },
+        
+  {
+    id: 45,
     english: '',
     russian: '',
     hebrew: '',
