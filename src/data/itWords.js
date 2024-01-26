@@ -441,6 +441,156 @@ const itWords = [
         
   {
     id: 45,
+    english: 'Connection',
+    russian: 'связь, соединение',
+    hebrew: 'חיבור',
+    pronuncEng: 'khibUr',
+    pronuncRus: 'хибУр',
+    category: 'it'
+  },
+          
+  {
+    id: 46,
+    english: 'Search',
+    russian: 'поиск',
+    hebrew: 'חיפוש',
+    pronuncEng: 'khipUs',
+    pronuncRus: 'хипУс',
+    category: 'it'
+  },
+          
+  {
+    id: 47,
+    english: 'Window',
+    russian: 'окно',
+    hebrew: 'חלון',
+    pronuncEng: 'khalOn',
+    pronuncRus: 'халОн',
+    category: 'it'
+  },
+          
+  {
+    id: 48,
+    english: 'Blocked',
+    russian: 'заблокирован',
+    hebrew: 'חסום',
+    pronuncEng: 'khasUm',
+    pronuncRus: 'хасУм',
+    category: 'it'
+  },
+          
+  {
+    id: 49,
+    english: 'Internet account',
+    russian: 'интернет аккаунт',
+    hebrew: 'חשבון אינטרנט',
+    pronuncEng: 'kheshbOn internet',
+    pronuncRus: 'хешбОн Интернет',
+    category: 'it'
+  },
+          
+  {
+    id: 50,
+    english: 'Table, chart',
+    russian: 'таблица',
+    hebrew: 'טבלה',
+    pronuncEng: 'tavlA',
+    pronuncRus: 'тавлА',
+    category: 'it'
+  },
+          
+  {
+    id: 51,
+    english: 'Loading, charging',
+    russian: 'загрузка',
+    hebrew: 'טעינה',
+    pronuncEng: 'teinA',
+    pronuncRus: 'тэинА',
+    category: 'it'
+  },
+          
+  {
+    id: 52,
+    english: 'Log',
+    russian: 'лог, дневник событий',
+    hebrew: 'יומן ארוע',
+    pronuncEng: 'yomAn erUa',
+    pronuncRus: 'йомАн эрУа',
+    category: 'it'
+  },
+          
+  {
+    id: 53,
+    english: 'Application',
+    russian: 'приложение',
+    hebrew: 'יישום',
+    pronuncEng: 'yisUm',
+    pronuncRus: 'исУм',
+    category: 'it'
+  },
+          
+  {
+    id: 54,
+    english: 'Client application',
+    russian: 'клиентское приложение',
+    hebrew: 'יישום לקוח',
+    pronuncEng: 'yisUm lakOakh',
+    pronuncRus: 'исУм лакОах',
+    category: 'it'
+  },
+          
+  {
+    id: 55,
+    english: 'Instruments of editing',
+    russian: 'инструменты редактирования',
+    hebrew: 'כלי עריכה',
+    pronuncEng: 'klEi arikhA',
+    pronuncRus: 'клей арихА',
+    category: 'it'
+  },
+          
+  {
+    id: 56,
+    english: 'Memory card',
+    russian: 'карта памяти',
+    hebrew: 'כרטיס זיכרון',
+    pronuncEng: 'kartis zikarOn',
+    pronuncRus: 'картИс зикарОн',
+    category: 'it'
+  },
+          
+  {
+    id: 57,
+    english: 'Soundcard',
+    russian: 'звуковая карта',
+    hebrew: 'כרטיס קול',
+    pronuncEng: 'kartis kol',
+    pronuncRus: 'картИс коль',
+    category: 'it'
+  },
+          
+  {
+    id: 58,
+    english: 'Address',
+    russian: 'адрес',
+    hebrew: 'כתובת',
+    pronuncEng: 'ktOvet',
+    pronuncRus: 'ктОвэт',
+    category: 'it'
+  },
+          
+  {
+    id: 59,
+    english: 'To scroll',
+    russian: 'скролить',
+    hebrew: 'לגלול',
+    pronuncEng: 'liglOl',
+    pronuncRus: 'лиглОль',
+    category: 'it'
+  },
+          
+  {
+    id: 60,
     english: '',
     russian: '',
     hebrew: '',
