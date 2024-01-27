@@ -591,6 +591,206 @@ const itWords = [
           
   {
     id: 60,
+    english: 'To surf',
+    russian: 'серфить',
+    hebrew: 'לגלוש',
+    pronuncEng: 'liglOsh',
+    pronuncRus: 'лигЛош',
+    category: 'it'
+  },
+            
+  {
+    id: 61,
+    english: 'Motherboard',
+    russian: 'материнская плата',
+    hebrew: 'לוח אם',
+    pronuncEng: 'luakh em',
+    pronuncRus: 'лУах эм',
+    category: 'it'
+  },
+            
+  {
+    id: 62,
+    english: 'Control panel',
+    russian: 'контрольная панель',
+    hebrew: 'לוח בקרה',
+    pronuncEng: 'luakh bakarA',
+    pronuncRus: 'лУах бакарА',
+    category: 'it'
+  },
+            
+  {
+    id: 63,
+    english: 'Click, press (noun)',
+    russian: 'клик, нажатие',
+    hebrew: 'לחיצה',
+    pronuncEng: 'lekhitzA',
+    pronuncRus: 'лехицА',
+    category: 'it'
+  },
+            
+  {
+    id: 64,
+    english: 'To parse',
+    russian: 'парсить',
+    hebrew: 'לפרק',
+    pronuncEng: 'lefarEk',
+    pronuncRus: 'лефарЭк',
+    category: 'it'
+  },
+            
+  {
+    id: 65,
+    english: 'To code',
+    russian: 'кодить',
+    hebrew: 'לקודד',
+    pronuncEng: 'lekodEd',
+    pronuncRus: 'лекодЭд',
+    category: 'it'
+  },
+            
+  {
+    id: 66,
+    english: 'Database',
+    russian: 'база данных',
+    hebrew: 'מאגר נתונים',
+    pronuncEng: 'maagAr netunim',
+    pronuncRus: 'маагАр нетунИм',
+    category: 'it'
+  },
+            
+  {
+    id: 67,
+    english: 'Spell check',
+    russian: 'проверка написания',
+    hebrew: 'מאית',
+    pronuncEng: 'meayEt',
+    pronuncRus: 'мэайЭт',
+    category: 'it'
+  },
+            
+  {
+    id: 68,
+    english: 'Computer Science',
+    russian: 'Computer Science',
+    hebrew: 'מדעי המחשב',
+    pronuncEng: 'madaEi ha-makhshEv',
+    pronuncRus: 'мадаЭй амахшЭв',
+    category: 'it'
+  },
+            
+  {
+    id: 69,
+    english: 'Printer',
+    russian: 'принтер',
+    hebrew: 'מדפסת',
+    pronuncEng: 'madpEset',
+    pronuncRus: 'мадпЭсэт',
+    category: 'it'
+  },
+            
+  {
+    id: 70,
+    english: 'Manual',
+    russian: 'мануал',
+    hebrew: 'מדריך למשתמש',
+    pronuncEng: 'madrikh lemeshtamEsh',
+    pronuncRus: 'мадрИх лемештамЭш',
+    category: 'it'
+  },
+            
+  {
+    id: 71,
+    english: 'Engineer',
+    russian: 'инженер',
+    hebrew: 'מהנדס',
+    pronuncEng: 'mehandEs',
+    pronuncRus: 'меандЭс(-эт)',
+    category: 'it'
+  },
+            
+  {
+    id: 72,
+    english: 'Software engineer',
+    russian: 'Software engineer',
+    hebrew: 'מהנדס תוכנה',
+    pronuncEng: 'mehandEs tokhnA',
+    pronuncRus: 'мэандЭс(-эт) тохнА',
+    category: 'it'
+  },
+            
+  {
+    id: 73,
+    english: 'Favorites',
+    russian: 'избранные',
+    hebrew: 'מועדפים',
+    pronuncEng: 'muadafim',
+    pronuncRus: 'муадафИм',
+    category: 'it'
+  },
+            
+  {
+    id: 74,
+    english: 'Connected',
+    russian: 'соединен, подключен',
+    hebrew: 'מחובר',
+    pronuncEng: 'mekhubAr',
+    pronuncRus: 'мэхуБар',
+    category: 'it'
+  },
+            
+  {
+    id: 75,
+    english: 'Code generator',
+    russian: 'генератор кода',
+    hebrew: 'מחולל קוד',
+    pronuncEng: 'mekholel kod',
+    pronuncRus: 'мехолЭль код',
+    category: 'it'
+  },
+            
+  {
+    id: 76,
+    english: 'Removal, deleting',
+    russian: 'удаление, стирание',
+    hebrew: 'מחיקה',
+    pronuncEng: 'mekhikA',
+    pronuncRus: 'мехикА',
+    category: 'it'
+  },
+            
+  {
+    id: 77,
+    english: 'Computer',
+    russian: 'компьютер',
+    hebrew: 'מחשב',
+    pronuncEng: 'makhshEv',
+    pronuncRus: 'махшЭв',
+    category: 'it'
+  },
+            
+  {
+    id: 78,
+    english: 'Tablet',
+    russian: 'планшет',
+    hebrew: 'מחשב לוח טאבלט',
+    pronuncEng: 'makhshEv luakh tAblet',
+    pronuncRus: 'махшЭв лУах тАблет',
+    category: 'it'
+  },
+            
+  {
+    id: 79,
+    english: 'Host',
+    russian: 'хост',
+    hebrew: 'מחשב מארח',
+    pronuncEng: 'makhshEv mearEakh',
+    pronuncRus: 'махшЭв мэарЭах',
+    category: 'it'
+  },
+            
+  {
+    id: 80,
     english: '',
     russian: '',
     hebrew: '',
