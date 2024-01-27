@@ -791,6 +791,106 @@ const itWords = [
             
   {
     id: 80,
+    english: 'Laptop',
+    russian: 'ноутбук',
+    hebrew: 'מחשב נייד',
+    pronuncEng: 'makhshEv nayAd',
+    pronuncRus: 'махшЭв наЯд',
+    category: 'it'
+  },
+              
+  {
+    id: 81,
+    english: 'Charger',
+    russian: 'зарядник, загрузчик',
+    hebrew: 'מטען',
+    pronuncEng: 'matEn',
+    pronuncRus: 'матЭн',
+    category: 'it'
+  },
+              
+  {
+    id: 82,
+    english: 'Information',
+    russian: 'информация',
+    hebrew: 'מידע',
+    pronuncEng: 'meidA',
+    pronuncRus: 'мэйдА',
+    category: 'it'
+  },
+              
+  {
+    id: 83,
+    english: 'Sorting',
+    russian: 'сортировка',
+    hebrew: 'מיון',
+    pronuncEng: 'miyUn',
+    pronuncRus: 'миЮн',
+    category: 'it'
+  },
+              
+  {
+    id: 84,
+    english: 'Sort by date',
+    russian: 'сортировка по дате',
+    hebrew: 'מיון לפי התאריך',
+    pronuncEng: 'miyUn lefi ha-taarikh',
+    pronuncRus: 'миЮн лефИ атаарИх',
+    category: 'it'
+  },
+              
+  {
+    id: 85,
+    english: 'Sort by name',
+    russian: 'сортировка по имени',
+    hebrew: 'מיון לפי שם',
+    pronuncEng: 'miyUn lefi shem',
+    pronuncRus: 'миЮн лефИ шэм',
+    category: 'it'
+  },
+              
+  {
+    id: 86,
+    english: 'Keywords',
+    russian: 'ключевые слова',
+    hebrew: 'מילות מפתח',
+    pronuncEng: 'milot maftEakh',
+    pronuncRus: 'милОт мафтЭах',
+    category: 'it'
+  },
+              
+  {
+    id: 87,
+    english: 'Interface',
+    russian: 'интерфейс',
+    hebrew: 'ממשק',
+    pronuncEng: 'mimshAk',
+    pronuncRus: 'мимшАк',
+    category: 'it'
+  },
+              
+  {
+    id: 88,
+    english: 'User interface (UI)',
+    russian: 'пользовательский интерфейс UI',
+    hebrew: 'ממשק משתמש',
+    pronuncEng: 'mimshAk mishtamEsh',
+    pronuncRus: 'мимшАк миштамЭш',
+    category: 'it'
+  },
+              
+  {
+    id: 89,
+    english: 'API',
+    russian: 'API',
+    hebrew: 'ממשק תכנות יישומים',
+    pronuncEng: 'mimshAk tikhnUt yisumim',
+    pronuncRus: 'мимшАк тихнУт исумИм',
+    category: 'it'
+  },
+              
+  {
+    id: 90,
     english: '',
     russian: '',
     hebrew: '',
