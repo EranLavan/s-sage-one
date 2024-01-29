@@ -891,6 +891,116 @@ const itWords = [
               
   {
     id: 90,
+    english: 'Engine',
+    russian: 'движок',
+    hebrew: 'מנוע',
+    pronuncEng: 'manOa',
+    pronuncRus: 'маНоа',
+    category: 'it'
+  },
+                
+  {
+    id: 91,
+    english: 'Systems analyst',
+    russian: 'системный аналитик',
+    hebrew: 'מנתח מערכות',
+    pronuncEng: 'menatEakh maarakhOt',
+    pronuncRus: 'мэнатЭах маарахОт',
+    category: 'it'
+  },
+                
+  {
+    id: 92,
+    english: 'Screen',
+    russian: 'монитор',
+    hebrew: 'מסך',
+    pronuncEng: 'masAkh',
+    pronuncRus: 'масАх',
+    category: 'it'
+  },
+                
+  {
+    id: 93,
+    english: 'Flat screen',
+    russian: 'плоский экран',
+    hebrew: 'מסך שטוח',
+    pronuncEng: 'masAkh shatUakh',
+    pronuncRus: 'масАх шатУах',
+    category: 'it'
+  },
+                
+  {
+    id: 94,
+    english: 'Documents',
+    russian: 'документы',
+    hebrew: 'מסמכים',
+    pronuncEng: 'mismakhim',
+    pronuncRus: 'мисмахИм',
+    category: 'it'
+  },
+                
+  {
+    id: 95,
+    english: 'Serial number',
+    russian: 'серийный номер',
+    hebrew: 'מספר סידורי',
+    pronuncEng: 'mispAr sidurI',
+    pronuncRus: 'миспАр сидурИ',
+    category: 'it'
+  },
+                
+  {
+    id: 96,
+    english: 'Operating system',
+    russian: 'операционная система',
+    hebrew: 'מערכת הפעלה',
+    pronuncEng: 'maarEkhet afalA',
+    pronuncRus: 'маарЭхэт афалА',
+    category: 'it'
+  },
+                
+  {
+    id: 97,
+    english: 'Information system',
+    russian: 'информационная система',
+    hebrew: 'מערכת מידע',
+    pronuncEng: 'maarEkhet meidA',
+    pronuncRus: 'маарЭхэт мэйдА',
+    category: 'it'
+  },
+                
+  {
+    id: 98,
+    english: 'Breakpoint',
+    russian: 'брейкпоинт',
+    hebrew: 'מפסק',
+    pronuncEng: 'mifsAk',
+    pronuncRus: 'мифсАк',
+    category: 'it'
+  },
+                
+  {
+    id: 99,
+    english: 'Virtual reality',
+    russian: 'виртуальная реальность',
+    hebrew: 'מציאות מדומה',
+    pronuncEng: 'metziUt medumA',
+    pronuncRus: 'мециУт медуМа',
+    category: 'it'
+  },
+                
+  {
+    id: 100,
+    english: 'Keyboard',
+    russian: 'клавиатура',
+    hebrew: 'מקלדת',
+    pronuncEng: 'miklEdet',
+    pronuncRus: 'миклЭдэт',
+    category: 'it'
+  },
+                
+  {
+    id: 101,
     english: '',
     russian: '',
     hebrew: '',
@@ -898,6 +1008,7 @@ const itWords = [
     pronuncRus: '',
     category: 'it'
   },
+
 
 
 ]
