@@ -1001,6 +1001,96 @@ const itWords = [
                 
   {
     id: 101,
+    english: 'Key, button',
+    russian: 'клавиша',
+    hebrew: 'מקש',
+    pronuncEng: 'makAsh',
+    pronuncRus: 'макАш',
+    category: 'it'
+  },
+                
+  {
+    id: 102,
+    english: 'Arrow keys/buttons',
+    russian: 'кнопки со стрелками',
+    hebrew: 'מקש חץ',
+    pronuncEng: 'mAkash khEtz',
+    pronuncRus: 'мАкаш хец',
+    category: 'it'
+  },
+                  
+  {
+    id: 103,
+    english: 'Space button',
+    russian: 'клавиша пробела',
+    hebrew: 'מקש רוח',
+    pronuncEng: 'makAsh rEvakh',
+    pronuncRus: 'макАш рЭвах',
+    category: 'it'
+  },
+                  
+  {
+    id: 104,
+    english: 'Game',
+    russian: 'игра',
+    hebrew: 'משחק',
+    pronuncEng: 'miskhAk',
+    pronuncRus: 'мисхАк',
+    category: 'it'
+  },
+                  
+  {
+    id: 105,
+    english: 'User',
+    russian: 'юзер',
+    hebrew: 'משתמש',
+    pronuncEng: 'mishtamEsh',
+    pronuncRus: 'миштамЭш',
+    category: 'it'
+  },
+                  
+  {
+    id: 106,
+    english: 'Variable',
+    russian: 'переменная',
+    hebrew: 'משתנה',
+    pronuncEng: 'mishtanE',
+    pronuncRus: 'миштанЭ',
+    category: 'it'
+  },
+                  
+  {
+    id: 107,
+    english: 'Programmer',
+    russian: 'программист',
+    hebrew: 'מתכנת',
+    pronuncEng: 'metakhnEt',
+    pronuncRus: 'мэтахнЭт(-эт)',
+    category: 'it'
+  },
+                  
+  {
+    id: 108,
+    english: 'Procedure',
+    russian: 'процедура',
+    hebrew: 'נוהל',
+    pronuncEng: 'noAl',
+    pronuncRus: 'нОаль',
+    category: 'it'
+  },
+                  
+  {
+    id: 109,
+    english: 'Topic',
+    russian: 'тема',
+    hebrew: 'נושא',
+    pronuncEng: 'nosE',
+    pronuncRus: 'носЭ',
+    category: 'it'
+  },
+                  
+  {
+    id: 110,
     english: '',
     russian: '',
     hebrew: '',
@@ -1008,7 +1098,6 @@ const itWords = [
     pronuncRus: '',
     category: 'it'
   },
-
 
 
 ]
