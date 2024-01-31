@@ -1091,6 +1091,56 @@ const itWords = [
                   
   {
     id: 110,
+    english: 'Project management',
+    russian: 'проджект менеджмент',
+    hebrew: 'ניהול פרויקט',
+    pronuncEng: 'niUl proiEkt',
+    pronuncRus: 'ниУль пройЭкт',
+    category: 'it'
+  },
+                    
+  {
+    id: 111,
+    english: 'Navigation',
+    russian: 'навигация',
+    hebrew: 'ניווט',
+    pronuncEng: 'nivUt',
+    pronuncRus: 'нивУт',
+    category: 'it'
+  },
+                    
+  {
+    id: 112,
+    english: 'Checkpoint',
+    russian: 'чекпоинт',
+    hebrew: 'נקודת ביקורת',
+    pronuncEng: 'nekudAt bikOret',
+    pronuncRus: 'некудАт бикОрэт',
+    category: 'it'
+  },
+                    
+  {
+    id: 113,
+    english: 'Finished',
+    russian: 'завершен',
+    hebrew: 'נשלם',
+    pronuncEng: 'nishlam',
+    pronuncRus: 'нишлам',
+    category: 'it'
+  },
+                    
+  {
+    id: 114,
+    english: 'Router',
+    russian: 'роутер',
+    hebrew: 'נתב',
+    pronuncEng: 'natAv',
+    pronuncRus: 'натАв',
+    category: 'it'
+  },
+                    
+  {
+    id: 115,
     english: '',
     russian: '',
     hebrew: '',
