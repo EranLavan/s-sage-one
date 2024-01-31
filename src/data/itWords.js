@@ -1141,6 +1141,76 @@ const itWords = [
                     
   {
     id: 115,
+    english: 'Data',
+    russian: 'дата, данные',
+    hebrew: 'נתונים',
+    pronuncEng: 'netunim',
+    pronuncRus: 'нетунИм',
+    category: 'it'
+  },
+                      
+  {
+    id: 116,
+    english: 'Scanner',
+    russian: 'сканер',
+    hebrew: 'סורק',
+    pronuncEng: 'sorEk',
+    pronuncRus: 'сорЭк',
+    category: 'it'
+  },
+                      
+  {
+    id: 117,
+    english: 'E-commerce',
+    russian: 'икомерс',
+    hebrew: 'סחר אלקטרוני',
+    pronuncEng: 'sAkhar elektrOni',
+    pronuncRus: 'сАхар электрОни',
+    category: 'it'
+  },
+                      
+  {
+    id: 118,
+    english: 'Password',
+    russian: 'пароль',
+    hebrew: 'סיסמה',
+    pronuncEng: 'sismA',
+    pronuncRus: 'сисмА',
+    category: 'it'
+  },
+                      
+  {
+    id: 119,
+    english: 'Digit',
+    russian: 'цифра',
+    hebrew: 'סיפרה',
+    pronuncEng: 'sifrA',
+    pronuncRus: 'сифрА',
+    category: 'it'
+  },
+                      
+  {
+    id: 120,
+    english: 'Cursor',
+    russian: 'курсор',
+    hebrew: 'סמן',
+    pronuncEng: 'samAn',
+    pronuncRus: 'самАн',
+    category: 'it'
+  },
+                      
+  {
+    id: 121,
+    english: 'Internet provider',
+    russian: 'интернет провайдер',
+    hebrew: 'ספק שירותי אינטרנט',
+    pronuncEng: 'sapAk sherutEi Internet',
+    pronuncRus: 'сапАк шерутЭй Интернет',
+    category: 'it'
+  },
+                      
+  {
+    id: 122,
     english: '',
     russian: '',
     hebrew: '',
