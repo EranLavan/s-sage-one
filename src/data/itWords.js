@@ -1261,6 +1261,66 @@ const itWords = [
                         
   {
     id: 127,
+    english: 'Design',
+    russian: 'дизайн',
+    hebrew: 'עיצוב',
+    pronuncEng: 'yitzUv',
+    pronuncRus: 'ицУв',
+    category: 'it'
+  },
+                          
+  {
+    id: 128,
+    english: 'Mouse',
+    russian: 'мышка',
+    hebrew: 'עכבר',
+    pronuncEng: 'akhbAr',
+    pronuncRus: 'ахбАр',
+    category: 'it'
+  },
+                          
+  {
+    id: 129,
+    english: 'Cloud',
+    russian: 'облако',
+    hebrew: 'ענן',
+    pronuncEng: 'anAn',
+    pronuncRus: 'анАн',
+    category: 'it'
+  },
+                          
+  {
+    id: 130,
+    english: 'Feature',
+    russian: 'фишка, новая функция',
+    hebrew: "פיצ'ר",
+    pronuncEng: 'feature',
+    pronuncRus: 'фИчер',
+    category: 'it'
+  },
+                          
+  {
+    id: 131,
+    english: 'Comma',
+    russian: 'запятая',
+    hebrew: 'פסיק',
+    pronuncEng: 'psik',
+    pronuncRus: 'псик',
+    category: 'it'
+  },
+                          
+  {
+    id: 132,
+    english: 'Command',
+    russian: 'команда',
+    hebrew: 'פקודה',
+    pronuncEng: 'pkudA',
+    pronuncRus: 'пкудА',
+    category: 'it'
+  },
+                          
+  {
+    id: 133,
     english: '',
     russian: '',
     hebrew: '',
@@ -1268,6 +1328,7 @@ const itWords = [
     pronuncRus: '',
     category: 'it'
   },
+  
 
 
 ]
