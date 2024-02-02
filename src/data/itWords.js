@@ -1211,6 +1211,56 @@ const itWords = [
                       
   {
     id: 122,
+    english: 'Library',
+    russian: 'библиотека',
+    hebrew: 'ספריה',
+    pronuncEng: 'sifriyA',
+    pronuncRus: 'сифриЯ',
+    category: 'it'
+  },
+                        
+  {
+    id: 123,
+    english: 'Toolbar',
+    russian: 'панель инструментов',
+    hebrew: 'סרגל כלים',
+    pronuncEng: 'sargEl kelim',
+    pronuncRus: 'саргЭль келИм',
+    category: 'it'
+  },
+                        
+  {
+    id: 124,
+    english: 'Video clip',
+    russian: 'видео ролик',
+    hebrew: 'סרטון וידאו',
+    pronuncEng: 'sirtOn video',
+    pronuncRus: 'сиртОн видео',
+    category: 'it'
+  },
+                        
+  {
+    id: 125,
+    english: 'Update',
+    russian: 'обновление, апдэйт',
+    hebrew: 'עדכון',
+    pronuncEng: 'idkUn',
+    pronuncRus: 'идкУн',
+    category: 'it'
+  },
+                        
+  {
+    id: 126,
+    english: 'Data processing',
+    russian: 'обработка данных',
+    hebrew: 'עיבוד נתונים',
+    pronuncEng: 'ibUd netunim',
+    pronuncRus: 'ибУд нетунИм',
+    category: 'it'
+  },
+                        
+  {
+    id: 127,
     english: '',
     russian: '',
     hebrew: '',
