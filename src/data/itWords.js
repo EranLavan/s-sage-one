@@ -1321,6 +1321,76 @@ const itWords = [
                           
   {
     id: 133,
+    english: 'Connection protocol',
+    russian: 'протокол связи',
+    hebrew: 'פרוטוקול תקשורת',
+    pronuncEng: 'protokOl tikshOret',
+    pronuncRus: 'протокОл тикшОрет',
+    category: 'it'
+  },
+                            
+  {
+    id: 134,
+    english: 'Chat',
+    russian: 'чат',
+    hebrew: "צ'אט",
+    pronuncEng: 'chat',
+    pronuncRus: 'чат',
+    category: 'it'
+  },
+                            
+  {
+    id: 135,
+    english: 'Background color',
+    russian: 'цвет фона',
+    hebrew: 'צבע רקע',
+    pronuncEng: 'tzEva rEka',
+    pronuncRus: 'цЭва рЭка',
+    category: 'it'
+  },
+                            
+  {
+    id: 136,
+    english: 'Sound effect',
+    russian: 'звук',
+    hebrew: 'צליל',
+    pronuncEng: 'tzlil',
+    pronuncRus: 'цлиль',
+    category: 'it'
+  },
+                            
+  {
+    id: 137,
+    english: 'Picture, icon',
+    russian: 'иконка',
+    hebrew: 'צלמית',
+    pronuncEng: 'tzalmit',
+    pronuncRus: 'цалмИт',
+    category: 'it'
+  },
+                            
+  {
+    id: 138,
+    english: 'Step',
+    russian: 'шаг',
+    hebrew: 'צעד',
+    pronuncEng: 'tzAad',
+    pronuncRus: 'цАад',
+    category: 'it'
+  },
+                            
+  {
+    id: 139,
+    english: 'Sound, honk',
+    russian: 'звуковой сигнал, гудок',
+    hebrew: 'צפצוף',
+    pronuncEng: 'tziftzUf',
+    pronuncRus: 'цифцУф',
+    category: 'it'
+  },
+                            
+  {
+    id: 140,
     english: '',
     russian: '',
     hebrew: '',
