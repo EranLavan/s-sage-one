@@ -1391,6 +1391,56 @@ const itWords = [
                             
   {
     id: 140,
+    english: 'Connection line',
+    russian: 'линия связи',
+    hebrew: 'קו תקשורת',
+    pronuncEng: 'kav tikshOret',
+    pronuncRus: 'кав тикшОрет',
+    category: 'it'
+  },
+                              
+  {
+    id: 141,
+    english: 'File',
+    russian: 'файл',
+    hebrew: 'קובץ',
+    pronuncEng: 'kOvetz',
+    pronuncRus: 'кОвец',
+    category: 'it'
+  },
+                              
+  {
+    id: 142,
+    english: 'Temporary file',
+    russian: 'временный файл',
+    hebrew: 'קובץ זמני',
+    pronuncEng: 'kOvetz zmani',
+    pronuncRus: 'кОвэц зманИ',
+    category: 'it'
+  },
+                              
+  {
+    id: 143,
+    english: 'Code',
+    russian: 'код',
+    hebrew: 'קוד',
+    pronuncEng: 'kod',
+    pronuncRus: 'код',
+    category: 'it'
+  },
+                              
+  {
+    id: 144,
+    english: 'Capacity',
+    russian: 'ёмкость',
+    hebrew: 'קיבולת',
+    pronuncEng: 'kibOlet',
+    pronuncRus: 'кибОлет',
+    category: 'it'
+  },
+                              
+  {
+    id: 145,
     english: '',
     russian: '',
     hebrew: '',
