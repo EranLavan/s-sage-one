@@ -1441,6 +1441,76 @@ const itWords = [
                               
   {
     id: 145,
+    english: 'Link',
+    russian: 'ссылка',
+    hebrew: 'קישור',
+    pronuncEng: 'kishUr',
+    pronuncRus: 'кишУр',
+    category: 'it'
+  },
+                                
+  {
+    id: 146,
+    english: 'Column width',
+    russian: 'ширина столбца',
+    hebrew: 'רוחב עמודה',
+    pronuncEng: 'rOkhav amudA',
+    pronuncRus: 'рОхав амудА',
+    category: 'it'
+  },
+                                
+  {
+    id: 147,
+    english: 'Component',
+    russian: 'компонент',
+    hebrew: 'רכיב',
+    pronuncEng: 'rekhiv',
+    pronuncRus: 'рэхИв',
+    category: 'it'
+  },
+                                
+  {
+    id: 148,
+    english: 'Sound speakers',
+    russian: 'звуковые колонки',
+    hebrew: 'רמקולים',
+    pronuncEng: 'ramkolim',
+    pronuncRus: 'рамколим',
+    category: 'it'
+  },
+                                
+  {
+    id: 149,
+    english: 'Entry, record',
+    russian: 'запись',
+    hebrew: 'רשומה',
+    pronuncEng: 'reshumA',
+    pronuncRus: 'решумА',
+    category: 'it'
+  },
+                                
+  {
+    id: 150,
+    english: 'Mailing list',
+    russian: 'список для рассылки писем, сообщений',
+    hebrew: 'רשימת תפוצה',
+    pronuncEng: 'reshimAt tfutzA',
+    pronuncRus: 'решимАт тфуцА',
+    category: 'it'
+  },
+                                
+  {
+    id: 151,
+    english: 'Net',
+    russian: 'сеть',
+    hebrew: 'רשת',
+    pronuncEng: 'rEshet',
+    pronuncRus: 'рЭшэт',
+    category: 'it'
+  },
+                                
+  {
+    id: 152,
     english: '',
     russian: '',
     hebrew: '',
