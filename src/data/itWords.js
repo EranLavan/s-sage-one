@@ -1561,6 +1561,76 @@ const itWords = [
                                   
   {
     id: 157,
+    english: 'Field',
+    russian: 'поле',
+    hebrew: 'שדה',
+    pronuncEng: 'sadE',
+    pronuncRus: 'садЭ',
+    category: 'it'
+  },
+                                    
+  {
+    id: 158,
+    english: 'Upgrade',
+    russian: 'улучшение, апгрэйд',
+    hebrew: 'שדרוג',
+    pronuncEng: 'shidrUg',
+    pronuncRus: 'шидрУг',
+    category: 'it'
+  },
+                                    
+  {
+    id: 159,
+    english: 'Desktop',
+    russian: 'десктоп, рабочий стол',
+    hebrew: 'שולחן עבודה',
+    pronuncEng: 'shulkhAn avodA',
+    pronuncRus: 'шульхАн аводА',
+    category: 'it'
+  },
+                                    
+  {
+    id: 160,
+    english: 'Recovery',
+    russian: 'восстановление',
+    hebrew: 'שחזור',
+    pronuncEng: 'shikhzUr',
+    pronuncRus: 'шихзУр',
+    category: 'it'
+  },
+                                    
+  {
+    id: 161,
+    english: 'Username',
+    russian: 'имя пользователя',
+    hebrew: 'שם משתמש',
+    pronuncEng: 'shem mishtamEsh',
+    pronuncRus: 'шэм миштамЭш',
+    category: 'it'
+  },
+                                    
+  {
+    id: 162,
+    english: 'Save as',
+    russian: 'сохранить как',
+    hebrew: 'שמירה בשם',
+    pronuncEng: 'shmirA be-shEm',
+    pronuncRus: 'шмирА бэшЭм',
+    category: 'it'
+  },
+                                    
+  {
+    id: 163,
+    english: 'Language',
+    russian: 'язык',
+    hebrew: 'שפה',
+    pronuncEng: 'safA',
+    pronuncRus: 'сафА',
+    category: 'it'
+  },
+                                    
+  {
+    id: 164,
     english: '',
     russian: '',
     hebrew: '',
