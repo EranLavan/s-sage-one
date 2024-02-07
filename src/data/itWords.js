@@ -1511,6 +1511,56 @@ const itWords = [
                                 
   {
     id: 152,
+    english: 'Social network',
+    russian: 'социальная сеть',
+    hebrew: 'רשת חברתית',
+    pronuncEng: 'rEshet khevratit',
+    pronuncRus: 'рЭшэт хевратИт',
+    category: 'it'
+  },
+                                  
+  {
+    id: 153,
+    english: 'Local Network (LAN)',
+    russian: 'локальная сеть LAN',
+    hebrew: 'רת"ם',
+    pronuncEng: 'RaTaM (rEshet tikshOret mekomit)',
+    pronuncRus: 'РАТАМ (рЭшэт тикшОрэт мэкомИт)',
+    category: 'it'
+  },
+                                  
+  {
+    id: 154,
+    english: 'Request',
+    russian: 'запрос',
+    hebrew: 'שאילתא',
+    pronuncEng: 'sheilta',
+    pronuncRus: 'шеИльта',
+    category: 'it'
+  },
+                                  
+  {
+    id: 155,
+    english: 'Bug, error',
+    russian: 'ошибка, баг',
+    hebrew: 'שגיאה',
+    pronuncEng: 'shgiyA',
+    pronuncRus: 'шгиЯ',
+    category: 'it'
+  },
+                                  
+  {
+    id: 156,
+    english: 'Error reading...',
+    russian: 'ошибка чтения',
+    hebrew: 'שגיאת קריאה',
+    pronuncEng: 'shgiyAt kriyA',
+    pronuncRus: 'шгиЯт криЯ',
+    category: 'it'
+  },
+                                  
+  {
+    id: 157,
     english: '',
     russian: '',
     hebrew: '',
