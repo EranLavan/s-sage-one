@@ -1631,6 +1631,76 @@ const itWords = [
                                     
   {
     id: 164,
+    english: 'File server',
+    russian: 'файловый сервер',
+    hebrew: 'שרת קבצים',
+    pronuncEng: 'sharAt kvatzim',
+    pronuncRus: 'шарАт квацИм',
+    category: 'it'
+  },
+                                      
+  {
+    id: 165,
+    english: 'Template',
+    russian: 'шаблон',
+    hebrew: 'תבנית',
+    pronuncEng: 'tavnit',
+    pronuncRus: 'тавнИт',
+    category: 'it'
+  },
+                                      
+  {
+    id: 166,
+    english: 'Content',
+    russian: 'контент',
+    hebrew: 'תוכן',
+    pronuncEng: 'tOkhen',
+    pronuncRus: 'тОхэн',
+    category: 'it'
+  },
+                                      
+  {
+    id: 167,
+    english: 'Anti-virus program',
+    russian: 'антивирусная программа',
+    hebrew: 'תוכנת אנטי וירוס',
+    pronuncEng: 'tokhnAt anti virus',
+    pronuncRus: 'тохнАт анти вирус',
+    category: 'it'
+  },
+                                      
+  {
+    id: 168,
+    english: 'Documentation',
+    russian: 'документация',
+    hebrew: 'תיעוד',
+    pronuncEng: 'tiUd',
+    pronuncRus: 'тиУд',
+    category: 'it'
+  },
+                                      
+  {
+    id: 169,
+    english: 'Folder',
+    russian: 'папка',
+    hebrew: 'תיקיה',
+    pronuncEng: 'tikiA',
+    pronuncRus: 'тикиЯ',
+    category: 'it'
+  },
+                                      
+  {
+    id: 170,
+    english: 'Computer-aided design (CAD) and Computer-aided manufacturing',
+    russian: 'Computer-aided design (CAD) and Computer-aided manufacturing',
+    hebrew: 'תכנון וייצור בעזרת מחשב',
+    pronuncEng: 'tikhnUn veytzUr be-ezrAt makhshEv',
+    pronuncRus: 'тихнУн вэицУр бэ-эзрАт махшЭв',
+    category: 'it'
+  },
+                             
+  {
+    id: 171,
     english: '',
     russian: '',
     hebrew: '',
@@ -1638,6 +1708,7 @@ const itWords = [
     pronuncRus: '',
     category: 'it'
   },
+  
   
 
 
