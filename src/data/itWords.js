@@ -1701,6 +1701,66 @@ const itWords = [
                              
   {
     id: 171,
+    english: 'Programming',
+    russian: 'программирование',
+    hebrew: 'תכנות',
+    pronuncEng: 'tikhnUt',
+    pronuncRus: 'тихнУт',
+    category: 'it'
+  },
+                               
+  {
+    id: 172,
+    english: 'Program (two versions of word using comma)',
+    russian: 'программа (два варианта, через запятую)',
+    hebrew: 'תכנית, תוכנה',
+    pronuncEng: 'takhnit, tokhnA',
+    pronuncRus: 'тахнИт, тохнА',
+    category: 'it'
+  },
+                               
+  {
+    id: 173,
+    english: '3D',
+    russian: 'трехмерный',
+    hebrew: 'תלת ממדי',
+    pronuncEng: 'tlat memadi',
+    pronuncRus: 'тлат мемади',
+    category: 'it'
+  },
+                               
+  {
+    id: 174,
+    english: 'Support',
+    russian: 'саппорт, поддержка',
+    hebrew: 'תמיכה',
+    pronuncEng: 'tmikhA',
+    pronuncRus: 'тмихА',
+    category: 'it'
+  },
+                               
+  {
+    id: 175,
+    english: 'Technical support',
+    russian: 'техническая поддержка',
+    hebrew: 'תמיכה טכנית',
+    pronuncEng: 'tmikhA tekhnit',
+    pronuncRus: 'тмихА тЕхнит',
+    category: 'it'
+  },
+                               
+  {
+    id: 176,
+    english: 'Traffic',
+    russian: 'трафик',
+    hebrew: 'תעבורה',
+    pronuncEng: 'taavurA',
+    pronuncRus: 'таавурА',
+    category: 'it'
+  },
+                               
+  {
+    id: 177,
     english: '',
     russian: '',
     hebrew: '',
