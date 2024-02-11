@@ -1761,6 +1761,66 @@ const itWords = [
                                
   {
     id: 177,
+    english: 'Warranty certificate',
+    russian: 'гарантийное свидетельство',
+    hebrew: 'תעודת אחריות',
+    pronuncEng: 'teudAt akhrayUt',
+    pronuncRus: 'теудАт ахраЮт',
+    category: 'it'
+  },
+                                 
+  {
+    id: 178,
+    english: 'Menu',
+    russian: 'меню',
+    hebrew: 'תפריט',
+    pronuncEng: 'tafrit',
+    pronuncRus: 'тафрИт',
+    category: 'it'
+  },
+                                 
+  {
+    id: 179,
+    english: 'Configuration',
+    russian: 'конфигурация',
+    hebrew: 'תצורה',
+    pronuncEng: 'tetzurA',
+    pronuncRus: 'тэцурА',
+    category: 'it'
+  },
+                                 
+  {
+    id: 180,
+    english: 'Standard',
+    russian: 'стандарт',
+    hebrew: 'תקן',
+    pronuncEng: 'tEken',
+    pronuncRus: 'тЭкэн',
+    category: 'it'
+  },
+                                 
+  {
+    id: 181,
+    english: 'Communications',
+    russian: 'коммуникации',
+    hebrew: 'תקשורת',
+    pronuncEng: 'tikshOret',
+    pronuncRus: 'тикшОрет',
+    category: 'it'
+  },
+                                 
+  {
+    id: 182,
+    english: 'Infrastructure',
+    russian: 'инфраструктура',
+    hebrew: 'תשתית',
+    pronuncEng: 'tashtit',
+    pronuncRus: 'таштИт',
+    category: 'it'
+  },
+                                 
+  {
+    id: 183,
     english: '',
     russian: '',
     hebrew: '',
@@ -1768,8 +1828,5 @@ const itWords = [
     pronuncRus: '',
     category: 'it'
   },
-  
-  
-
 
 ]
