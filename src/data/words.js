@@ -4952,6 +4952,46 @@ const words = [
         
     {
       id: 496,
+      english: 'To discover, to show (feelings)',
+      russian: 'Открывать / проявлять (эмпатию например)',
+      hebrew: 'לגלות',
+      pronuncEng: 'legalOt',
+      pronuncRus: 'легалОт',
+      category: 'piel'
+    },
+            
+    {
+      id: 497,
+      english: 'To anticipate, to yearn/long for smth.',
+      russian: 'Ожидать, чаять',
+      hebrew: 'לצפות',
+      pronuncEng: 'letzapOt',
+      pronuncRus: 'лецапОт',
+      category: 'piel'
+    },
+            
+    {
+      id: 498,
+      english: 'To accompany',
+      russian: 'Сопровождать (физически или музыкально)',
+      hebrew: 'ללוות',
+      pronuncEng: 'lelavOt',
+      pronuncRus: 'лелавОт',
+      category: 'piel'
+    },
+            
+    {
+      id: 499,
+      english: 'To try, to attempt',
+      russian: 'Пробовать, пытаться',
+      hebrew: 'לנסות',
+      pronuncEng: 'lenasOt',
+      pronuncRus: 'ленасОт',
+      category: 'piel'
+    },
+            
+    {
+      id: 500,
       english: '',
       russian: '',
       hebrew: '',
