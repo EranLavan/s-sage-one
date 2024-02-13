@@ -4992,6 +4992,56 @@ const words = [
             
     {
       id: 500,
+      english: 'To deceive, to cheat',
+      russian: 'Обманывать, предавать',
+      hebrew: 'לרמות',
+      pronuncEng: 'leramOt',
+      pronuncRus: 'лерамОт',
+      category: 'piel'
+    },
+                
+    {
+      id: 501,
+      english: 'To lie (to someone)',
+      russian: 'Врать, лгать',
+      hebrew: 'לשקר',
+      pronuncEng: 'leshakEr',
+      pronuncRus: 'лешакЕр',
+      category: 'piel'
+    },
+                
+    {
+      id: 502,
+      english: 'Wonderful, marvellous',
+      russian: 'Прекрасно / прекрасный',
+      hebrew: 'נפלא',
+      pronuncEng: 'niflA',
+      pronuncRus: 'нифлА',
+      category: 'adjective'
+    },
+                
+    {
+      id: 503,
+      english: 'Meaning, significance',
+      russian: 'Значение, смысл',
+      hebrew: 'משמעות',
+      pronuncEng: 'mashmaUt',
+      pronuncRus: 'машмаУт',
+      category: 'general'
+    },
+                
+    {
+      id: 504,
+      english: 'Kitten',
+      russian: 'Котёнок',
+      hebrew: 'חתלתול',
+      pronuncEng: 'khataltUl',
+      pronuncRus: 'хатальтУль',
+      category: 'general'
+    },
+                
+    {
+      id: 505,
       english: '',
       russian: '',
       hebrew: '',
