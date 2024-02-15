@@ -5042,6 +5042,46 @@ const words = [
                 
     {
       id: 505,
+      english: 'Puppy',
+      russian: 'Щенок',
+      hebrew: 'כלבלב',
+      pronuncEng: 'klavlAv',
+      pronuncRus: 'клавлАв',
+      category: 'general'
+    },
+                    
+    {
+      id: 506,
+      english: 'To smile',
+      russian: 'Улыбаться',
+      hebrew: 'לחייך',
+      pronuncEng: 'lekhayEkh',
+      pronuncRus: 'лехайЕх',
+      category: 'piel'
+    },
+                    
+    {
+      id: 507,
+      english: 'Smile',
+      russian: 'Улыбка',
+      hebrew: 'חיוך',
+      pronuncEng: 'khiyUkh',
+      pronuncRus: 'хиЮх',
+      category: 'general'
+    },
+                    
+    {
+      id: 508,
+      english: 'To identify, to recognize',
+      russian: 'Определять, опознавать, различать',
+      hebrew: 'לזהות',
+      pronuncEng: 'lezahOt',
+      pronuncRus: 'лезахОт',
+      category: 'piel'
+    },
+                    
+    {
+      id: 509,
       english: '',
       russian: '',
       hebrew: '',
