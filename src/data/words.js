@@ -3975,8 +3975,8 @@ const words = [
       english: 'Cave',
       russian: 'Пещера',
       hebrew: 'מערה',
-      pronuncEng: 'maarA',
-      pronuncRus: 'маарА',
+      pronuncEng: 'mearA',
+      pronuncRus: 'мэарА',
       category: 'general'
     },
 
@@ -5082,6 +5082,66 @@ const words = [
                     
     {
       id: 509,
+      english: 'Talented',
+      russian: 'Талантливый',
+      hebrew: 'מוכשר',
+      pronuncEng: 'mukhshAr',
+      pronuncRus: 'мухшАр',
+      category: 'adjective'
+    },
+                        
+    {
+      id: 510,
+      english: 'Выставка',
+      russian: 'Exhibition',
+      hebrew: 'תערוכה',
+      pronuncEng: 'taarukhA',
+      pronuncRus: 'таарухА',
+      category: 'general'
+    },
+                        
+    {
+      id: 511,
+      english: 'The Temple of Jerusalem (aka "The Holy House")',
+      russian: 'Иерусалимский храм (он же "Святой Дом")',
+      hebrew: 'בית המקדש',
+      pronuncEng: 'beit a-mikdAsh',
+      pronuncRus: 'бейт а-микдАш',
+      category: 'sights'
+    },
+                        
+    {
+      id: 512,
+      english: 'Farmer, agronomist, or: agricultural (adj.)',
+      russian: 'Фермер, агроном, или: аграрный (прил.)',
+      hebrew: 'חקלאי',
+      pronuncEng: 'khaklAi',
+      pronuncRus: 'хаклАи',
+      category: 'profession'
+    },
+                        
+    {
+      id: 513,
+      english: 'Part',
+      russian: 'Часть',
+      hebrew: 'חלק',
+      pronuncEng: 'khElek',
+      pronuncRus: 'хЭлек',
+      category: 'general'
+    },
+                        
+    {
+      id: 514,
+      english: 'Sculpture',
+      russian: 'Скульптура',
+      hebrew: 'פסל',
+      pronuncEng: 'pEsel',
+      pronuncRus: 'пЕсэль',
+      category: 'general'
+    },     
+
+    {
+      id: 515,
       english: '',
       russian: '',
       hebrew: '',
