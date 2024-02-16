@@ -5142,6 +5142,46 @@ const words = [
 
     {
       id: 515,
+      english: 'Tradition',
+      russian: 'Традиция',
+      hebrew: 'מסורת',
+      pronuncEng: 'masOret',
+      pronuncRus: 'масОрет',
+      category: 'general'
+    },
+
+    {
+      id: 516,
+      english: 'To offer, to propose',
+      russian: 'Предложить',
+      hebrew: 'להציע',
+      pronuncEng: 'lehatzia',
+      pronuncRus: 'лехацИя',
+      category: 'hifil'
+    },
+    
+    {
+      id: 517,
+      english: 'Movement, organization',
+      russian: 'Движение, организация',
+      hebrew: 'תנועה',
+      pronuncEng: 'tnuA',
+      pronuncRus: 'тнуА',
+      category: 'general'
+    },
+    
+    {
+      id: 518,
+      english: 'Soul',
+      russian: 'Душа',
+      hebrew: 'נפש',
+      pronuncEng: 'nEfesh',
+      pronuncRus: 'нЭфеш',
+      category: 'general'
+    },
+    
+    {
+      id: 519,
       english: '',
       russian: '',
       hebrew: '',
