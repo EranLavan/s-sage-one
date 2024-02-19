@@ -5212,6 +5212,46 @@ const words = [
         
     {
       id: 522,
+      english: 'Message',
+      russian: 'Объявление, сообщение',
+      hebrew: 'הודעה',
+      pronuncEng: 'hodaA',
+      pronuncRus: 'ходаА',
+      category: 'general'
+    },
+            
+    {
+      id: 523,
+      english: 'Appearance, show',
+      russian: 'Представление, шоу, вид',
+      hebrew: 'הופעה',
+      pronuncEng: 'hofaA',
+      pronuncRus: 'хофаА',
+      category: 'general'
+    },
+            
+    {
+      id: 524,
+      english: 'Expense, expenditure',
+      russian: 'Расход, вывод, извлечение',
+      hebrew: 'הוצאה',
+      pronuncEng: 'hotzaA',
+      pronuncRus: 'хоцаА',
+      category: 'general'
+    },
+            
+    {
+      id: 525,
+      english: 'Addition',
+      russian: 'Добавление',
+      hebrew: 'הוספה',
+      pronuncEng: 'hosafA',
+      pronuncRus: 'хосафА',
+      category: 'general'
+    },
+            
+    {
+      id: 526,
       english: '',
       russian: '',
       hebrew: '',
