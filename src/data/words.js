@@ -5182,6 +5182,36 @@ const words = [
     
     {
       id: 519,
+      english: 'Role, function, job',
+      russian: 'Роль, функция, должность',
+      hebrew: 'תפקיד',
+      pronuncEng: 'tafkid',
+      pronuncRus: 'тафкИд',
+      category: 'general'
+    },
+        
+    {
+      id: 520,
+      english: 'To win',
+      russian: 'Выиграть',
+      hebrew: 'לנצח',
+      pronuncEng: 'lenatzEakh',
+      pronuncRus: 'ленацЕах',
+      category: 'piel'
+    },
+        
+    {
+      id: 521,
+      english: 'To lose, to destroy',
+      russian: 'Проиграть, разрушить',
+      hebrew: 'לאבד',
+      pronuncEng: 'leabEd',
+      pronuncRus: 'леабЭд',
+      category: 'piel'
+    },
+        
+    {
+      id: 522,
       english: '',
       russian: '',
       hebrew: '',
