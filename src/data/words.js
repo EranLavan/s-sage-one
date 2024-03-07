@@ -5252,6 +5252,46 @@ const words = [
             
     {
       id: 526,
+      english: 'Explanation',
+      russian: 'Объяснение',
+      hebrew: 'הסבר',
+      pronuncEng: 'hesbEr',
+      pronuncRus: 'эсбЕр',
+      category: 'general'
+    },
+     
+    {
+      id: 527,
+      english: 'Researcher',
+      russian: 'Исследователь',
+      hebrew: 'חוקר',
+      pronuncEng: 'khokEr',
+      pronuncRus: 'хокЕр',
+      category: 'general'
+    },
+                
+    {
+      id: 528,
+      english: 'Reaction',
+      russian: 'Реакция',
+      hebrew: 'תגובה',
+      pronuncEng: 'tguvA',
+      pronuncRus: 'тгувА',
+      category: 'shem peula'
+    },
+                
+    {
+      id: 529,
+      english: 'Adjustment, suitability',
+      russian: 'Соответствие',
+      hebrew: 'התאמה',
+      pronuncEng: 'hataamA',
+      pronuncRus: 'хатаамА',
+      category: 'shem peula'
+    },
+                
+    {
+      id: 530,
       english: '',
       russian: '',
       hebrew: '',
