@@ -5302,7 +5302,7 @@ const words = [
                 
     {
       id: 531,
-      english: 'Social',
+      english: 'Social, collective',
       russian: 'Общественный',
       hebrew: 'חברתי',
       pronuncEng: 'khevrati',
@@ -5312,26 +5312,86 @@ const words = [
                     
     {
       id: 532,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Victory',
+      russian: 'Победа',
+      hebrew: 'ניצחון',
+      pronuncEng: 'nitzakhOn',
+      pronuncRus: 'ницахОн',
+      category: 'general'
     },
                     
     {
       id: 533,
-      english: '',
-      russian: '',
-      hebrew: '',
-      pronuncEng: '',
-      pronuncRus: '',
-      category: ''
+      english: 'Fear',
+      russian: 'Страх',
+      hebrew: 'פחד',
+      pronuncEng: 'pAkhad',
+      pronuncRus: 'пАхад',
+      category: 'general'
     },
                     
     {
       id: 534,
+      english: 'Control, Authority',
+      russian: 'Власть, контроль',
+      hebrew: 'שליטה',
+      pronuncEng: 'shlitA',
+      pronuncRus: 'шлитА',
+      category: 'general'
+    },
+                    
+    {
+      id: 535,
+      english: 'To fail',
+      russian: 'Провалиться, потерпеть неудачу',
+      hebrew: 'להיכשל',
+      pronuncEng: 'lehikashEl',
+      pronuncRus: 'лехикашЕль',
+      category: 'nifal'
+    },
+                        
+    {
+      id: 536,
+      english: 'Sense of humor',
+      russian: 'Чувство юмора',
+      hebrew: 'חוש הומור',
+      pronuncEng: 'khush humOr',
+      pronuncRus: 'хуш хумОр',
+      category: 'general'
+    },
+                        
+    {
+      id: 537,
+      english: 'Research',
+      russian: 'Исследование',
+      hebrew: 'מחקר',
+      pronuncEng: 'mikhkAr',
+      pronuncRus: 'михкАр',
+      category: 'general'
+    },
+                        
+    {
+      id: 538,
+      english: 'Despite that...',
+      russian: 'Несмотря на...',
+      hebrew: '...אף על פי ש',
+      pronuncEng: 'af al pi she...',
+      pronuncRus: 'аф аль пи ше...',
+      category: 'adverb'
+    },
+                        
+    {
+      id: 539,
+      english: 'Injury, harm, damage',
+      russian: 'Травма, рана',
+      hebrew: 'פגיעה',
+      pronuncEng: 'pgiyA',
+      pronuncRus: 'пгиЯ',
+      category: 'general'
+    },
+                        
+    {
+      id: 540,
       english: '',
       russian: '',
       hebrew: '',
@@ -5339,7 +5399,6 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-
     // IDEA: after finishing the session, render all the words that
     // were run through and display them in lists (correct, incorrect answers etc.)
 
