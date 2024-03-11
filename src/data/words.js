@@ -5292,6 +5292,46 @@ const words = [
                 
     {
       id: 530,
+      english: 'Description',
+      russian: 'Описание',
+      hebrew: 'תיאור',
+      pronuncEng: 'tiUr',
+      pronuncRus: 'тиУр',
+      category: 'shem peula'
+    },
+                
+    {
+      id: 531,
+      english: 'Social',
+      russian: 'Общественный',
+      hebrew: 'חברתי',
+      pronuncEng: 'khevrati',
+      pronuncRus: 'хевратИ',
+      category: 'adjective'
+    },
+                    
+    {
+      id: 532,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+                    
+    {
+      id: 533,
+      english: '',
+      russian: '',
+      hebrew: '',
+      pronuncEng: '',
+      pronuncRus: '',
+      category: ''
+    },
+                    
+    {
+      id: 534,
       english: '',
       russian: '',
       hebrew: '',
