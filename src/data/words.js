@@ -5392,6 +5392,46 @@ const words = [
                         
     {
       id: 540,
+      english: 'Brain',
+      russian: 'Мозг',
+      hebrew: 'מוח',
+      pronuncEng: 'mOakh',
+      pronuncRus: 'мОах',
+      category: 'general'
+    },
+                            
+    {
+      id: 541,
+      english: 'Disease, illness',
+      russian: 'Болезнь',
+      hebrew: 'מחלה',
+      pronuncEng: 'makhalA',
+      pronuncRus: 'махалА',
+      category: 'general'
+    },
+                            
+    {
+      id: 542,
+      english: 'Serious, earnest',
+      russian: 'Серьёзно, серьёзный',
+      hebrew: 'רציני',
+      pronuncEng: 'ratzini',
+      pronuncRus: 'рацинИ',
+      category: 'adjective'
+    },
+                            
+    {
+      id: 543,
+      english: 'Joke',
+      russian: 'Шутка',
+      hebrew: 'בדיחה',
+      pronuncEng: 'bdikhA',
+      pronuncRus: 'бдихА',
+      category: 'general'
+    },
+                            
+    {
+      id: 544,
       english: '',
       russian: '',
       hebrew: '',
