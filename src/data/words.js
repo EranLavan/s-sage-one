@@ -5482,6 +5482,46 @@ const words = [
                                 
     {
       id: 549,
+      english: 'Related, connected',
+      russian: 'Связанный',
+      hebrew: 'קשור',
+      pronuncEng: 'kashUr',
+      pronuncRus: 'кашУр',
+      category: 'adverb'
+    },
+                                    
+    {
+      id: 550,
+      english: 'Feelings',
+      russian: 'Чувства',
+      hebrew: 'רגשות',
+      pronuncEng: 'regashOt',
+      pronuncRus: 'регашОт',
+      category: 'general'
+    },
+                                    
+    {
+      id: 551,
+      english: 'Immediate',
+      russian: 'Срочно',
+      hebrew: 'מייד',
+      pronuncEng: 'meyAd',
+      pronuncRus: 'мейЯд',
+      category: 'adjective'
+    },
+                                    
+    {
+      id: 552,
+      english: 'Communication',
+      russian: 'Коммуникация',
+      hebrew: 'תקשורת',
+      pronuncEng: 'tikshOret',
+      pronuncRus: 'тикшОрет',
+      category: 'general'
+    },
+                                    
+    {
+      id: 553,
       english: '',
       russian: '',
       hebrew: '',
