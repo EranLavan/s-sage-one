@@ -5512,8 +5512,8 @@ const words = [
                                     
     {
       id: 552,
-      english: 'Communication',
-      russian: 'Коммуникация',
+      english: 'Communication, relationships',
+      russian: 'Коммуникация, отношения',
       hebrew: 'תקשורת',
       pronuncEng: 'tikshOret',
       pronuncRus: 'тикшОрет',
@@ -5522,6 +5522,46 @@ const words = [
                                     
     {
       id: 553,
+      english: 'To sunbathe',
+      russian: 'Загорать',
+      hebrew: 'להשתזף',
+      pronuncEng: 'lehishtazEf',
+      pronuncRus: 'лехиштазЭф',
+      category: 'hitpael'
+    },
+                   
+    {
+      id: 554,
+      english: 'Sunscreen',
+      russian: 'Крем от загара',
+      hebrew: 'קרם שיזוף',
+      pronuncEng: 'krem shizUf',
+      pronuncRus: 'крем шизУф',
+      category: 'general'
+    },     
+
+    {
+      id: 555,
+      english: 'Shadow',
+      russian: 'Тень',
+      hebrew: 'צל',
+      pronuncEng: 'tzel',
+      pronuncRus: 'цель',
+      category: 'general'
+    },
+                                        
+    {
+      id: 556,
+      english: 'To be careful',
+      russian: 'Остерегаться',
+      hebrew: 'להיזהר',
+      pronuncEng: 'lehizahEr',
+      pronuncRus: 'лехизаЭр',
+      category: 'nifal'
+    },
+                                        
+    {
+      id: 557,
       english: '',
       russian: '',
       hebrew: '',
@@ -5529,7 +5569,6 @@ const words = [
       pronuncRus: '',
       category: ''
     },
-
     // IDEA: after finishing the session, render all the words that
     // were run through and display them in lists (correct, incorrect answers etc.)
 
