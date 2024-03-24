@@ -5562,6 +5562,66 @@ const words = [
                                         
     {
       id: 557,
+      english: 'Lifeguard',
+      russian: 'Спасатель',
+      hebrew: 'מציל',
+      pronuncEng: 'matzil',
+      pronuncRus: 'мацИль',
+      category: 'general'
+    },
+                                            
+    {
+      id: 558,
+      english: 'To postpone',
+      russian: 'Откладывать',
+      hebrew: 'לדחות',
+      pronuncEng: 'lidkhOt',
+      pronuncRus: 'лидхОт',
+      category: 'paal'
+    },
+                                            
+    {
+      id: 559,
+      english: 'To hug, to embrace',
+      russian: 'Обнимать',
+      hebrew: 'לחבק',
+      pronuncEng: 'lekhabEk',
+      pronuncRus: 'лехабЭк',
+      category: 'piel'
+    },
+                                            
+    {
+      id: 560,
+      english: 'Hugs',
+      russian: 'Объятия',
+      hebrew: 'חיבוקים',
+      pronuncEng: 'khibukim',
+      pronuncRus: 'хибукИм',
+      category: 'general'
+    },
+                                            
+    {
+      id: 561,
+      english: 'Perfume',
+      russian: 'Духи, парфюм',
+      hebrew: 'בושם',
+      pronuncEng: 'bOsem',
+      pronuncRus: 'бОсэм',
+      category: 'general'
+    },
+                                            
+    {
+      id: 562,
+      english: 'To sacrifice',
+      russian: 'Жертвовать, приносить жертву',
+      hebrew: 'להקריב',
+      pronuncEng: 'lehakriv',
+      pronuncRus: 'лехакрИв',
+      category: 'hifil'
+    },
+                                            
+    {
+      id: 563,
       english: '',
       russian: '',
       hebrew: '',
@@ -5569,6 +5629,7 @@ const words = [
       pronuncRus: '',
       category: ''
     },
+
     // IDEA: after finishing the session, render all the words that
     // were run through and display them in lists (correct, incorrect answers etc.)
 
