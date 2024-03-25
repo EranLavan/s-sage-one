@@ -5622,6 +5622,46 @@ const words = [
                                             
     {
       id: 563,
+      english: 'To separate from, to part from',
+      russian: 'Отделяться от',
+      hebrew: 'להיפרד',
+      pronuncEng: 'lehiparEd',
+      pronuncRus: 'лехипарЭд',
+      category: 'nifal'
+    },
+                                                
+    {
+      id: 564,
+      english: 'To part from, to separate from (present, masc)',
+      russian: 'Отделяться от (наст. вр.)',
+      hebrew: 'נפרד',
+      pronuncEng: 'nifrad',
+      pronuncRus: 'нифрАд',
+      category: 'nifal'
+    },
+                                                
+    {
+      id: 565,
+      english: 'Committee',
+      russian: 'Комитет',
+      hebrew: 'ועדה',
+      pronuncEng: 'vaadA',
+      pronuncRus: 'ваадА',
+      category: 'general'
+    },
+                                                
+    {
+      id: 566,
+      english: 'Shoulder',
+      russian: 'Плечо',
+      hebrew: 'כתף',
+      pronuncEng: 'katEf',
+      pronuncRus: 'катЭф',
+      category: 'body'
+    },
+                                                
+    {
+      id: 567,
       english: '',
       russian: '',
       hebrew: '',
