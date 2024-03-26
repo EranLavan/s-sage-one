@@ -5662,6 +5662,66 @@ const words = [
                                                 
     {
       id: 567,
+      english: 'Funeral',
+      russian: 'Похороны',
+      hebrew: 'הלוויה',
+      pronuncEng: 'halvayA',
+      pronuncRus: 'алвайЯ',
+      category: 'general'
+    },
+                                                    
+    {
+      id: 568,
+      english: 'Scissors',
+      russian: 'Ножницы',
+      hebrew: 'מספריים',
+      pronuncEng: 'misparAyim',
+      pronuncRus: 'миспарАим',
+      category: 'general'
+    },
+                                                    
+    {
+      id: 569,
+      english: 'Leaf',
+      russian: 'Лист',
+      hebrew: 'עלה',
+      pronuncEng: 'alE',
+      pronuncRus: 'алЕ',
+      category: 'general'
+    },
+                                                    
+    {
+      id: 570,
+      english: 'Value',
+      russian: 'Ценность, стоимость, порядок',
+      hebrew: 'ערך',
+      pronuncEng: 'Erekh',
+      pronuncRus: 'Эрех',
+      category: 'general'
+    },
+                                                    
+    {
+      id: 571,
+      english: 'Parting, separation, farewell',
+      russian: 'Прощание, расставание',
+      hebrew: 'פרידה',
+      pronuncEng: 'predA',
+      pronuncRus: 'предА',
+      category: 'general'
+    },
+                                                    
+    {
+      id: 572,
+      english: 'At all, completely, in general',
+      russian: 'Совсем, вообще',
+      hebrew: 'בכלל',
+      pronuncEng: 'bikhlAl',
+      pronuncRus: 'бихлЯль',
+      category: 'adverb'
+    },
+                                                    
+    {
+      id: 573,
       english: '',
       russian: '',
       hebrew: '',
