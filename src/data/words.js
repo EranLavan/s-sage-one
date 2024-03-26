@@ -5722,6 +5722,66 @@ const words = [
                                                     
     {
       id: 573,
+      english: 'Plain, plateau',
+      russian: 'Равнина, плоскость',
+      hebrew: 'מישור',
+      pronuncEng: 'mishOr',
+      pronuncRus: 'мишОр',
+      category: 'general'
+    },
+                                                        
+    {
+      id: 574,
+      english: 'That, which',
+      russian: 'Который',
+      hebrew: 'אשר',
+      pronuncEng: 'ashEr',
+      pronuncRus: 'ашЕр',
+      category: 'general'
+    },
+                                                        
+    {
+      id: 575,
+      english: 'The Lowland (region in Israel)',
+      russian: 'Низменность - регион в центре Израиля',
+      hebrew: 'השפלה',
+      pronuncEng: 'a-shfelA',
+      pronuncRus: 'а-шфелА',
+      category: 'general'
+    },
+                                                        
+    {
+      id: 576,
+      english: 'To plant',
+      russian: 'Выращивать (растения)',
+      hebrew: 'לשתול',
+      pronuncEng: 'lishtOl',
+      pronuncRus: 'лиштОль',
+      category: 'paal'
+    },
+                                                        
+    {
+      id: 577,
+      english: 'To wander, to roam, to migrate (incl. the birds)',
+      russian: 'Скитаться, перелетать (в т.ч. про птиц)',
+      hebrew: 'לנדוד',
+      pronuncEng: 'lindOd',
+      pronuncRus: 'линдОд',
+      category: 'paal'
+    },
+                                                        
+    {
+      id: 578,
+      english: 'Youth, adolescence',
+      russian: 'Юность',
+      hebrew: 'נעורים',
+      pronuncEng: 'neurim',
+      pronuncRus: 'нэурИм',
+      category: 'general'
+    },
+                                                        
+    {
+      id: 579,
       english: '',
       russian: '',
       hebrew: '',
